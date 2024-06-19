@@ -106,7 +106,7 @@ urlcolor= black}
 	\newpage
 	\section{Theories}
 	\subsection{Tight-Binding Theories}
-	\quad We start from Hamilonian $H$ for many-body system in independent electron approximation:
+	\quad We start from Hamilonian $H$ for many-body system in the independent electron approximation:
 	\begin{equation}
 		H =\sum_{\lambda} H^{1e} (\textbf{r}_\lambda).
 	\end{equation}
@@ -115,11 +115,11 @@ urlcolor= black}
 		\label{one-particle time-independent Schrödinger equation}
 		H_{1e} \psi_{\lambda\textbf{k}}( \textbf{r}) = \bigg(-\frac{\hbar^2 \nabla^2}{2m} + V_0 (\textbf{r})\bigg) \psi_{\lambda \textbf{k}}(\textbf{r}) = \varepsilon_{\lambda}(\textbf{k})\psi_{\lambda \textbf{k}}(\textbf{r}).
 	\end{equation}
-	\quad We assume that the electrons stay close to the atomic sites and that the electronic wave functions centered around neighboring sites have little overlap. There is almost no overlap between wave functions for electrons that are separated by two or more atoms. Therefore, the wave function of electron will have the similar form of atomic orbital and we can describe it in the form of Linear Combination of Atomic Orbitals (LCAO):
+	\quad We assume that the electrons stay close to the atomic sites and that the electronic wave functions centered around neighboring sites have little overlap. There is almost no overlap between wave functions for electrons that are separated by two or more atoms. Therefore, the wave function of an electron will have the similar form of atomic orbital and we can describe it in the form of Linear Combination of Atomic Orbitals (LCAO):
 	\begin{equation}
 		\psi(\textbf{r}) = \sum_{n=1}^N \sum_{c=1}^{N_c}\sum_{\alpha = 1}^{N_{orc}}c_{\alpha c}(\textbf{R}_n) \phi_\alpha(\textbf{r} -\textbf{R}_n- \textbf{r}_c).
 	\end{equation}
-	In which $\phi_\alpha$ is orbital wave function of an atomic, $\textbf{R}_n$ is position of Bravais unit cell, $\textbf{r}_c$ is relative position of the atom in that cell, $N_{\mathrm{orb}}$ is number of orbital of an atom, $N_c$ is number of atom in an unit cell and $N$ is number of unit cell in the lattice. Based on LCAO wave function, we can construct the Bloch wave function in the following form:
+	In which $\phi_\alpha$ is orbital wave function of an atomic, $\textbf{R}_n$ is position of Bravais unit cell, $\textbf{r}_c$ is relative position of the atom in that cell, $N_{\mathrm{orb}}$ is number of orbital of an atom, $N_c$ is number of atom in an unit cell and $N$ is the number of unit cell in the lattice. Based on LCAO wave function, we can construct the Bloch wave function in the following form:
 	\begin{equation}
 		\label{Bloch TB}
 		\psi_{\textbf{k}} (\textbf{r}) = \sum_{c=1}^{N_c} \sum_{\alpha = 1}^{N_{orb}} C_{\alpha c} (\textbf{k}) \sum_{n=1}^N e^{i\textbf{k}(\textbf{R}_n +\textbf{r}_c)} \phi_{\alpha}(\textbf{r} -\textbf{R}_n -\textbf{r}_c)
@@ -197,14 +197,14 @@ urlcolor= black}
 			0 & -2i& 0
 		\end{pmatrix},
 	\end{equation}
-	is the matrix of $\hat{L}_z$ (z component of the orbital angular momentum) in bases of $d_{z^2}, d_{xy}$ and $d_{x^2-y^2}$, and $\lambda$ is characterizes for the strength of the SOC. Under these bases, the matrix elements of $\hat{L}_x$ and $\hat{L}_y$ are all zeros. Therefore the Hamiltonian with SOC have the form:
+	is the matrix of $\hat{L}_z$ (z component of the orbital angular momentum) in bases of $d_{z^2}, d_{xy}$ and $d_{x^2-y^2}$, and $\lambda$ is characterized for the strength of the SOC. Under these bases, the matrix elements of $\hat{L}_x$ and $\hat{L}_y$ are all zeros. Therefore the Hamiltonian with SOC have the form:
 	\begin{equation}
 		H(\textbf{k}) = H_{SOC} (\textbf{k}) = I_2 \otimes H^{TNN} (\textbf{k}) +H' = \begin{bmatrix}
 			H (\textbf{k}) + \frac{\lambda}{2} L_z & 0\\
 			0& H_0 (\textbf{k}) - \frac{\lambda}{2} L_z
 		\end{bmatrix}.
 	\end{equation}
-	\\By finding eigenvalue of Hamiltonian $H$ in each \textbf{k} point on entire BZ, the bands structure will be obtained. The bands structure with the huge bands split at the K and K' point of $\mathrm{MoS}_2$ cause by SOC is shown in fig.\ref{BS}.
+	\\By finding eigenvalue of Hamiltonian $H$ in each \textbf{k} point on entire BZ, the bands structure will be obtained. The bands structure with the huge bands split at the K and K' point of $\mathrm{MoS}_2$ is caused by SOC is shown in fig.\ref{BS}.
 \begin{table}[]
 	\begin{center}
 		\begin{tabular}{c c c c c c c c c c c c c} 
@@ -227,7 +227,7 @@ urlcolor= black}
 	\begin{figure}
 		\begin{center}
 			\includegraphics[width= 0.8\linewidth]{Images/BS.pdf}
-\caption[Band structure of $\mathrm{MoS}_2$ material along $M\to -\mathrm{K} \to \Gamma \to \mathrm{K}\to M$ direction]{Band structure of some TMD material along $M\to -\mathrm{K} \to \Gamma \to \mathrm{K}\to M$ direction. SOC cause huge splits in band-structure at $\mathrm{K}$ and $-\mathrm{K}$ points}
+\caption[Band structure of $\mathrm{MoS}_2$ material along $M\to -\mathrm{K} \to \Gamma \to \mathrm{K}\to M$ direction]{Band structure of monolayer-$\mathrm{MoS}_2$ along $M\to -\mathrm{K} \to \Gamma \to \mathrm{K}\to M$ direction, SOC causes huge splits in band-structure at $\mathrm{K}$ and $-\mathrm{K}$ points}
 			\label{BS}
 		\end{center}
 	\end{figure}
@@ -275,7 +275,7 @@ urlcolor= black}
 		\label{e-L Hamiltonian}
 		H^{e-L}_{1e} =\frac{e}{m} \textbf{A}.\textbf{p} + \frac{e^2 A^2}{2m},
 	\end{equation}
-	The electron electron interaction between two electron field can be describes by Coulomb interaction Hamiltonian:
+	The electron-electron interaction between two electrons can be described by Coulomb interaction Hamiltonian:
 	\begin{equation}
 		\label{H ee}
 		H^{e-e}(\textbf{r}_i, \textbf{r}_j) = \frac{1}{4\pi \varepsilon \varepsilon_0}\frac{e^2}{|\textbf{r}_i-\textbf{r}_j|},
@@ -287,7 +287,7 @@ urlcolor= black}
 		H = \sum_{i} H_{1e}(\textbf{r}_i ,t) = \sum_{i} H^0_{1e} (\textbf{r}_i) + \sum_{i} H^{e-L}_{1e} (\textbf{r}_i,t) + \frac{1}{2} \sum_{\textbf{r}_i, \textbf{r}_j}H^{e-e}(\textbf{r}_i, \textbf{r}_j).
 	\end{equation}
 	\subsubsection{Second Quantization Hamiltonian}
-	\quad From (\ref{1st Quanti}), the second quantization Hamiltonian in Bloch basics $\{\ket{\psi_{\lambda \textbf{k}}}\}$ have the form:
+	\quad From (\ref{1st Quanti}), the second quantization Hamiltonian in Bloch basics $\{\ket{\psi_{\lambda \textbf{k}}}\}$ has the form:
 	\begin{align}
 		H &= H^0 + H^{e-L}  + H^{e-e}\nonumber,\\
 		\label{Second Hamiltonian}
@@ -297,16 +297,16 @@ urlcolor= black}
 			'}\nonumber ,\\
 H^{e-e}	&= \frac{1}{2} \sum_{\textbf{k}, \textbf{k}', \textbf{q}} \sum_{\alpha \beta \gamma \delta} W^{\alpha \beta \gamma \delta}_{\textbf{k},\textbf{k'},\textbf{q}} c_{\alpha, \textbf{k}+\textbf{q}}^\dg c_{\beta, \textbf{k}' - \textbf{q}}^\dg c_{\gamma, \textbf{k}}c_{\delta, \textbf{k'}} \nonumber,
 	\end{align}
-	where the basics is orthonormal: $\braket{\psi_{\lambda \textbf{k}}}{\psi_{\lambda' \textbf{k}'}} = 1$, and the creation and annihilation operators satisfied the anti-communicate relation:
+	in which the basics is orthonormal: $\braket{\psi_{\lambda \textbf{k}}}{\psi_{\lambda' \textbf{k}'}} = 1$, and the creation and annihilation operators satisfied the anti-communicate relation:
 	\begin{equation}
 		\label{fermion comm}
 		\big\{c_{\lambda,\textbf{k}}, c_{\lambda', \textbf{k}'}\big\} =\big\{c^\dg_{\lambda,\textbf{k}}, c^\dg_{\lambda', \textbf{k}'}\big\} = 0, \quad \big\{c_{\lambda,\textbf{k}}, c^\dg_{\lambda', \textbf{k}'}\big\} = \delta_{\lambda,\lambda'}\delta_{\textbf{k},\textbf{k'}}.
 	\end{equation}
-	\quad If we choosing the basics is eigenvector of $H^0_{1e}$ then $H^0$ become:
+	\quad If we choosing the basics is eigenvector of $H^0_{1e}$ then $H^0$ becomes:
 	\begin{equation}
 		H^0 = \sum_{\lambda \textbf{k}} \varepsilon_{\lambda}(\textbf{k})c^\dg_{\lambda \textbf{k}} c_{\lambda \textbf{k}}.
 	\end{equation} 
-	\quad In VG, the light-matter interaction Hamiltonian matrix elements $\bra{\psi_{\lambda\textbf{k}}}H^{e-L}(\textbf{r},t)\ket{\psi_{\lambda'\textbf{k}'}}$ is:
+	\quad In VG, the elements of interaction Hamiltonian matrix $\bra{\psi_{\lambda\textbf{k}}}H^{e-L}(\textbf{r},t)\ket{\psi_{\lambda'\textbf{k}'}}$ is:
 	\begin{align}
 		\bra{\psi_{\lambda\textbf{k}}}H^{e-L}(\textbf{r},t)\ket{\psi_{\lambda'\textbf{k}'}} &= \bra{\psi_{\lambda\textbf{k}}}\frac{e}{m}\textbf{A}(\textbf{r},t).\textbf{p}\ket{\psi_{\lambda'\textbf{k}'}} +\frac{e^2 A^2}{2m} \delta_{\lambda \lambda'}\delta_{\textbf{k}\textbf{k}'} \nonumber\\
 		&\approx \frac{e}{m}\textbf{A}(t). \bra{\psi_{\lambda\textbf{k}}}\textbf{p}\ket{\psi_{\lambda'\textbf{k}'}} + \frac{e^2 A^2}{2m} \delta_{\lambda \lambda'}\delta_{\textbf{k}\textbf{k}'},
@@ -397,7 +397,7 @@ Give us Semiconductor Bloch Equation~\cite{haug_quantum_2009} for numerical solv
 	\Omega_{\mu\nu} (\textbf{k})=\sum_{\substack{\alpha\beta \textbf{q}}} W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}+\textbf{q},\textbf{q}} \rho_{\alpha\beta} (\textbf{k}+\textbf{q})
 \end{equation}
 \subsection{Polarization Density}
-\quad Polarization density calculated form the trace of dipole and density matrix multiplication
+\quad Polarization density is calculated form the trace of dipole and density matrix multiplication
 \begin{equation}
 \label{polar density or}
 \textbf{P}(t) = \frac{e}{L^2} \sum_{\textbf{k}}\Tr[\vec{\xi}(\textbf{k})\rho(\textbf{k},t)] = \frac{e}{L^2}\sum_{\substack{\lambda \lambda'\textbf{k}}} \vec{\xi}_{\lambda \lambda' }(\textbf{k})\rho_{\lambda' \lambda}(\textbf{k},t).
@@ -411,7 +411,7 @@ Give us Semiconductor Bloch Equation~\cite{haug_quantum_2009} for numerical solv
 	\label{polar}
 \textbf{P}(t) = \frac{e}{L^2} \sum_{\textbf{k}} \Tr[\vec{\xi} (\textbf{k}) \rho(\textbf{k},t)] = \frac{1}{(2\pi)^2} \sum_{\lambda\lambda'}	\int \vec{\xi}_{\lambda \lambda'} (\textbf{k}) \rho_{\lambda'\lambda}(\textbf{k},t)d\textbf{k},
 \end{equation}
-in which the dipole $\vec{\xi}_{\lambda \lambda'}(\textbf{k})$ can be calculate through $\vec{p}_{\lambda \lambda'}(\textbf{k})$ as derive in appendix \ref{Dipole Matrix Elements}:
+in which the dipole $\vec{\xi}_{\lambda \lambda'}(\textbf{k})$ can be calculated through $\vec{p}_{\lambda \lambda'}(\textbf{k})$ as derived in appendix \ref{Dipole Matrix Elements}:
 \begin{equation}
 	\vec{\xi}_{\lambda \lambda'} (\textbf{k}) = -\frac{i\hbar }{m} \frac{\vec{p}_{\lambda \lambda'}(\textbf{k})}{\varepsilon_{\lambda}(\textbf{k}) - \varepsilon_{\lambda'}(\textbf{k})}.
 \end{equation}
@@ -419,7 +419,7 @@ in which the dipole $\vec{\xi}_{\lambda \lambda'}(\textbf{k})$ can be calculate 
 \newpage
 \section{Numerical Methods}
 \subsection{Numerical Sum Over k-Space}
-\quad Monolayer TMD's actual lattice, denoted as $MX_2$, possesses the D3h point-group symmetry, as illustrated in (Figure \ref{real space}). The 2D first Brillouin zone takes on the shape of a hexagon. This study concentrates on the linear abortion spectrum, a feature that relies heavily on the k-points with the direct band gap of this material. To numerical calculate the eq. (\ref{polar}), we need to take numerical integral over the first BZ, which is inconvenient when working with the hexagon shape. Furthermore, a direct band gap is observed at the K and K' points in the first BZ, as depicted in fig. (\ref{BS}). There are three K and three K' points situated at the edge of the first BZ as shown in fig. \ref{Rhombus}, with each point being shared between three BZ. Consequently, we need to calculate the average numerical position by adding up the positions and then dividing by the number of points, which can pose further challenges for the many-body problem we are addressing.\\\null
+\quad Monolayer TMD's actual lattice, denoted as $MX_2$, possesses the D3h point-group symmetry, as illustrated in (Figure \ref{real space}). The 2D first Brillouin zone takes on the shape of a hexagon. This study concentrates on the linear abortion spectrum, a feature that relies heavily on the k-points with the direct band gap of this material. To numerical calculate the eq. (\ref{polar}), we need to take numerical integral over the first BZ, which is inconvenient when working with the hexagon shape. Furthermore, a direct band gap is observed at the K and K' points in the first BZ, as depicted in fig. (\ref{BS}). There are three K and three K' points situated at the edge of the first BZ as shown in fig. \ref{Rhombus}, with each points being shared between three BZ. Consequently, we need to calculate the average numerical position by adding up the positions and then dividing by the number of points, which can pose further challenges for the many-body problems we are addressing.\\\null
 \quad To address this, we introduce the use of the rhombus primitive cell, as shown in Figure 3. This cell is constructed from 4 M-points located between K and K' on the edge of the hexagon, enabling us to focus on the properties of K and K' points both individually and in pairs.
 \begin{figure}
 	\begin{center}
@@ -428,7 +428,7 @@ in which the dipole $\vec{\xi}_{\lambda \lambda'}(\textbf{k})$ can be calculate 
 \label{Rhombus}
 	\end{center}
 \end{figure}\\\null
-\quad In order to establish a new coordinate system, we will utilize the two unit vectors located at the left corner of the rhombus $u_1, u_2$ as shown in fig. \ref{rhombuskgrid}, which will be reference to as the "Rhombus basics" hereinafter. To change coordinate of a point have coordinate $(v_1,v_2)$ in Rhombus basics into coordinate $(x,y)$ in Cartesian Oxy basics and vice versa, we will use the transformation matrix:
+\quad In order to establish a new coordinate system, we will utilize the two unit vectors located at the left corner of the rhombus $u_1, u_2$ as shown in fig. \ref{rhombuskgrid}, which will be reference to as the "Rhombus basics" hereinafter. To change coordinate of a point which has coordinate $(v_1,v_2)$ in Rhombus basics into coordinate $(x,y)$ in Cartesian Oxy basics and vice versa, we will use the transformation matrix:
 \begin{equation}
 	\begin{pmatrix} x \\ y \end{pmatrix}
 	= \frac{2\pi}{a} \biggl[\begin{pmatrix}
@@ -437,7 +437,7 @@ in which the dipole $\vec{\xi}_{\lambda \lambda'}(\textbf{k})$ can be calculate 
 		-\begin{pmatrix} 1 \\ 0\end{pmatrix}\biggr]
 \end{equation}
 \quad Since the coordinate system $Ou_1 u_2$ is a continuous variable, we need to convert it into discrete coordinates in order to proceed with a numerical solution. To do this, we divide the vectors $u_1$ and $u_2$ into $nk$ equal segments, which are then labeled as $nk_1$ and $nk_2$, respectively.\\\null
-\quad For a point label as $(nk_1,nk_2)$ in discrete coordinate, it coordinate in Cartesian basics (x,y) can be obtain by:
+\quad For a point label as $(nk_1,nk_2)$ in discrete coordinate, its coordinate in Cartesian basics (x,y) can be obtain by:
 \begin{equation}
 	\begin{pmatrix} x \\ y \end{pmatrix}
 	= \frac{2\pi}{n_ka} \begin{pmatrix}
@@ -463,7 +463,8 @@ in which the dipole $\vec{\xi}_{\lambda \lambda'}(\textbf{k})$ can be calculate 
 \end{figure}
 \quad In the diagram shown in figure \ref{k cutoff}, a circle is drawn around the K' point with a radius of $k_{cut.}$. When calculating the equation (\ref{SBE}) at a k-point, if this k-point is outside the circle, we use
 $$\Omega_{\mu \nu}(\textbf{k}) = 0 \quad \forall \mu,\nu.$$
-\quad However, if the k-point is inside the circle, we will only consider interaction with other points that are also inside the circle. In summary, we approximate the Coulomb interaction matrix elements:
+\quad However, if the k-point is inside the circle, we will only consider interactions with other points that are also inside the circle.\\\null
+\quad In summary, we approximate the Coulomb interaction matrix elements:
 $$W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}',\textbf{q}} \approx W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}',\textbf{q}} \theta(k_{cut.} - |\textbf{k} - \textbf{k}_{K'}|) \theta(k_{cut.} - |\textbf{k}' - \textbf{k}_{K'}|).$$
 \quad Where $\theta(k)$ is the Heaviside function, the Coulomb interaction is excluded if either point is inside the circle. The same process applies for the K point.
 \subsection{Numerical Analyzing}
@@ -472,11 +473,11 @@ $$W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}',\textbf{q}} \approx W^{\alpha
 	\alpha_{i}(\omega) \propto \Im{\frac{P_i(\omega)}{E_i(\omega)}}.
 	\label{absorpt}
 \end{equation}
-\quad In which $i \in \{x,y\}$. $\textbf{P}(\omega)= \int_{-\infty}^{\infty}\textbf{P}(t) e^{i\omega t} dt$ and $\textbf{E}(\omega) = \int_{-\infty}^{\infty}\textbf{E}(t) e^{i\omega t} dt$ is Fourier transform for polarization density and Electric field. This integral can be approximated using a Riemann sum with the cutoff point determined using condition $\textbf{E}(t_{cutoff}) \lessapprox 10^{-6} \abs{\max{\textbf{E}(t)}}$ and $\textbf{P}(t_{cutoff}) \lessapprox 10^{-6} \abs{\max{\textbf{P}(t)}}$. In this work, we using the electric field in form of Gaussian wave:
+\quad In which $i \in \{x,y\}$. $\textbf{P}(\omega)= \int_{-\infty}^{\infty}\textbf{P}(t) e^{i\omega t} dt$ and $\textbf{E}(\omega) = \int_{-\infty}^{\infty}\textbf{E}(t) e^{i\omega t} dt$ is Fourier transform for polarization density and Electric field. This integral can be approximated using a Riemann sum with the cutoff point by using condition $\textbf{E}(t_{cutoff}) \lessapprox 10^{-6} \abs{\max{\textbf{E}(t)}}$ and $\textbf{P}(t_{cutoff}) \lessapprox 10^{-6} \abs{\max{\textbf{P}(t)}}$. In this work, we are using the electric field in form of Gaussian wave:
 \begin{equation}
 	\textbf{E}(t) = E_0 e^{-\frac{t^2}{\tau_L^2}}(cos(\omega_0t), 0),
 \end{equation} 
-with the $E_0$ is the maximal amplitude, $\hbar\omega_0 = E_{\mathrm{gap}}$ in this work, $\tau_L$ is the duration of the Gaussian pulse, $t$ is time,  all will be calculated in SI units. The $E_x(t)$ and it Fourier transform shape shown in fig. \ref{Et}.\\
+with the $E_0$ is the maximal amplitude, so $\hbar\omega_0 = E_{\mathrm{gap}}$, $\tau_L$ is the duration of the Gaussian pulse, and $t$ is time, all will be calculated in SI units. The $E_x(t)$ and it Fourier transform shape shown in fig. \ref{Et}.\\
 \begin{figure}
 	\begin{center}
 \includegraphics[width = 0.75\linewidth]{Images/EAt.pdf}
@@ -499,7 +500,7 @@ with the $E_0$ is the maximal amplitude, $\hbar\omega_0 = E_{\mathrm{gap}}$ in t
 		\label{Absorpt Ex.}
 	\end{center}
 \end{figure}\null
-\quad When solving the semiconductor Bloch equations (SBE) numerically, we utilize the external electric field as follows: \(E_0 = \frac{3}{\sqrt{2}} \times 10^3 \, \text{V/cm}\), \(\hbar \omega_0 = E_{\text{gap}} = 1.77 \, \text{eV}\), time step \(\Delta t = 0.02 \, \text{fs}\), $T_2 = 20 (fs^{-1})$, and cutoff the Coulomb interaction at \(3.0 \, \text{nm}^{-1}\) around K and K' points to simplify the calculation. By simulating with the given parameters, we observe that the density of electrons in the conduction band after the external field passes is relatively small compared to the initial electron density in the valence band (\(1.10^{7} \, \text{cm}^{-2} << 1.10^{11} \, \text{cm}^{-2}\)), which confirms our discussion on the neglect of electron-electron scattering in equation (\ref{SBE}). We perform Fourier transforms of energies from above and below the band gap by \(1 \, \text{eV}\). There are three main parameters we can adjust to obtain results that agree with or predict recent or future measurements: dielectric \(\varepsilon\), \(T_2\) parameter, and the number of k points on the k grid.\\\null
+\quad When solving the semiconductor Bloch equations (SBE) numerically, we utilize the external electric field as follows: \(E_0 = \frac{3}{\sqrt{2}} \times 10^3 \, \text{V/cm}\), \(\hbar \omega_0 = E_{\text{gap}} = 1.77 \, \text{eV}\), time step \(\Delta t = 0.02 \, \text{fs}\), $ = 20 (fs^{-1})$, and cutoff the Coulomb interaction at \(3.0 \, \text{nm}^{-1}\) around K and K' points to simplify the calculation. By simulating with the given parameters, we observe that the density of electrons in the conduction band after the external field passes is relatively small compared to the initial electron density in the valence band (\(1.10^{7} \, \text{cm}^{-2} << 1.10^{11} \, \text{cm}^{-2}\)), which confirms our discussion on the neglect of electron-electron scattering in equation (\ref{SBE}). We perform Fourier transforms of energies from above and below the band gap by \(1 \, \text{eV}\). There are three main parameters we can adjust to obtain results that agree with or predict recent or future measurements: dielectric \(\varepsilon\), \(T_2\) parameter, and the number of k points on the k grid.\\\null
 \quad In Figure \ref{Vary T2}, our results for calculating the Absorption Spectrum with LDA parameters are presented, where the dielectric constant is $\varepsilon = 2.5$ and the difference dephasing parameter is $T_2$. As $T_2$ increases, two main peaks become clearer at $1.528$ and $1.640 eV$, indicating a binding energy of approximately $0.25 eV$.\\ \null 
 \quad We present our results for calculating the Absorption Spectrum using the LDA parameter and the difference dielectric $\varepsilon$ in Figure \ref{Vary e}. As the dielectric constant $\varepsilon$ increases, two main peaks shift to the left, which can be used to determine the fitting value with the experiment, the exciton binding energy result vary on dielectric parameter $\varepsilon$ shown in table \ref{Binding table}.\\\null
 \begin{table}[]
@@ -529,7 +530,7 @@ with the $E_0$ is the maximal amplitude, $\hbar\omega_0 = E_{\mathrm{gap}}$ in t
 		\label{Vary e}
 	\end{center}
 \end{figure}\null
-\quad This model is effective and has advantages for calculation over BZ, but it also has disadvantages and requires denser k-grids for results to converge (as shown in Fig. \ref{Vary nk}) compared to DFT models or parabola approximation models. The Bare Coulomb interaction works well in calculating the linear absorption spectrum, but for a more realistic case, the shield Coulomb interaction must be taken into account\cite{erben_excitation-induced_2018,erben_optical_2022}. The parameter $T_2$ proves to be a good approximation without requiring further techniques.
+\quad This model is effective and has advantages for calculation over BZ, but it also has disadvantages and requires denser k-grids for results to converge (as shown in Fig. \ref{Vary nk}) compared to DFT models or parabola approximation models. The Bare Coulomb interaction works well in calculating the linear absorption spectrum, but for a more realistic case, the shield Coulomb interaction must be taken into account\cite{erben_excitation-induced_2018,erben_optical_2022}. The parameter $T_2$ is proved to be a good approximation without requiring further techniques.
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=0.75\linewidth]{images/varynk.pdf}
