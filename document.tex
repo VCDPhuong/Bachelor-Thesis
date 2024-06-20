@@ -142,19 +142,18 @@ urlcolor= black}
 	
 	\begin{figure}
 		\begin{center}
-			\includegraphics[width=0.5\linewidth]{Images/RS.pdf}
+			\includegraphics[width=0.75\linewidth]{Images/RS.pdf}
 			\caption[TMD structure and its first Brillouin zone]{(a) Top view of monolayer $\mathrm{MX}_2$. The large sphere is \textbf{M} and the small sphere is X. (b) sideview of monolayer $\mathrm{MX}_2$. (c) The 2D first Brillouin zone with special k points.}
 			\label{real space}
 		\end{center}
 	\end{figure}
 	\subsection{Three Band Tight-Binding Model}
-	\quad In previous ab initio calculations\cite{xiao_coupled_2012}, Prof. Xiao and his colleague discovered that the monolayer of $MX_2$ with $D_{3h}$ point-group symmetry has a structure as shown in Figure \ref{real space}. They found that the Bloch states of the monolayer $MoS_2$ near the band edges are primarily composed of $Mo-d$ orbitals, particularly the $d_{z^2}$, $d_{xy}$, and $d_{x^2-y^2}$ orbitals. To accurately capture the band-edge properties in the $K$ and $K'$ valleys, they developed an approximate model for group VII-B TMD consisting of only these three bands and neglecting $X-p$ orbitals, and then extended it to fit the entire Brillouin Zone\cite{liu_three-band_2013}.
-	\subsubsection{Symmetries, orbitals, and bases}
+	\quad In previous ab initio calculations\cite{xiao_coupled_2012,mattheiss_band_1973,lebegue_electronic_2009,zhu_giant_2011,ataca_stable_2012}, Prof. Xiao and his colleague discovered that the monolayer of $MX_2$ with $D_{3h}$ point-group symmetry has a structure as shown in Figure \ref{real space}. They found that the Bloch states of the monolayer $MoS_2$ near the band edges are primarily composed of $Mo-d$ orbitals, particularly the $d_{z^2}$, $d_{xy}$, and $d_{x^2-y^2}$ orbitals. To accurately capture the band-edge properties in the $K$ and $K'$ valleys, they developed an approximate model for group VII-B TMD consisting of only these three bands and neglecting $X-p$ orbitals, and then extended it to fit the entire Brillouin Zone\cite{liu_three-band_2013}.\\\null
 	\quad Denote three M-d bands as:
 	\begin{equation}
-		\ket{\phi_{1}} = d_{z^2},\quad \ket{\phi_2} = d_{xy}, \quad \ket{\phi_3} = d_{x^2- y^2}
+		\ket{\phi_{1}} = d_{z^2},\quad \ket{\phi_2} = d_{xy}, \quad \ket{\phi_3} = d_{x^2- y^2}.
 	\end{equation}
-	\quad As discussed above, the Bloch states near the band edges mostly consist of Mo-d orbital, therefore we ignore the $\textbf{r}_c$ and sum over it in hopping energy (\ref{hopping energies}). Each pair of difference bases is assumed to be orthogonal; therefore the overlapping matrix element become:
+	\quad As discussed above, the Bloch states near the band edges mostly consist of Mo-d orbital, therefore we ignore the $\textbf{r}_c$ and the sum over it in hopping energy (\ref{hopping energies}). Each pair of difference bases is assumed to be orthogonal; therefore the overlapping matrix element become:
 	$$S_{\alpha, \alpha'}(\textbf{k}) = \delta_{\alpha \alpha'}.$$
 	\quad The hopping energies eq.(\ref{hopping energies}) between the atomic orbitals $\ket{\phi_{\mu}}$ at 0 and $\ket{\phi_{\mu'}}$ at lattice vector $\textbf{R}$ can be obtained as: $$H_{\mu \mu'}(\textbf{k}) =\sum_{\textbf{R}} e^{i\textbf{k}.\textbf{R}}  \bra{\phi_{\mu}(\textbf{r})}  \hat{H} \ket{\phi_{\mu'}(\textbf{r}-\textbf{R})}.$$
 	\quad Confined by the symmetry of the system, Tight-binding Hamiltonian have the form:
@@ -182,7 +181,7 @@ urlcolor= black}
 		\begin{equation}		
 			(\alpha,\beta) =  (\frac{1}{2}k_x a, \frac{\sqrt{3}}{2}k_y a),
 		\end{equation}
-	11 additional parameters shown in table \ref{3TB Para}. Due to the heavy transition-metal atom M, its Spin Orbit Coupling (SOC) can be larges. For simplicity, only the on-site contribution, namely, the $\textbf{L}.\textbf{S}$ term from M atoms, is considered. Using the base $\{\ket{d_{z^2},\uparrow},\ket{d_{xy},\uparrow},\ket{d_{x^2-y^2,\uparrow}},\ket{d_{z^2},\downarrow},\ket{d_{xy},\downarrow},\ket{d_{x^2-y^2,\downarrow}}\}$, the contribution of SOC to the Hamiltonian can be written as
+	11 additional parameters shown in table \ref{3TB Para} obtained by fitting with FP calculation results. Due to the heavy transition-metal atom M, its Spin Orbit Coupling (SOC) can be larges. For simplicity, only the on-site contribution, namely, the $\textbf{L}.\textbf{S}$ term from M atoms, is considered. Using the base $\{\ket{d_{z^2},\uparrow},\ket{d_{xy},\uparrow},\ket{d_{x^2-y^2,\uparrow}},\ket{d_{z^2},\downarrow},\ket{d_{xy},\downarrow},\ket{d_{x^2-y^2,\downarrow}}\}$, the contribution of SOC to the Hamiltonian can be written as
 	\begin{equation}
 		H' = \lambda \textbf{L}.\textbf{S}=\frac{\lambda}{2}\begin{pmatrix}
 			L_z &0\\
@@ -227,7 +226,7 @@ urlcolor= black}
 	\begin{figure}
 		\begin{center}
 			\includegraphics[width= 0.8\linewidth]{Images/BS.pdf}
-\caption[Band structure of $\mathrm{MoS}_2$ material along $M\to -\mathrm{K} \to \Gamma \to \mathrm{K}\to M$ direction]{Band structure of monolayer-$\mathrm{MoS}_2$ along $M\to -\mathrm{K} \to \Gamma \to \mathrm{K}\to M$ direction, SOC causes huge splits in band-structure at $\mathrm{K}$ and $-\mathrm{K}$ points}
+\caption[Band structure of $\mathrm{MoS}_2$ material along $M\to -\mathrm{K} \to \Gamma \to \mathrm{K}\to M$ direction]{Band structure of monolayer-$\mathrm{MoS}_2$ along $M\to -\mathrm{K} \to \Gamma \to \mathrm{K}\to M$ direction, SOC causes huge splits in band-structure at $\mathrm{K}$ and $-\mathrm{K}$ points.}
 			\label{BS}
 		\end{center}
 	\end{figure}
@@ -492,7 +491,7 @@ with the $E_0$ is the maximal amplitude, so $\hbar\omega_0 = E_{\mathrm{gap}}$, 
 %2. Use the electromagnetic wave as the delta Dirac function of time $\delta(t-t_0)$, resulting in $E(\omega) = Const$ and (\ref{absorpt}) becoming $\alpha_i \propto \Im{P_i(\omega)}$ with $i \in \{x,y\}$. However, this method will require a very small time step $ Delta t $ to accurately simulate. Therefore, we will chose a small $\tau_L$ to approximate $E(\omega) \approx Const$ around $\omega_0$ and estimate the range of the calculation spectrum around that point.
 \newpage
 \section{Results and Discussion}
-\quad In a previous study \cite{zhang_absorption_2014}, the absorption spectrum of $\mathrm{MoS}_2$ at $T = 5K$ was measured and presented in figure \ref{Absorpt Ex.}. The results revealed two exciton resonances labeled as A and B, which were observed at energy levels of $1.9$ and $2.1$ eV, respectively. Additionally, a small trion peak was observed before the A peak. The splitting between the exciton and trion absorption peaks was approximately $34$ meV at $5K$.\\
+\quad In a previous study \cite{ang_absorption_2014}, the absorption spectrum of $\mathrm{MoS}_2$ at $T = 5K$ was measured and presented in figure \ref{Absorpt Ex.}. The results revealed two exciton resonances labeled as A and B, which were observed at energy levels of $1.9$ and $2.1$ eV, respectively. Additionally, a small trion peak was observed before the A peak. The splitting between the exciton and trion absorption peaks was approximately $34$ meV at $5K$.\\
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=0.5\linewidth]{images/experiment.pdf}
@@ -514,7 +513,7 @@ with the $E_0$ is the maximal amplitude, so $\hbar\omega_0 = E_{\mathrm{gap}}$, 
 		\label{Binding table}
 	\end{center}
 \end{table}
-\quad In Figure \ref{Vary nk}, we present our calculated results with varying numbers of k-grid points, using a dielectric constant of $\varepsilon = 2.5$ to demonstrate the convergence of the results. The calculations converge when the value of nk is between 60 and 120. To strike a balance between precision and time cost, we opt for nk=60 for the subsequent calculations.\\\null
+\quad In Figure \ref{Vary nk}, we present our calculated results with varying numbers of k-grid points, using a dielectric constant of $\varepsilon = 2.5$ to demonstrate the convergence of the results. The calculations converge when the value of nk is between 60 and 120. To strike a balance between precision and time cost, we opt for $nk = 60$ for the subsequent calculations.\\\null
 \quad With a small $T_2$ of 15 (fs), the results in \ref{Vary T2} have already shown two main exciton peaks in comparison with the experimental results in \ref{Absorpt Ex.}. However, as the $T_2$ increases at the cost of simulation time, we can see smaller exciton peaks in the absorption spectrum, as described in fig. \ref{Vary T2}. These A and B exciton resonances involve the conduction band and two valence bands (split due to spin-orbit coupling) near the K and $-\mathrm{K}$ points, as shown in the band structure in fig. \ref{BS}, providing evidence for the good approximation of the transverse relaxation time $T_2$. In our results shown in Fig. \ref{Vary T2} and the experiment by Zhang et al. \cite{zhang_absorption_2014} in Fig. \ref{Absorpt Ex.}, we observed that the energy peak does not align with the expected value for the dielectric constant $\varepsilon = 2.5$. As per the data in Fig. \ref{Absorpt Ex.} \cite{zhang_absorption_2014}, the exciton peaks are situated at $1.9$ and $2.1 eV$, while in our calculations, the two peaks are at $1.528$ and $1.640 eV$, indicating a binding energy of the exciton of about $0.25 eV$. If we only consider the distance from the band gap, our result is smaller than some previous calculations predicting the binding energy between $0.5 eV$ to $1 eV$\cite{ramasubramaniam_large_2012,qiu_optical_2013,cheiwchanchamnangij_quasiparticle_2012, shi_quasiparticle_2013}. This result agrees with more precise calculations and measurements \cite{zhang_absorption_2014, kirichenko_influence_2021, zhang_direct_2014}. The difference in band gap energy can be attributed to the use of DFT calculations in our model \cite{liu_three-band_2013}. This model does not consider the band gap shift caused by the underlying layers and temperature variations in the experimental measurement. The absence of the trion peak in Figure 1 is due to the trion involving an interaction between three particles (2 holes and 1 electron for a positive trion, 1 hole and 2 electrons for a negative trion), which is not included in the Hartree-Fock approximation. To observe the trion peak, it is suggested to go beyond the HFA in established equations.\\
 \begin{figure}
 	\begin{center}

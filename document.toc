@@ -5,7 +5,6 @@
 \contentsline {section}{\numberline {2}Theories}{8}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Tight-Binding Theories}{8}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Three Band Tight-Binding Model}{9}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Symmetries, orbitals, and bases}{9}{subsubsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.3}System Hamiltonian}{12}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}First Quantization Hamiltonian}{12}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Second Quantization Hamiltonian}{13}{subsubsection.2.3.2}%

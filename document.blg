@@ -3,44 +3,46 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: document.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
-You've used 20 entries,
+Warning--I didn't find a database entry for "ang_absorption_2014"
+You've used 24 entries,
             1876 wiz_defined-function locations,
-            606 strings with 7842 characters,
-and the built_in function-call counts, 6416 in all, are:
-= -- 686
-> -- 273
+            628 strings with 8518 characters,
+and the built_in function-call counts, 7762 in all, are:
+= -- 845
+> -- 307
 < -- 0
-+ -- 98
-- -- 78
-* -- 418
-:= -- 875
-add.period$ -- 36
-call.type$ -- 20
-change.case$ -- 19
++ -- 111
+- -- 87
+* -- 502
+:= -- 1046
+add.period$ -- 44
+call.type$ -- 24
+change.case$ -- 23
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 372
-empty$ -- 466
-format.name$ -- 78
-if$ -- 1607
+cite$ -- 24
+duplicate$ -- 448
+empty$ -- 572
+format.name$ -- 87
+if$ -- 1949
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 21
-newline$ -- 79
-num.names$ -- 20
-pop$ -- 26
+int.to.str$ -- 24
+missing$ -- 25
+newline$ -- 95
+num.names$ -- 24
+pop$ -- 28
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 361
+skip$ -- 438
 stack$ -- 0
-substring$ -- 312
-swap$ -- 230
+substring$ -- 416
+swap$ -- 278
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 47
-width$ -- 22
-write$ -- 231
+while$ -- 59
+width$ -- 26
+write$ -- 279
+(There was 1 warning)
