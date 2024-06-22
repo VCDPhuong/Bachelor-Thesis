@@ -56,6 +56,7 @@ urlcolor= black}
 	\newpage
 	\begin{center}
 		\section*{Commitment}
+	I commit to independently conducting the calculation of the linear-absorption spectrum of an ideal two-dimensional system of  	$\mathrm{\textbf{MoS}}_2$for my bachelor thesis, under\\ the supervision of Dr. Huynh Thanh Duc, and with guidance from Master Le Minh Chau.
 	\end{center}
 	\newpage
 	\begin{center}
@@ -82,7 +83,7 @@ urlcolor= black}
 \quad Faculty: Physics - Engineering Physics\\\null
 \quad University: University of Science\\\null
 \subsection*{Abstract}
-\quad Transition Metal Dichalcogenides (TMD) are promising semiconductors due to their extraordinary electronic and optoelectronic properties. Before calculating the nonlinear optical properties of this material, we need to calculate the linear absorption spectrum. In monolayer TMD, the Coulomb interaction heavily influences the increase in exciton binding energies. Therefore, the independent electron approximation model is not reliable for simulating the experiment, especially in low-dimensional systems. In this work, we use a minimum three-band Tight-Binding Hamiltonian for the band structure calculation and the Semiconductor Bloch Equation to model the response of electron density in $\mathrm{MoS}_2$ material to a laser over time to calculate the Linear Absorption Spectra (LAS) and extract the Exciton binding energy from it. Our calculation on exciton binding energy (0.24 eV) based on this model proves to be more accurate than some previous theoretical, which predict exciton binding energy too large (0.5-1 eV). From this work, we can use it to calculate other effects which affected by Exciton binding energy such as photo-current.
+\quad Transition Metal Dichalcogenides (TMD) are promising semiconductors due to their extraordinary electronic and optoelectronic properties. Before calculating the nonlinear optical properties of this material, we need to calculate the linear absorption spectrum. In monolayer TMD, the Coulomb interaction heavily influences the increase in exciton binding energies. Therefore, the independent electron approximation model is not reliable for simulating the experiment, especially in low-dimensional systems. In this work, we use a minimum three-band Tight-Binding Hamiltonian for the band structure calculation and the Semiconductor Bloch Equation to model the response of electron density in $\mathrm{MoS}_2$ material to a laser over time to calculate the Linear Absorption Spectra (LAS) and extract the Exciton binding energy from it. Our calculation on exciton binding energy (0.24 eV) based on this model proves to be more accurate than some previous theoretical, which predict exciton binding energy too large (0.5-1 eV). From this work, we can use it to calculate other effects which affected by Exciton binding energy such as photo-current, high harmonic generation, and high-order sideband generation.
 	\newpage
 	\section{Introduction}
 	\subsection{Overview of Two Dimensional Material Research}
@@ -467,12 +468,12 @@ $$\Omega_{\mu \nu}(\textbf{k}) = 0 \quad \forall \mu,\nu.$$
 $$W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}',\textbf{q}} \approx W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}',\textbf{q}} \theta(k_{cut.} - |\textbf{k} - \textbf{k}_{K'}|) \theta(k_{cut.} - |\textbf{k}' - \textbf{k}_{K'}|).$$
 \quad Where $\theta(k)$ is the Heaviside function, the Coulomb interaction is excluded if either point is inside the circle. The same process applies for the K point.
 \subsection{Numerical Analyzing}
-\quad The linear absorption spectrum is determined by
+\quad The linear absorption spectrum is determined by\cite{haug_quantum_2009}
 \begin{equation}
-	\alpha_{i}(\omega) \propto \Im{\frac{P_i(\omega)}{E_i(\omega)}}.
+	\alpha(\omega) \propto \Im{\frac{P(\omega)}{E(\omega)}}.
 	\label{absorpt}
 \end{equation}
-\quad In which $i \in \{x,y\}$. $\textbf{P}(\omega)= \int_{-\infty}^{\infty}\textbf{P}(t) e^{i\omega t} dt$ and $\textbf{E}(\omega) = \int_{-\infty}^{\infty}\textbf{E}(t) e^{i\omega t} dt$ is Fourier transform for polarization density and Electric field. This integral can be approximated using a Riemann sum with the cutoff point by using condition $\textbf{E}(t_{cutoff}) \lessapprox 10^{-6} \abs{\max{\textbf{E}(t)}}$ and $\textbf{P}(t_{cutoff}) \lessapprox 10^{-6} \abs{\max{\textbf{P}(t)}}$. In this work, we are using the electric field in form of Gaussian wave:
+\quad In which $\textbf{P}(\omega)= \int_{-\infty}^{\infty}\textbf{P}(t) e^{i\omega t} dt$ and $\textbf{E}(\omega) = \int_{-\infty}^{\infty}\textbf{E}(t) e^{i\omega t} dt$ is Fourier transform for polarization density and Electric field. This integral can be approximated using a Riemann sum with the cutoff point by using condition $\textbf{E}(t_{cutoff}) \lessapprox 10^{-6} \abs{\max{\textbf{E}(t)}}$ and $\textbf{P}(t_{cutoff}) \lessapprox 10^{-6} \abs{\max{\textbf{P}(t)}}$. In this work, we are using the electric field in form of Gaussian wave:
 \begin{equation}
 	\textbf{E}(t) = E_0 e^{-\frac{t^2}{\tau_L^2}}(cos(\omega_0t), 0),
 \end{equation} 
@@ -491,11 +492,11 @@ with the $E_0$ is the maximal amplitude, so $\hbar\omega_0 = E_{\mathrm{gap}}$, 
 %2. Use the electromagnetic wave as the delta Dirac function of time $\delta(t-t_0)$, resulting in $E(\omega) = Const$ and (\ref{absorpt}) becoming $\alpha_i \propto \Im{P_i(\omega)}$ with $i \in \{x,y\}$. However, this method will require a very small time step $ Delta t $ to accurately simulate. Therefore, we will chose a small $\tau_L$ to approximate $E(\omega) \approx Const$ around $\omega_0$ and estimate the range of the calculation spectrum around that point.
 \newpage
 \section{Results and Discussion}
-\quad In a previous study \cite{ang_absorption_2014}, the absorption spectrum of $\mathrm{MoS}_2$ at $T = 5K$ was measured and presented in figure \ref{Absorpt Ex.}. The results revealed two exciton resonances labeled as A and B, which were observed at energy levels of $1.9$ and $2.1$ eV, respectively. Additionally, a small trion peak was observed before the A peak. The splitting between the exciton and trion absorption peaks was approximately $34$ meV at $5K$.\\
+\quad In a previous study \cite{zhang_absorption_2014}, the absorption spectrum of $\mathrm{MoS}_2$ at $T = 5K$ was measured and presented in figure \ref{Absorpt Ex.}. The results revealed two exciton resonances labeled as A and B, which were observed at energy levels of $1.9$ and $2.1$ eV, respectively. Additionally, a small trion peak was observed before the A peak. The splitting between the exciton and trion absorption peaks was approximately $34$ meV at $5K$.\\
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=0.5\linewidth]{images/experiment.pdf}
-		\caption[Measured absorption spectrum of $\mathrm{MoS}_2$]{Measure Absorption Spectrum of $\mathrm{MoS}_2$ at $T=5K$  extracted from \cite{zhang_absorption_2014}, two Exciton resonances labeled by A and B\, and small trion peak labeled with $A'$.}
+		\caption[Measured absorption spectrum of $\mathrm{MoS}_2$]{Measure Absorption Spectrum of $\mathrm{MoS}_2$ at $T=5K$  extracted from \cite{zhang_absorption_2014}, two Exciton resonances labeled by A and B, and small trion peak labeled with $A'$.}
 		\label{Absorpt Ex.}
 	\end{center}
 \end{figure}\null
