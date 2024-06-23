@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  22 JUN 2024 00:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  23 JUN 2024 13:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1289,127 +1289,115 @@ thkerncmss.
 ] (./beamer.toc) [2
 
 ]
-<images/RS.pdf, id=232, 1598.97375pt x 842.39719pt>
+<images/RS.pdf, id=239, 1598.97375pt x 842.39719pt>
 File: images/RS.pdf Graphic file (type pdf)
 <use images/RS.pdf>
 Package pdftex.def Info: images/RS.pdf  used on input line 60.
 (pdftex.def)             Requested size: 122.91406pt x 64.74524pt.
 
-Overfull \vbox (3.17902pt too high) detected at line 60
+Overfull \vbox (3.73457pt too high) detected at line 60
  []
 
 [3
 
- <./Images/RS.pdf>]
-Overfull \hbox (6.1018pt too wide) detected at line 82
+ <./Images/RS.pdf>] [4
+
+]
+Overfull \hbox (6.1018pt too wide) detected at line 89
 \OT1/mathkerncmss/m/sl/10 H[] [] c[]\OT1/cmss/m/n/10 ([]) [] \OT1/mathkerncmss/
 m/sl/10 e[] [] \OT1/cmss/m/n/10 = \OML/cmm/m/it/10 "[]\OT1/cmss/m/n/10 ([]) [] 
 \OT1/mathkerncmss/m/sl/10 c[]\OT1/cmss/m/n/10 ([]) [] \OT1/mathkerncmss/m/sl/10
  e[] []
  []
 
-
-Overfull \vbox (3.15115pt too high) detected at line 82
- []
-
-[4
+[5
 
 ]
 
 pdfTeX warning: pdflatex.exe (file ./Images/BS.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<images/BS.pdf, id=590, 361.35pt x 216.81pt>
+<images/BS.pdf, id=663, 361.35pt x 216.81pt>
 File: images/BS.pdf Graphic file (type pdf)
 <use images/BS.pdf>
-Package pdftex.def Info: images/BS.pdf  used on input line 98.
+Package pdftex.def Info: images/BS.pdf  used on input line 105.
 (pdftex.def)             Requested size: 153.64493pt x 92.18768pt.
-[5
 
- <./Images/BS.pdf>]
-<images/cvbeamer.pdf, id=672, 1433.355pt x 974.89218pt>
-File: images/cvbeamer.pdf Graphic file (type pdf)
-<use images/cvbeamer.pdf>
-Package pdftex.def Info: images/cvbeamer.pdf  used on input line 126.
-(pdftex.def)             Requested size: 118.91638pt x 80.87883pt.
-
-Overfull \hbox (13.33328pt too wide) in paragraph at lines 110--126
-[][]      [][][]  
+Overfull \vbox (9.561pt too high) detected at line 105
  []
 
 [6
 
-] [7 <./Images/cvbeamer.pdf>]
-<images/Rhombus.pdf, id=792, 1326.45563pt x 875.52094pt>
-File: images/Rhombus.pdf Graphic file (type pdf)
-<use images/Rhombus.pdf>
-Package pdftex.def Info: images/Rhombus.pdf  used on input line 135.
-(pdftex.def)             Requested size: 153.64493pt x 101.41087pt.
+ <./Images/BS.pdf>] [7
+
+]
+<images/cvbeamer.pdf, id=817, 1433.355pt x 974.89218pt>
+File: images/cvbeamer.pdf Graphic file (type pdf)
+<use images/cvbeamer.pdf>
+Package pdftex.def Info: images/cvbeamer.pdf  used on input line 135.
+(pdftex.def)             Requested size: 118.91638pt x 80.87883pt.
  [8
 
+ <./Images/cvbeamer.pdf>]
+<images/Rhombus.pdf, id=891, 1326.45563pt x 875.52094pt>
+File: images/Rhombus.pdf Graphic file (type pdf)
+<use images/Rhombus.pdf>
+Package pdftex.def Info: images/Rhombus.pdf  used on input line 144.
+(pdftex.def)             Requested size: 153.64493pt x 101.41087pt.
+ [9
+
  <./Images/Rhombus.pdf>]
-<images/kcutoff.pdf, id=876, 1162.3425pt x 681.29532pt>
+<images/kcutoff.pdf, id=976, 1162.3425pt x 681.29532pt>
 File: images/kcutoff.pdf Graphic file (type pdf)
 <use images/kcutoff.pdf>
-Package pdftex.def Info: images/kcutoff.pdf  used on input line 143.
+Package pdftex.def Info: images/kcutoff.pdf  used on input line 152.
 (pdftex.def)             Requested size: 230.46739pt x 135.08192pt.
- [9
+ [10
 
  <./Images/kcutoff.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Images/EAt.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<images/Eat.pdf, id=959, 361.35pt x 216.81pt>
+<images/Eat.pdf, id=1062, 361.35pt x 216.81pt>
 File: images/Eat.pdf Graphic file (type pdf)
 <use images/Eat.pdf>
-Package pdftex.def Info: images/Eat.pdf  used on input line 163.
+Package pdftex.def Info: images/Eat.pdf  used on input line 172.
 (pdftex.def)             Requested size: 148.64493pt x 89.1871pt.
-[10
+[11
 
  <./Images/EAt.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Images/Experiment.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<images/Experiment.pdf, id=1038, 361.35pt x 216.81pt>
+<images/Experiment.pdf, id=1144, 361.35pt x 216.81pt>
 File: images/Experiment.pdf Graphic file (type pdf)
 <use images/Experiment.pdf>
-Package pdftex.def Info: images/Experiment.pdf  used on input line 177.
+Package pdftex.def Info: images/Experiment.pdf  used on input line 186.
 (pdftex.def)             Requested size: 148.64493pt x 89.1871pt.
-[11
+[12
 
  <./Images/Experiment.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Images/varyepsilon.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<images/varyepsilon.pdf, id=1111, 361.35pt x 216.81pt>
+<images/varyepsilon.pdf, id=1220, 361.35pt x 216.81pt>
 File: images/varyepsilon.pdf Graphic file (type pdf)
 <use images/varyepsilon.pdf>
-Package pdftex.def Info: images/varyepsilon.pdf  used on input line 188.
-(pdftex.def)             Requested size: 148.64493pt x 89.1871pt.
-[12
+Package pdftex.def Info: images/varyepsilon.pdf  used on input line 193.
+(pdftex.def)             Requested size: 245.83282pt x 147.50162pt.
+[13
 
  <./Images/varyepsilon.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Images/varyT2.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<images/varyT2.pdf, id=1189, 361.35pt x 216.81pt>
+<images/varyT2.pdf, id=1300, 361.35pt x 216.81pt>
 File: images/varyT2.pdf Graphic file (type pdf)
 <use images/varyT2.pdf>
-Package pdftex.def Info: images/varyT2.pdf  used on input line 191.
-(pdftex.def)             Requested size: 307.28987pt x 184.37538pt.
-[13
-
- <./Images/varyT2.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./Images/varynk.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<images/varynk.pdf, id=1260, 361.35pt x 216.81pt>
-File: images/varynk.pdf Graphic file (type pdf)
-<use images/varynk.pdf>
-Package pdftex.def Info: images/varynk.pdf  used on input line 194.
-(pdftex.def)             Requested size: 307.28987pt x 184.37538pt.
+Package pdftex.def Info: images/varyT2.pdf  used on input line 204.
+(pdftex.def)             Requested size: 245.83282pt x 147.50162pt.
 [14
 
- <./Images/varynk.pdf>] [15
+ <./Images/varyT2.pdf>] [15
 
 ] (./beamer.bbl
 
@@ -1417,18 +1405,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\translate ' on input line 1.
 
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-12.
+18.
 (c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
-12.
-LaTeX Font Info:    No file OMScmss.fd. on input line 12.
+18.
+LaTeX Font Info:    No file OMScmss.fd. on input line 18.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 12.
+(Font)              for symbol `textbackslash' on input line 18.
 
 ) [16
 
@@ -1453,13 +1441,13 @@ L3 programming layer <2023-11-09>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `beamer.out' has not changed.
-(rerunfilecheck)             Checksum: 2297BB92BF0E9086ED25E284E2EC3052;1120.
+(rerunfilecheck)             Checksum: 79A1F6D5E4E76495347A51B775BA85B2;1120.
  ) 
 Here is how much of TeX's memory you used:
- 32640 strings out of 474267
- 670725 string characters out of 5751464
- 1950558 words of memory out of 5000000
- 54133 multiletter control sequences out of 15000+600000
+ 32639 strings out of 474267
+ 670647 string characters out of 5751464
+ 1949558 words of memory out of 5000000
+ 54131 multiletter control sequences out of 15000+600000
  573347 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,123p,381b,793s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1479,10 +1467,10 @@ public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb>
-Output written on beamer.pdf (16 pages, 931770 bytes).
+Output written on beamer.pdf (16 pages, 900144 bytes).
 PDF statistics:
- 1530 PDF objects out of 1728 (max. 8388607)
- 1016 compressed objects within 11 object streams
- 43 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1575 PDF objects out of 1728 (max. 8388607)
+ 1028 compressed objects within 11 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 

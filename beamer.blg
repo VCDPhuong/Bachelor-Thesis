@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: beamer.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
-You've used 2 entries,
+You've used 3 entries,
             1876 wiz_defined-function locations,
-            493 strings with 4027 characters,
-and the built_in function-call counts, 692 in all, are:
-= -- 70
-> -- 34
+            499 strings with 4253 characters,
+and the built_in function-call counts, 869 in all, are:
+= -- 88
+> -- 42
 < -- 0
-+ -- 12
-- -- 10
-* -- 46
-:= -- 103
-add.period$ -- 4
-call.type$ -- 2
++ -- 15
+- -- 12
+* -- 55
+:= -- 129
+add.period$ -- 7
+call.type$ -- 3
 change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 40
-empty$ -- 45
-format.name$ -- 10
-if$ -- 169
+cite$ -- 3
+duplicate$ -- 49
+empty$ -- 65
+format.name$ -- 12
+if$ -- 214
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 11
-num.names$ -- 2
-pop$ -- 2
+int.to.str$ -- 3
+missing$ -- 4
+newline$ -- 16
+num.names$ -- 3
+pop$ -- 7
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 40
+skip$ -- 42
 stack$ -- 0
 substring$ -- 24
-swap$ -- 26
+swap$ -- 27
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 4
-width$ -- 3
-write$ -- 26
+while$ -- 5
+width$ -- 4
+write$ -- 37
