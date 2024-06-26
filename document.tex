@@ -1,8 +1,9 @@
 \documentclass[12pt,english,a4paper]{article}
-\usepackage[a4paper, bindingoffset=0.2in, left=0.5in, right=0.5in, top=1in, bottom=1in, footskip=.25in]{geometry}
+\usepackage[a4paper, bindingoffset=0.2in, left=0.75in, right=0.75in, top=1in, bottom=1in, footskip=.25in]{geometry}
 \usepackage{tikz-feynman}
 \usetikzlibrary{shapes.geometric}
 \usepackage{array}
+\usepackage{comment}
 \usepackage{animate}
 \usepackage{amsmath}
 \usepackage{cancel}
@@ -16,7 +17,6 @@ linkcolor = black,
 filecolor= black,
 urlcolor= black}
 \usepackage{cancel}
-\usepackage[utf8]{vietnam}
 \usepackage{subcaption}
 \usepackage[super,sort&compress]{natbib}
 \usepackage{svg}
@@ -24,17 +24,42 @@ urlcolor= black}
 \newcommand{\dg}{\dagger}
 \newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
 \author{Vo Chau Duc Phuong}
+\vfill
+\linespread{1.15}
 \begin{document}
 	\begin{titlepage}
 		\begin{center}
-			National University Of Ho Chi Minh City\\
-			University Of Science\\
-			\textbf{Faculty Of Physics- Engineering Physics}\\[2cm]
+			{\large \textbf{NATIONAL UNIVERSITY OF HO CHI MINH CITY}\\\textbf{UNIVERSITY OF SCIENCE}\\}
+			{ \textbf{FACULTY OF PHYSICS- ENGINEERING PHYSICS}}\\[2cm]
 			
 			
 			{ \Large \bfseries Vo Chau Duc Phuong\\[2cm] } 
 			
-			%Tên đề tài Khóa luận tốt nghiệp/Đồ án tốt nghiệp
+			
+			{ \large \bfseries CALCULATION OF THE LINEAR-ABSORPTION SPECTRUM OF\\ AN IDEAL TWO-DIMENSIONAL SYSTEM OF $\mathrm{\textbf{MoS}}_2$\\[3cm]} 
+			
+			
+			\large Graduation Bachelor Thesis\\
+			\large Merits Program\\[2cm]
+			
+			
+			\begin{tikzpicture}[remember picture, overlay]
+				\draw[line width = 2pt] ($(current page.north west) + (2cm,-2cm)$) rectangle ($(current page.south east) + (-1.5cm,2cm)$);
+			\end{tikzpicture}
+			
+			\vfill
+			Ho Chi Minh city, July-2024
+			
+		\end{center}
+	\end{titlepage}
+	\begin{titlepage}
+		\begin{center}
+			{\large \textbf{NATIONAL UNIVERSITY OF HO CHI MINH CITY}\\\textbf{UNIVERSITY OF SCIENCE}\\}
+			{ \textbf{FACULTY OF PHYSICS- ENGINEERING PHYSICS}}\\[2cm]
+			
+			
+			{ \Large \bfseries Vo Chau Duc Phuong\\[2cm] } 
+			
 			
 			{ \Large \bfseries Calculation of the Linear-Absorption Spectrum of\\ an Ideal Two-Dimensional System of $\mathrm{\textbf{MoS}}_2$\\[3cm]} 
 			
@@ -48,14 +73,13 @@ urlcolor= black}
 			%\large CHƯƠNG TRÌNH CHẤT LƯỢNG CAO\\
 			\large Merits Program\\[2cm]
 			
-			
-			\begin{tikzpicture}[remember picture, overlay]
-				\draw[line width = 2pt] ($(current page.north west) + (2cm,-2cm)$) rectangle ($(current page.south east) + (-1.5cm,2cm)$);
-			\end{tikzpicture}
-			
+			Supervisor: Dr. Huynh Thanh Duc
+			\begin{figure*}[h]
+				\centering
+				\includegraphics[width=4cm]{images/qrgithub.pdf}
+			\end{figure*}\null
 			\vfill
 			Ho Chi Minh city, July-2024
-			
 		\end{center}
 	\end{titlepage}
 %	\begin{titlepage}
@@ -89,13 +113,17 @@ urlcolor= black}
 	\pagenumbering{arabic}
 	\newpage
 	\begin{center}
+		
 		\section*{Commitment}
-	I commit to independently conducting the calculation of the linear-absorption spectrum of an ideal two-dimensional system of $\mathrm{MoS}_2$ for my bachelor thesis, under\\ the supervision of Dr. Huynh Thanh Duc, and with guidance from Master Le Minh Chau.
 	\end{center}
+	I commit to independently conducting the calculation of the linear-absorption spectrum of an ideal two-dimensional system of $\mathrm{MoS}_2$ for my bachelor thesis, under  the supervision of Dr. Huynh Thanh Duc, and with guidance from Master Le Minh Chau.\\[2cm]
+\parbox{0.75in}{\centering \textbf{}} \hfill \parbox{2.5in}{\centering \textbf{STUDENT}}
 	\newpage
 	\begin{center}
 		\section*{Acknowledgments}
 	\end{center}
+	\quad Even though I still have much more to study in order to achieve my dream of becoming a physicist, this work marks the first step on my path. I couldn't have completed this work without the guidance of Dr. Huynh Thanh Duc and Master Le Minh Chau at the Institute of Physics, Ho Chi Minh City. I am truly grateful to them.\\\null
+	\quad I also want to express my gratitude to Dr. Vu Quang Tuyen, Dr. Vo Quoc Phong, and Dr. Nguyen Huu Nha, three lecturers in the Department of Theoretical Physics. They have guided me throughout my time at the department and at the University of Science, Ho Chi Minh City.
 	\newpage
 	\pagestyle{plain}
 	\tableofcontents
@@ -109,68 +137,79 @@ urlcolor= black}
 		\section*{Thesis Information}
 	\end{center}
 \quad Name of Thesis: Calculation of the Linear-Absorption Spectrum of $\mathrm{MoS}_2$\\\null
-\quad Major: Theoretical Physics\\\null
-\quad Student's name: Vo Chau Duc Phuong\\\null
-\quad Year: 2020-2024\\\null
+\quad Major: Physics\\\null
+\quad Specialty: Theoretical Physics
+\quad Name of Student: Vo Chau Duc Phuong\\\null
+\quad Student ID: 20130008
+\quad Academic Year: 2020\\\null
 \quad Supervisor: Dr. Huynh Thanh Duc \\\null
-\quad Department: Theoretical of Physics\\\null
-\quad Faculty: Physics - Engineering Physics\\\null
-\quad At: VNUHCM - University of Science\\\null
 \subsection*{Abstract}
-\quad Transition Metal Dichalcogenides (TMD) are promising semiconductors due to their extraordinary electronic and optoelectronic properties. Before calculating the nonlinear optical properties of this material, we need to calculate the linear absorption spectrum. In monolayer TMD, the Coulomb interaction heavily influences the increase in exciton binding energies. Therefore, the independent electron approximation model is not reliable for simulating the experiment, especially in low-dimensional systems. In this work, we use a minimum three-band Tight-Binding Hamiltonian for the band structure calculation and the Semiconductor Bloch Equation to model the response of electron density in $\mathrm{MoS}_2$ material to a laser over time to calculate the Linear Absorption Spectra (LAS) and extract the Exciton binding energy from it.
+\quad Transition metal dichalcogenides (TMD) are promising semiconductors due to their extraordinary electronic and optoelectronic properties. Before calculating the nonlinear optical properties of this material, we need to calculate the linear absorption spectrum. In monolayer TMD, the Coulomb interaction heavily influences the increase in exciton binding energies. Therefore, the independent electron approximation model is unreliable for simulating the experiment, especially in low-dimensional systems. In this work, we use a minimum three-band tight-binding Hamiltonian for the band structure calculation and the semiconductor Bloch equations to model the response of electron density in material to a laser over time to calculate the linear absorption spectra (LAS) and extract the exciton binding energy from it.
 \subsection*{Novelty Of Thesis}
-\quad Our calculation on exciton binding energy (0.25 eV) based on this model proves to agree with the experiment and proves to be more accurate than some previous theoretical, which predict exciton binding energy too large (0.5-1 eV).
+\quad Our calculation on exciton binding energy (0.25 eV) based on this model proves to agree with the experiment. It proves to be more accurate than some previous theories, which predicted exciton binding energy too large (0.5-1 eV).
 \subsection*{Applications/ Applicability/ Perspective}
-\quad From this work, we can use it to calculate other effects which affected by Exciton binding energy such as photo-current, high harmonic generation, and high-order sideband generation.
-\quad Increase the density of the k-point for better convergence results. Take into account the shield coulomb interaction when increasing the density of electrons on the conduction bands when excess of the low excitation limit for full absorption spectra.
+\quad From this work, we can use it to calculate other linear- and nonlinear-effects that are affected by exciton binding energy such as photo-current, high harmonic generation, and high-order sideband generation. For further work, we can increase the density of the k-point for better convergence results. Take into account the shield coulomb interaction when increasing the density of electrons on the conduction bands when excess of the low excitation limit for full absorption spectra.\\\null\newpage
+
+\parbox{1.5in}{\centering \textbf{SUPERVISOR}} \hfill \parbox{1.5in}{\centering \textbf{STUDENT}}
+
+\vspace{5\baselineskip}
+
+\hfill\\\null\begin{center}
+	
+	\parbox{3.in}{\centering \textbf{CERTIFICATION\\ UNIVERSITY OF SCIENCE\\PRESIDENT}}
+	\noindent 
+\end{center}
 	\newpage
 	\section{Introduction}
-	\subsection{Overview of Two Dimensional Material Research}
-	\quad  The researcher has dedicated many years to studying Graphene, with hopes that it could potentially serve as the new silicon, enabling the continuation of Moore's law on the CPU chip dice. However, in recent years, the number of papers on Graphene properties has reached thousands yearly, indicating that research on 'simple graphene' has peaked. \cite{geim_van_2013} Therefore, the researchers shifted their focus from working solely with Graphene to exploring applications and other two-dimensional materials. \\\null
-	\quad Atomically thin two-dimensional (2D) forms of layered transition metal dichalcogenides (TMD) have recently gained significant scientific and technological interest since the first five years of the Graphene boom.\cite{wang_electronics_2012,geim_van_2013} TMD has the chemical composition $MX_2$, so it has a wide range of materials. They include both metals and semiconductors, for example $\mathrm{NbS}_2$, $\mathrm{NbSe}_2$, $\mathrm{TaS}_2$, $\mathrm{TaSe}_2$, $\beta$-$\mathrm{MoT}_2$ and $\mathrm{Td}$-$\mathrm{WTe}_2$ are bulk metals while the $\mathrm{ReS}_2$, $\mathrm{ZrS}_2$, $\mathrm{MoS}_2$, $\mathrm{WS}_2$, $\mathrm{MoSe}_2$, $\mathrm{WSe}_2$ and $\alpha$-$\mathrm{MoTe}_2$ are semiconductors. The structure of TMD consists of multiple monolayers bonded by van der Waals forces, with in-plane stability ensured by strong covalent bonds.
+	%\subsection{Overview of Two Dimensional Material Research}
+\quad When exploring the properties of a material, the linear absorption spectrum is a crucial tool. This spectrum provides valuable insights into the material's electronic structure by precisely measuring the energy of absorbed photons. This analysis helps us understand the material's energy levels, transitions between states, and the nature of electron excitation. By examining the absorption peaks and bands, we can calculate important coefficients such as absorbance and extinction coefficient, which are vital in various scientific and industrial applications. To measure the linear absorption spectrum, we characterize the frequency-dependent transmission decrease on adding the sample using the formula $\alpha = -\log(I_{out}/I_{in})$. This allows us to calculate the absorption spectrum by comparing the intensity before and after passing through the material.\\\null
+\quad  The researcher has dedicated many years to studying Graphene, with hopes that it could potentially serve as the new silicon, enabling the continuation of Moore's law on the CPU chip dice. However, in recent years, the number of papers on Graphene properties has reached thousands yearly, indicating that research on 'simple graphene' has peaked. \cite{geim_van_2013} Therefore, the researchers shifted their focus from working solely with Graphene to exploring applications and other two-dimensional materials. \\\null
+\quad Atomically thin two-dimensional (2D) forms of layered transition metal dichalcogenides (TMD) have recently gained significant scientific and technological interest since the first five years of the Graphene boom.\cite{wang_electronics_2012,geim_van_2013} TMD has the chemical composition $MX_2$, so it has a wide range of materials. They include both metals and semiconductors, for example $\mathrm{NbS}_2$, $\mathrm{NbSe}_2$, $\mathrm{TaS}_2$, $\mathrm{TaSe}_2$, $\beta$-$\mathrm{MoT}_2$ and $\mathrm{Td}$-$\mathrm{WTe}_2$ are bulk metals while the $\mathrm{ReS}_2$, $\mathrm{ZrS}_2$, $\mathrm{MoS}_2$, $\mathrm{WS}_2$, $\mathrm{MoSe}_2$, $\mathrm{WSe}_2$ and $\alpha$-$\mathrm{MoTe}_2$ are semiconductors. The structure of TMD consists of multiple monolayers bonded by van der Waals forces, with in-plane stability ensured by strong covalent bonds.
 	Among various transition metal dichalcogenides, the group-VIB (M = Mo, W; X = S, Se) is stable in both mono- and few-layers in the air at room temperature.\cite{geim_van_2013} These two-dimensional semiconductors have a direct band gap in the visible frequency range, stable and excellent mobility at room temperature\cite{jiang_flexo-photovoltaic_2021, wang_electronics_2012} and promise to become a good candidate for electronic and optoelectronic applications. Its nanotube structure has been researched and shows its potential to become the new solar cell material\cite{kim_giant_2022,zhang_enhanced_2019,jiang_flexo-photovoltaic_2021,yang_spontaneous-polarization-induced_2022}. \\\null
-	\quad Transition metal dichalcogenides (TMD) exhibit non-centrosymmetry in monolayers form, resulting in unique properties in electronic, spintronics, optoelectronics, superconduction, and valleytronic applications \cite{xiao_valley-contrasting_2007,yao_valley-dependent_2008}. Additionally, significant Spin-Orbit Coupling in TMD creates a considerable split in the band structure valley. The low dimension system causes the reduced screening of Coulomb interaction outside the monolayer's plane, resulting in large exciton binding energies \cite{kirichenko_influence_2021, zhang_absorption_2014}. These binding energies are notably higher than those observed in typical III-V materials, implying that many-body interactions play a key role in determining the electronic and optical properties of these materials. In some previous work, only the nearly free electron approximation has been taken into account and did not give good accuracy on the results as the key role of many-body interactions in the system. Furthermore, previous theoretical works have predicted the binding energy too large\cite{ramasubramaniam_large_2012,qiu_optical_2013,cheiwchanchamnangij_quasiparticle_2012, shi_quasiparticle_2013} when compared with experiment\cite{zhang_absorption_2014} and other more accurate theoretical works\cite{zhang_absorption_2014, kirichenko_influence_2021}.
-	\subsection{Methods and Results}
-	\quad In our current research, our main objective is to identify the appropriate model for estimating the exciton binding energy while aligning with experimental data. The key challenge is to identify a model that strikes a balance between simplicity and accuracy. Our primary focuses on investigating the properties of transition metal dichalcogenides (TMD). Several models, such as ab initiocalculations\cite{kirichenko_influence_2021,ramasubramaniam_large_2012,qiu_optical_2013,cheiwchanchamnangij_quasiparticle_2012,shi_quasiparticle_2013} and parabola approximation\cite{meckbach_ultrafast_2020,berkelbach_theory_2013}, have been developed and employed to simulate the band structure. It is important to note that these models have limitations as they can only calculate around highly symmetric points and not across the entire Brillouin zone (BZ). In our study, we are using a three-band tight-binding model to calculate properties across the entire BZ, which should give us results that better match experimental data.\\\null
-	\quad From now and for later in this work, we use the minimal three-band tight-binding Hamiltonian\cite{liu_three-band_2013} to calculate the band structure by determining the eigenvalues at each k-point. The momentum matrix for the velocity gauge matrix will be calculated using finite differentiation, and then utilized to compute the dipole matrix. We plan to solve the Semiconductor Bloch Equations (SBE) using the RungeK'utta 4th order method to numerically find the time-independent density evolution. Based on this density, we can derive the polarization, current density, and other measurable physical parameters. After obtaining the polarization, we will perform a Fourier transform to obtain the absorption spectrum.\\\null	
-	\quad In our analysis, we concentrated on the low excitation regime to examine the linear absorption spectra. We were able to concentrate on scenarios where the electron density in the conduction bands is significantly lower than that in the valence bands. The results showed a significant exciton binding energy, which closely matched both experimental measurements and theoretical expectations. These discoveries allow us to predict the existence of smaller excitons and use the binding energy to investigate other effects influenced by the Coulomb interaction.We were able to concentrate on scenarios where the electron density in the conduction bands is significantly lower than that in the valence bands. The results showed a significant exciton binding energy, which closely matched both experimental measurements and theoretical expectations. These discoveries allow us to predict the existence of smaller excitons and use the binding energy to investigate other effects influenced by the Coulomb interaction.
+	\quad TMD exhibits non-centrosymmetry in monolayers form, resulting in unique properties in electronic, spintronics, optoelectronics, superconduction, and valleytronic applications \cite{xiao_valley-contrasting_2007,yao_valley-dependent_2008}. Additionally, significant spin-orbit coupling in TMD creates a considerable split in the band structure valley. The low dimension system causes the reduced screening of Coulomb interaction outside the monolayer's plane, resulting in larger exciton binding energies \cite{kirichenko_influence_2021, zhang_absorption_2014}. These binding energies are notably higher than those observed in typical III-V materials, implying that many-body interactions play a key role in determining the electronic and optical properties of these materials. In some previous work, only the nearly free electron approximation has been taken into account and did not give good accuracy on the results as the key role of many-body interactions in the system. Furthermore, previous theoretical works have predicted the binding energy too large\cite{ramasubramaniam_large_2012,qiu_optical_2013,cheiwchanchamnangij_quasiparticle_2012, shi_quasiparticle_2013} when compared with experiment\cite{zhang_absorption_2014} and other more accurate theoretical works\cite{zhang_absorption_2014, kirichenko_influence_2021}. Therefore, this thesis will focus on the calculation of the exciton binding energy through the Absorption spectrum for fitting the results with experiments and other theoretical work.
+
 	
-	\subsection{Overview on Theories}
-	\quad The theoretical part includes the following topics:
-	\begin{itemize}
-	\item[-] Theory on the Tight-Binding Approximation: Starting from the Schrödinger equation for the independent charge approximation with the LCAO ansatz. Show the on-site and hopping energies, as well as the overlap densities parameters for the semi-empirical formalism. 
-	\item[-] Derivation of light-matter interaction for charge systems, using the velocity gauge. 
-	\item[-] Derivation of Semiconductor Bloch Equation in the Hatree-Fock approximation (HFA), along with the dephasing $T_2$ approximation. 
-	\item[-] Steps to numerically calculate the polarization density and linear absorption spectrum.
+	%\subsection{Methods and Results}
+	\quad In our current research, our main objective is to identify the appropriate model for estimating the exciton binding energy while aligning with experimental data. The key challenge is to identify a model that strikes a balance between simplicity and accuracy. Our primary focus on investigating the properties of TMD. Several models, such as ab initio calculations\cite{kirichenko_influence_2021,ramasubramaniam_large_2012,qiu_optical_2013,cheiwchanchamnangij_quasiparticle_2012,shi_quasiparticle_2013} and parabola approximation\cite{meckbach_ultrafast_2020,berkelbach_theory_2013}, have been developed and employed to simulate the band structure. It is important to note that these models have limitations as they can only calculate around highly symmetric points and not across the entire Brillouin zone (BZ). In our study, we are using a three-band tight-binding model to calculate properties across the entire BZ, which should give us results that better match experimental data.\\\null
+	\quad In this work, we use the minimal three-band tight-binding Hamiltonian\cite{liu_three-band_2013} to calculate the band structure by determining the eigenvalues at each k-point. The momentum matrix for the velocity gauge matrix will be calculated using finite differentiation, and then utilized to compute the dipole matrix. We plan to solve the Semiconductor Bloch Equations (SBE) using the Runge-Kutta 4th order method to numerically find the time-dependent density evolution. Based on this density, we can derive the polarization, current density, and other measurable physical observations. After obtaining the polarization, we will perform a Fourier transform to obtain the absorption spectrum.\\\null	
+	\quad In our analysis, we concentrate on the low excitation regime to examine the linear absorption spectra. We were able to concentrate on scenarios where the electron density in the conduction bands is significantly lower than that in the valence bands. The results show a significant exciton binding energy, which closely matched both experimental measurements and theoretical expectations. These discoveries allow us to predict the existence of smaller excitons and use the binding energy to investigate other effects influenced by the Coulomb interaction.\\
+	
+	%\subsection{Overview on Theories}
+The main content of this thesis will be included: 
+\begin{itemize}
+\item[-] Briefing the tight-binding theory with some important approximations such as independent electron approximation and tightly bound electron approximation. Then the electron wave functions will be constructed based on the linear combination of atomic orbitals. Introducing the parameters of this model: hopping energies and overlap density. In our concern with $\mathrm{MoS}_2$, the parameters of the tight-binding model will be obtained from the three-band tight-binding model presented in Ref.\cite{liu_three-band_2013}. This model is chosen to fit with the band structure obtained from ab initio calculation in the entire first Brillouin zone. Deriving the Hamiltonian for a multi-body electron system in interaction with an external electromagnetic field in velocity gauge, the semiconductor Bloch equations describe the dynamic optoelectronic response that includes the electron-electron Coulomb interaction in the Hatree-Fock approximation.
+\item[-] Introducing the formulas to calculate the dipole matrix and microscopic polarization density, the rhombus basis, and the basis transformation between rectangular and rhombus basis. Presenting the cut-off technique to reduce workloads in many-body interaction calculation when increasing the number of k-point in discrete k-grid. Introducing parameters for the linear absorption spectrum formula, parameters for the external field and its Fourier transform.
+\item[-] Results and discussion on the aligning between numerical results and measurement. Conclusion on the exciton binding energy and discussion on the relation between dielectric, relaxation, and density of k-point in k-grid and the absorption spectrum. Further discussion on the disadvantages encountered in the calculation process and suggesting the overcome path. 
 	\end{itemize}
 	\newpage
 	\section{Theories}
 	\subsection{Tight-Binding Theories}
-	\quad We start from Hamilonian $H$ for many-body system in the independent electron approximation:
+	\quad The Hamiltonian of a multi-body system, when Coulomb interaction between electrons is not taken into account, is the sum of independent electron Hamiltonians:
 	\begin{equation}
-		H =\sum_{\lambda} H^{1e} (\textbf{r}_\lambda).
+		H =\sum_{i} H_{1e} (\textbf{r}_i).
 	\end{equation}
-	In the independent electron approximation, the stationary state of an electron in a solid is presented by the one-particle time-independent Schrödinger equation:
+	In which, $H_{1e} (\textbf{r}_a)$ is the single electron Hamiltonian. In the independent electron approximation, the stationary state of an electron in a solid is presented by the one-particle time-independent Schrödinger equation:
 	\begin{equation}
 		\label{one-particle time-independent Schrödinger equation}
 		H_{1e} \psi_{\lambda\textbf{k}}( \textbf{r}) = \bigg(-\frac{\hbar^2 \nabla^2}{2m} + V_0 (\textbf{r})\bigg) \psi_{\lambda \textbf{k}}(\textbf{r}) = \varepsilon_{\lambda}(\textbf{k})\psi_{\lambda \textbf{k}}(\textbf{r}).
 	\end{equation}
-	\quad We assume that the electrons stay close to the atomic sites and that the electronic wave functions centered around neighboring sites have little overlap. There is almost no overlap between wave functions for electrons that are separated by two or more atoms. Therefore, the wave function of an electron will have the similar form of atomic orbital and we can describe it in the form of Linear Combination of Atomic Orbitals (LCAO):
+	\quad Where $V_0$ is the periodic potential of ions, $
+		V_0(\textbf{r}) = V_0 (\textbf{r}+\textbf{R}_n)$, in which $\textbf{R}_n$ is a lattice vector. $\psi$ and $\varepsilon$ are respectively the wave function and energy of electron band $\lambda$ and wave vector $\textbf{k}$. The electrons are tightly bound to the atom to which they belong and have limited interaction with surrounding atoms. Therefore, the wave function of an electron will have the similar form of well known atomic orbital and we can describe it in the form of linear combination of atomic orbitals (LCAO):
 	\begin{equation}
-		\psi(\textbf{r}) = \sum_{n=1}^N \sum_{c=1}^{N_c}\sum_{\alpha = 1}^{N_{orc}}c_{\alpha c}(\textbf{R}_n) \phi_\alpha(\textbf{r} -\textbf{R}_n- \textbf{r}_c).
+		\psi(\textbf{r}) = \sum_{n=1}^N \sum_{c=1}^{N_c}\sum_{\alpha = 1}^{N_{orb}}c_{\alpha c}(\textbf{R}_n) \phi_\alpha(\textbf{r} -\textbf{R}_n- \textbf{r}_c).
 	\end{equation}
-	In which $\phi_\alpha$ is orbital wave function of an atomic, $\textbf{R}_n$ is position of Bravais unit cell, $\textbf{r}_c$ is relative position of the atom in that cell, $N_{\mathrm{orb}}$ is number of orbital of an atom, $N_c$ is number of atom in an unit cell and $N$ is the number of unit cell in the lattice. Based on LCAO wave function, we can construct the Bloch wave function in the following form:
+	Here, $\phi_\alpha$ is orbital wave function of an atomic, $\textbf{R}_n$ is position of Bravais unit cell, $\textbf{r}_c$ is relative position of the atoms in that cell, $N_{\mathrm{orb}}$ is number of orbital of an atom, $N_c$ is number of atom in an unit cell, and $N$ is the number of unit cells in the lattice. Based on LCAO wave function, we can construct the Bloch wave function in the following form:
 	\begin{equation}
 		\label{Bloch TB}
 		\psi_{\textbf{k}} (\textbf{r}) = \sum_{c=1}^{N_c} \sum_{\alpha = 1}^{N_{orb}} C_{\alpha c} (\textbf{k}) \sum_{n=1}^N e^{i\textbf{k}(\textbf{R}_n +\textbf{r}_c)} \phi_{\alpha}(\textbf{r} -\textbf{R}_n -\textbf{r}_c)
 	\end{equation}
-	\quad This wave function satisfies the Bloch theorem. Include (\ref{Bloch TB}) in the one-particle time-dependent Schrödinger equation (\ref{one-particle time-independent Schrödinger equation}),
-	multiply with $e^{i\textbf{k}\textbf{r}_{c'}} \phi_{\alpha'}^* (\textbf{r}-\textbf{r}_{c'})$ on the left, and take the integral over $\textbf{r}$ to have:
+	\quad This wave function satisfies the Bloch theorem. Substituting Eq. (\ref{Bloch TB}) into Eq. (\ref{one-particle time-independent Schrödinger equation}) then 
+	multiplying with $e^{i\textbf{k}\textbf{r}_{c'}} \phi_{\alpha'}^* (\textbf{r}-\textbf{r}_{c'})$ on the left, and taking the integral over $\textbf{r}$, we obtain:
 	\begin{equation}
 		\label{TB eq}
 	\sum_{c=1}^{N_c} \sum_{\alpha = 1}^{N_{orb}}\big(H_{\alpha'c',\alpha c}(\textbf{k}) - \varepsilon(\textbf{k})S_{\alpha'c',\alpha c}(\textbf{k})\big) C_{\alpha c}(\textbf{k}) =0.
 	\end{equation}
-	In which on-site hopping energies $H_{\alpha'c',\alpha c}(\textbf{k})$ and overlap density $S_{\alpha'c',\alpha c}(\textbf{k})$ defined by:
+	Where
 	\begin{equation}
 		H_{\alpha'c',\alpha c}(\textbf{k}) = \sum_{n=1}^N e^{i\textbf{k}(\textbf{R}_n +\textbf{r}_c -\textbf{r}_{c'})} \int d\textbf{r} \phi^*_{\alpha'}(\textbf{r}-\textbf{r}_{c'}) H_{1e} \phi_{\alpha}(\textbf{r}-\textbf{R}_n -\textbf{r}_c),
 		\label{hopping energies}
@@ -178,21 +217,20 @@ urlcolor= black}
 	\begin{equation}
 		S_{\alpha'c',\alpha c}(\textbf{k}) = \sum_{n=1}^N e^{i\textbf{k}(\textbf{R}_n +\textbf{r}_c -\textbf{r}_{c'})} \int d\textbf{r} \phi^*_{\alpha'}(\textbf{r}-\textbf{r}_{c'}) \phi_{\alpha}(\textbf{r}-\textbf{R}_n -\textbf{r}_c).
 	\end{equation}
-	\quad Solving the eq. (\ref{TB eq}) in several k-point, we will have the wave functions and energy. In the semi-empirical formalism, these integrals shall be left as phenomenological parameters. By finding the eigenvalues of this Hamiltonian at every $k$-point, we can construct the band structure for the system.
-	
+	\quad are the Hamiltonian matrix and overlap integral, respectively. By solving Eq. (\ref{TB eq}) at several k-points, we will have the wave functions and band structure $\varepsilon_\lambda(\textbf{k})$. In the tight-binding theory, these integrals are given as semi-empirical parameters.
 	\begin{figure}
 		\begin{center}
 			\includegraphics[width=0.75\linewidth]{Images/RS.pdf}
-			\caption[TMD structure and its first Brillouin zone]{(a) Top view of monolayer $\mathrm{MX}_2$. The large sphere is \textbf{M} and the small sphere is X. (b) sideview of monolayer $\mathrm{MX}_2$. (c) The 2D first Brillouin zone with special k points.}
+			\caption[TMD structure and its first Brillouin zone]{(a) Top view of monolayer $\mathrm{MX}_2$. The large sphere is \textbf{M} atom and the small sphere is X atom. (b) sideview of monolayer $\mathrm{MX}_2$. (c) The first Brillouin zone and high symmetry points in two dimensional k-space.}
 			\label{real space}
 		\end{center}
 	\end{figure}
 	\subsection{Three Band Tight-Binding Model}
-	\quad In previous ab initio calculations\cite{xiao_coupled_2012,mattheiss_band_1973,lebegue_electronic_2009,zhu_giant_2011,ataca_stable_2012}, Prof. Xiao and his colleague discovered that the monolayer of $MX_2$ with $D_{3h}$ point-group symmetry has a structure as shown in Figure \ref{real space}. They found that the Bloch states of the monolayer $MoS_2$ near the band edges are primarily composed of $Mo-d$ orbitals, particularly the $d_{z^2}$, $d_{xy}$, and $d_{x^2-y^2}$ orbitals. To accurately capture the band-edge properties in the $K$ and $K'$ valleys, they developed an approximate model for group VII-B TMD consisting of only these three bands and neglecting $X-p$ orbitals, and then extended it to fit the entire Brillouin Zone\cite{liu_three-band_2013}. Denote three M-d bands as:
+	\quad In previous ab initio calculations\cite{xiao_coupled_2012,mattheiss_band_1973,lebegue_electronic_2009,zhu_giant_2011,ataca_stable_2012}, Xiao et al. discovered that the monolayer of $MX_2$ with $D_{3h}$ point-group symmetry has a structure as shown in Fig. \ref{real space}. They found that the Bloch states of the monolayer $MoS_2$ near the band edges are primarily composed of $Mo-d$ orbitals, particularly the $d_{z^2}$, $d_{xy}$, and $d_{x^2-y^2}$ orbitals. To accurately capture the band-edge properties in the $K$ and $K'$ valleys, they developed an approximate model for group VII-B TMD consisting of only these three bands and neglecting $X-p$ orbitals, and then extended it to fit the entire Brillouin Zone\cite{liu_three-band_2013}. Denote three M-d bands as:
 	\begin{equation}
 		\ket{\phi_{1}} = d_{z^2},\quad \ket{\phi_2} = d_{xy}, \quad \ket{\phi_3} = d_{x^2- y^2}.
 	\end{equation}
-	\quad As discussed above, the Bloch states near the band edges mostly consist of Mo-d orbital, therefore we ignore the $\textbf{r}_c$ and the sum over it in hopping energy (\ref{hopping energies}). Each pair of difference bases is assumed to be orthogonal; therefore the overlapping matrix element become:
+	\quad As discussed above, the Bloch states near the band edges mostly consist of Mo-d orbital, therefore we ignore the $\textbf{r}_c$ and the sum over it in hopping energy (\ref{hopping energies}). Each pair of difference basis is assumed to be orthogonal; therefore the overlapping matrix element become:
 	$$S_{\alpha, \alpha'}(\textbf{k}) = \delta_{\alpha \alpha'}.$$
 	\quad The hopping energies eq.(\ref{hopping energies}) between the atomic orbitals $\ket{\phi_{\mu}}$ at 0 and $\ket{\phi_{\mu'}}$ at lattice vector $\textbf{R}$ can be obtained as: $$H_{\mu \mu'}(\textbf{k}) =\sum_{\textbf{R}} e^{i\textbf{k}.\textbf{R}}  \bra{\phi_{\mu}(\textbf{r})}  \hat{H} \ket{\phi_{\mu'}(\textbf{r}-\textbf{R})}.$$
 	\quad Confined by the symmetry of the system, Tight-binding Hamiltonian have the form:
@@ -220,7 +258,7 @@ urlcolor= black}
 		\begin{equation}		
 			(\alpha,\beta) =  (\frac{1}{2}k_x a, \frac{\sqrt{3}}{2}k_y a),
 		\end{equation}
-	11 additional parameters shown in table \ref{3TB Para} obtained by fitting with FP calculation results. Due to the heavy transition-metal atom M, its Spin Orbit Coupling (SOC) can be larges. For simplicity, only the on-site contribution, namely, the $\textbf{L}.\textbf{S}$ term from M atoms, is considered. Using the base $\{\ket{d_{z^2},\uparrow},\ket{d_{xy},\uparrow},\ket{d_{x^2-y^2,\uparrow}},\ket{d_{z^2},\downarrow},\ket{d_{xy},\downarrow},\ket{d_{x^2-y^2,\downarrow}}\}$, the contribution of SOC to the Hamiltonian can be written as
+	11 additional parameters shown in table \ref{3TB Para} obtained by fitting with FP calculation results. Due to the heavy transition-metal atom M, its spin orbit coupling (SOC) can be large. For simplicity, only the on-site contribution, namely, the $\textbf{L}.\textbf{S}$ term from M atoms, is considered. Using the basis $\{\ket{d_{z^2},\uparrow},\ket{d_{xy},\uparrow},\ket{d_{x^2-y^2,\uparrow}},\ket{d_{z^2},\downarrow},\ket{d_{xy},\downarrow},\ket{d_{x^2-y^2,\downarrow}}\}$, the contribution of SOC to the Hamiltonian can be written as
 	\begin{equation}
 		H' = \lambda \textbf{L}.\textbf{S}=\frac{\lambda}{2}\begin{pmatrix}
 			L_z &0\\
@@ -235,7 +273,7 @@ urlcolor= black}
 			0 & -2i& 0
 		\end{pmatrix},
 	\end{equation}
-	is the matrix of $\hat{L}_z$ (z component of the orbital angular momentum) in bases of $d_{z^2}, d_{xy}$ and $d_{x^2-y^2}$, and $\lambda$ is characterized for the strength of the SOC. Under these bases, the matrix elements of $\hat{L}_x$ and $\hat{L}_y$ are all zeros. Therefore the Hamiltonian with SOC have the form:
+	is the matrix of $\hat{L}_z$ (z component of the orbital angular momentum) in basis of $d_{z^2}, d_{xy}$ and $d_{x^2-y^2}$, and $\lambda$ is characterized for the strength of the SOC. Under these basis, the matrix elements of $\hat{L}_x$ and $\hat{L}_y$ are all zeros. Therefore the Hamiltonian with SOC have the form:
 	\begin{equation}
 		H(\textbf{k}) = H_{SOC} (\textbf{k}) = I_2 \otimes H^{TNN} (\textbf{k}) +H' = \begin{bmatrix}
 			H (\textbf{k}) + \frac{\lambda}{2} L_z & 0\\
@@ -272,22 +310,35 @@ urlcolor= black}
  	\newpage
 	\subsection{System Hamiltonian}
 	\subsubsection{First Quantization Hamiltonian}
-	\quad In the present of an external electromagnetic field, the Hamiltonian for an electron in the independent electron approximation takes the form:
+	\quad For the accounting the Coulomb interaction between electron-electron in the many-body system, the system Hamiltonian can be written in form:
+	\begin{equation}
+		H = H^0 +H^{Coul} = \sum_{i}H_{1e}(\textbf{r}_i) + \frac{1}{2}\sum_{i,j}H^{e-e}(\textbf{r}_i, \textbf{r}_j),
+	\end{equation}
+	\quad where $H_{1e}$ is the single electron Hamiltonian:
+	\begin{equation}
+		H_{1e}(\textbf{r}_i) = \frac{\textbf{P}^2}{2m} + V_0(\textbf{r}_i).
+	\end{equation}
+	\quad In which the $V_0 (\textbf{r})$ is interaction between electron and ions. The Coulomb interaction between two electrons can be described by:
+	\begin{equation}
+		\label{H ee}
+		H^{e-e}(\textbf{r}_i, \textbf{r}_j) = W_{ee}(\textbf{r}_i, \textbf{r}_j) = \frac{1}{4\pi \varepsilon \varepsilon_0}\frac{e^2}{|\textbf{r}_i-\textbf{r}_j|},
+	\end{equation}
+	in which the $\varepsilon_0$ is the vacuum permittivity, $\varepsilon$ is relative permittivity. In the present of an external electromagnetic field, the Hamiltonian for an electron in the independent electron approximation takes the form (derivation is shown in appendix \ref{Electromagnetic Field - Charge Interaction Hamiltonian}):
 	\begin{equation}
 		\label{H1e or}
 		H_{1e} = \frac{(\textbf{p} + e \textbf{A})^2}{2m} + V_0(\textbf{r}) -e\phi,
 	\end{equation}
-	in which, $\textbf{A}(\textbf{r},t)$ is vector potential and $\phi(\textbf{r},t)$ is scalar potential. With $\textbf{p} = - i\hbar\nabla$, we expand $(\textbf{p}+e\textbf{A})^2 = \textbf{p}^2 + 2e\textbf{A}\textbf{p} + ei \hbar \nabla(\textbf{A}) + (e\textbf{A})^2$. We have $\nabla.(\textbf{A}) = 0$ due to Coulomb gauge, so the (\ref{H1e or}) become
+	in which, $\textbf{A}(\textbf{r},t)$ is vector potential and $\phi(\textbf{r},t)$ is scalar potential. With $\textbf{p} = - i\hbar\nabla$, we expand $(\textbf{p}+e\textbf{A})^2 = \textbf{p}^2 + 2e\textbf{A}\textbf{p} + ei \hbar \nabla(\textbf{A}) + (e\textbf{A})^2$. We have $\nabla.(\textbf{A}) = 0$ due to Coulomb gauge, so the Eq. (\ref{H1e or}) becomes
 	\begin{equation}
 		\label{expand H1e}
 		H_{1e} = H^0_{1e} + \frac{e}{m} \textbf{A}.\textbf{p} + \frac{e^2 \textbf{A}^2}{2m} - e\phi,
 	\end{equation}
-	\quad with $H^0_{1e}$ is the stationary Hamiltonian of a single electron particle:
+	where the $H^0_{1e}$ is stationary Hamiltonian of a single electron particle:
 	\begin{equation}
 		\label{H01e}
-		H_{1e}^0 = \frac{\textbf{p}^2}{2m} + V_0(\textbf{r}),
+		H^0_{1e} = \frac{\textbf{p}^2}{2m} +V_0 (\textbf{r}),
 	\end{equation}
-	and the rest is the Light-matter interaction Hamiltonian $H^{e-L}_{1e}$:
+	the rest in Eq. (\ref{expand H1e}) shall be the light-matter interaction Hamiltonian $H^{e-L}_{1e}$:
 	\begin{equation}
 		\label{org LMIH}
 		H^{e-L}_{1e} =\frac{e}{m} \textbf{A}.\textbf{p} - e\phi + \frac{e^2 A^2}{2m}.
@@ -299,11 +350,11 @@ urlcolor= black}
 	\begin{equation}
 		\textbf{A}(\textbf{r},t) = -\int_{-\infty}^t dt' \textbf{E}(\textbf{r}, t'). 
 	\end{equation}
-\quad Substitute $\phi = 0$ into (\ref{expand H1e}),
+\quad Substituting $\phi = 0$ into Eq. (\ref{expand H1e}),
 	\begin{equation}
 		H^{VG}_{1e}= H^0_{1e} + \frac{e}{m}\textbf{A}.\textbf{p} + \frac{e^2\textbf{A}^2}{2m}.
 	\end{equation}
-	\quad Define the velocity operator $\textbf{v}= \frac{i}{\hbar} [H_{1e}, \textbf{r}] = \frac{\textbf{p}+e\textbf{A}}{m}$, $H^{VG}_{1e}$ will have the form
+	\quad From the definition of the velocity operator $\textbf{v}= \frac{i}{\hbar} [H_{1e}, \textbf{r}] = \frac{\textbf{p}+e\textbf{A}}{m}$, $H^{VG}_{1e}$ can be written in the form
 	\begin{equation}
 		\label{H VG}
 		H^{VG}_{1e} = H^0_{1e} + e \textbf{A}.\textbf{v} - \frac{e^2A^2}{2m}.
@@ -313,39 +364,32 @@ urlcolor= black}
 		\label{e-L Hamiltonian}
 		H^{e-L}_{1e} =\frac{e}{m} \textbf{A}.\textbf{p} + \frac{e^2 A^2}{2m}.
 	\end{equation}
-	\quad The electron-electron interaction between two electrons can be described by Coulomb interaction Hamiltonian:
-	\begin{equation}
-		\label{H ee}
-		H^{e-e}(\textbf{r}_i, \textbf{r}_j) = \frac{1}{4\pi \varepsilon \varepsilon_0}\frac{e^2}{|\textbf{r}_i-\textbf{r}_j|},
-	\end{equation}
-	in which the $\varepsilon_0$ is the vacuum permittivity, $\varepsilon$ is relative permittivity and $\textbf{r}$ is the distant between two electrons, all will be in SI unit.
-	Combine (\ref{e-L Hamiltonian}), (\ref{H ee}),  and (\ref{H01e}) to have Hamiltonian for the electron system in lattice interacting with the present of an external electromagnetic field:
+	Combining Eqs. (\ref{H01e}), (\ref{H ee}), and (\ref{e-L Hamiltonian}), we obtain the many-body Hamiltonian describing the system of electrons interacting with an external electromagnetic field:
 	\begin{equation}
 		\label{1st Quanti}
-		H = \sum_{i} H_{1e}(\textbf{r}_i ,t) = \sum_{i} H^0_{1e} (\textbf{r}_i) + \sum_{i} H^{e-L}_{1e} (\textbf{r}_i,t) + \frac{1}{2} \sum_{\textbf{r}_i, \textbf{r}_j}H^{e-e}(\textbf{r}_i, \textbf{r}_j).
+		H =  \sum_{i} H^0_{1e} (\textbf{r}_i) + \sum_{i} H^{e-L}_{1e} (\textbf{r}_i,t) + \frac{1}{2} \sum_{\textbf{r}_i, \textbf{r}_j}H^{e-e}(\textbf{r}_i, \textbf{r}_j).
 	\end{equation}
 	\subsubsection{Second Quantization Hamiltonian}
-	\quad From (\ref{1st Quanti}), the second quantization Hamiltonian in Bloch basics $\{\ket{\psi_{\lambda \textbf{k}}}\}$ has the form:
+	\quad From Eq. (\ref{1st Quanti}), the second quantization Hamiltonian in Bloch basis $\{\ket{\psi_{\lambda \textbf{k}}}\}$ has the form:
 	\begin{align}
-		H &= H^0 + H^{e-L}  + H^{e-e}\nonumber,\\
+		\hat{H} &= \hat{H}^0 + \hat{H}^{e-L}  + \hat{H}^{e-e}\nonumber,\\
 		\label{Second Hamiltonian}
-		H^0 &= \sum_{\lambda \lambda' \textbf{k}\textbf{k}'} \bra{\psi_{\lambda \textbf{k}}} H^0_{1e} (\textbf{r})\ket{\psi_{\lambda' \textbf{k}'}} c^\dg_{\lambda \textbf{k}} c_{\lambda' \textbf{k}
+		\hat{H}^0 &= \sum_{\lambda \lambda' \textbf{k}\textbf{k}'} \bra{\psi_{\lambda \textbf{k}}} H^0_{1e} (\textbf{r})\ket{\psi_{\lambda' \textbf{k}'}} c^\dg_{\lambda \textbf{k}} c_{\lambda' \textbf{k}
 		'} ,\\
-		H^{e-L} &= \sum_{\lambda \lambda' \textbf{k}\textbf{k}'} \bra{\psi_{\lambda \textbf{k}}} H^{e-L} (\textbf{r})\ket{\psi_{\lambda' \textbf{k}'}} c^\dg_{\lambda \textbf{k}} c_{\lambda' \textbf{k}
+		\hat{H}^{e-L} &= \sum_{\lambda \lambda' \textbf{k}\textbf{k}'} \bra{\psi_{\lambda \textbf{k}}} H^{e-L} (\textbf{r})\ket{\psi_{\lambda' \textbf{k}'}} c^\dg_{\lambda \textbf{k}} c_{\lambda' \textbf{k}
 			'}\nonumber ,\\
-H^{e-e}	&= \frac{1}{2} \sum_{\textbf{k}, \textbf{k}', \textbf{q}} \sum_{\alpha \beta \gamma \delta} W^{\alpha \beta \gamma \delta}_{\textbf{k},\textbf{k'},\textbf{q}} c_{\alpha, \textbf{k}+\textbf{q}}^\dg c_{\beta, \textbf{k}' - \textbf{q}}^\dg c_{\gamma, \textbf{k}}c_{\delta, \textbf{k'}} \nonumber,\\
-W^{\alpha \beta \gamma \delta}_{\textbf{k}, \textbf{k}', \textbf{q}} &= \bra{\psi_{\alpha \textbf{k + q}} \psi_{\beta \textbf{k}' - \textbf{q}}} W_{ee} \ket{\psi_{\gamma \textbf{k}'} \psi_{\delta \textbf{k}}},\nonumber
+\hat{H}^{e-e}	&= \frac{1}{2} \sum_{\textbf{k}, \textbf{k}', \textbf{q}} \sum_{\alpha \beta \gamma \delta} \bra{\psi_{\alpha \textbf{k + q}} \psi_{\beta \textbf{k}' - \textbf{q}}} W_{ee} \ket{\psi_{\gamma \textbf{k}'} \psi_{\delta \textbf{k}}} c_{\alpha, \textbf{k}+\textbf{q}}^\dg c_{\beta, \textbf{k}' - \textbf{q}}^\dg c_{\gamma, \textbf{k}}c_{\delta, \textbf{k'}} \nonumber,
 	\end{align}
-	in which the basics is orthonormal: $\braket{\psi_{\lambda \textbf{k}}}{\psi_{\lambda' \textbf{k}'}} = 1$, and the creation and annihilation operators satisfied the anti-communicate relation:
+in which the basis is orthonormal: $\braket{\psi_{\lambda \textbf{k}}}{\psi_{\lambda' \textbf{k}'}} = \delta_{\lambda\lambda'}\delta_{\textbf{k}\textbf{k'}}$, and the creation and annihilation operators satisfy the anti-commutator relations:
 	\begin{equation}
 		\label{fermion comm}
 		\big\{c_{\lambda,\textbf{k}}, c_{\lambda', \textbf{k}'}\big\} =\big\{c^\dg_{\lambda,\textbf{k}}, c^\dg_{\lambda', \textbf{k}'}\big\} = 0, \quad \big\{c_{\lambda,\textbf{k}}, c^\dg_{\lambda', \textbf{k}'}\big\} = \delta_{\lambda,\lambda'}\delta_{\textbf{k},\textbf{k'}}.
 	\end{equation}
-	\quad If we choosing the basics is eigenvector of $H^0_{1e}$ then $H^0$ becomes:
+	\quad If we choose the basis is a set of eigenvectors of $H^0_{1e}$ then $H^0$ becomes:
 	\begin{equation}
-		H^0 = \sum_{\lambda \textbf{k}} \varepsilon_{\lambda}(\textbf{k})c^\dg_{\lambda \textbf{k}} c_{\lambda \textbf{k}}.
-	\end{equation} 
-	\quad In VG, the elements of interaction Hamiltonian matrix $\bra{\psi_{\lambda\textbf{k}}}H^{e-L}(\textbf{r},t)\ket{\psi_{\lambda'\textbf{k}'}}$ is:
+		\hat{H}^0 = \sum_{\lambda \textbf{k}} \varepsilon_{\lambda}(\textbf{k})c^\dg_{\lambda \textbf{k}} c_{\lambda \textbf{k}}.
+	\end{equation}
+	\quad It is worth noting that the eigenvector of $H^0_{1e}$ does not satisfy the orthonormality in general but only satisfies it if $\textbf{k} \approx \textbf{k}'$. In VG, the elements of interaction Hamiltonian matrix $\bra{\psi_{\lambda\textbf{k}}}H^{e-L}(\textbf{r},t)\ket{\psi_{\lambda'\textbf{k}'}}$ is:
 	\begin{align}
 		\bra{\psi_{\lambda\textbf{k}}}H^{e-L}(\textbf{r},t)\ket{\psi_{\lambda'\textbf{k}'}} &= \bra{\psi_{\lambda\textbf{k}}}\frac{e}{m}\textbf{A}(\textbf{r},t).\textbf{p}\ket{\psi_{\lambda'\textbf{k}'}} +\frac{e^2 A^2}{2m} \delta_{\lambda \lambda'}\delta_{\textbf{k}\textbf{k}'} \nonumber\\
 		&\approx \frac{e}{m}\textbf{A}(t). \bra{\psi_{\lambda\textbf{k}}}\textbf{p}\ket{\psi_{\lambda'\textbf{k}'}} + \frac{e^2 A^2}{2m} \delta_{\lambda \lambda'}\delta_{\textbf{k}\textbf{k}'},
@@ -359,33 +403,33 @@ W^{\alpha \beta \gamma \delta}_{\textbf{k}, \textbf{k}', \textbf{q}} &= \bra{\ps
 	\end{align}
 \quad We include the Long-wavelength approximation $\textbf{k}',\textbf{k} << \frac{2\pi}{a}$ to have:
 	\begin{align}
-		(\ref{p before wave approximate}) &\approx \frac{1}{N} \sum_{i}^{N} e^{i(\textbf{k}'-\textbf{k})\textbf{R}_i} \int_{V_{Cell}} \frac{d^3r}{V_{Cell}}u^{*}_{\lambda \textbf{k}}(\textbf{r}) (\hbar \textbf{k}'+\hat{\textbf{p}}) u_{\lambda'\textbf{k}'}(\textbf{r})\nonumber \\
+		\bra{\psi_{\lambda\textbf{k}}}\textbf{p}\ket{\psi_{\lambda'\textbf{k}'}} &\approx \frac{1}{N} \sum_{i}^{N} e^{i(\textbf{k}'-\textbf{k})\textbf{R}_i} \int_{V_{Cell}} \frac{d^3r}{V_{Cell}}u^{*}_{\lambda \textbf{k}}(\textbf{r}) (\hbar \textbf{k}'+\hat{\textbf{p}}) u_{\lambda'\textbf{k}'}(\textbf{r})\nonumber \\
 		& \approx \frac{1}{N} \sum_{i}^{N} e^{i(\textbf{k}'-\textbf{k})\textbf{R}_i} (\hbar \textbf{k}' \bra{u_\lambda \textbf{k}} \ket{u_{\lambda'}\textbf{k}'} + \bra{u_\lambda \textbf{k}} \hat{\textbf{p}}\ket{u_{\lambda'}\textbf{k}'}),
 		\label{on going}
 	\end{align}
 	\quad using relation $
-\sum_{i}^{N} e^{(\textbf{k}'-\textbf{k})\textbf{R}_i}= N\delta_{\textbf{k'},\textbf{k}}$ for (\ref{on going}) to become
+\sum_{i}^{N} e^{(\textbf{k}'-\textbf{k})\textbf{R}_i}= N\delta_{\textbf{k'},\textbf{k}}$. Eq. (\ref{on going}) becomes
 	\begin{equation}
 		\label{p after LWA}
 		\quad \bra{\psi_{\lambda\textbf{k}}}\textbf{p}\ket{\psi_{\lambda'\textbf{k}'}} \approx (\textbf{p}_{\lambda\lambda'}(\textbf{k}) + \hbar \textbf{k} \delta_{\lambda\lambda'}) \delta_{\textbf{k}, \textbf{k}'}.
 	\end{equation}
-	\quad In which
+	\quad In which,
 	\begin{equation}
 		\textbf{p}_{\lambda\lambda'}(\textbf{k}) = \bra{u_{\lambda\textbf{k}}}\textbf{p}\ket{u_{\lambda'\textbf{k}}}.
 	\end{equation}
-	\quad Define $H^0_{1e}(\textbf{k})= e^{-i\textbf{k}\textbf{r}} H^{0}_{1e} e^{i\textbf{k}\textbf{r}}$ and using the relation: $[H^0_{1e},\textbf{r}] = -i\frac{\hbar}{m}\textbf{p}$ to have
+	\quad It depends on whether the momentum matrix elements \(\textbf{p}_{\lambda\lambda'}(\textbf{k})\) are equal to 0 or not, to determine whether the transition between \(\lambda\) and \(\lambda'\) at $\textbf{k}$ is allowed. Using $H^0_{1e}(\textbf{k})= e^{-i\textbf{k}\textbf{r}} H^{0}_{1e} e^{i\textbf{k}\textbf{r}}$ and the relation: $[H^0_{1e},\textbf{r}] = -i\frac{\hbar}{m}\textbf{p}$ to have
 	\begin{equation}
 		\label{momentum}
 		\textbf{p}_{\lambda\lambda'}(\textbf{k}) = \frac{m}{\hbar} \bra{u_{\lambda \textbf{k}}} \nabla_{\textbf{k}}H^0_{1e}(\textbf{k}) \ket{u_{\lambda'\textbf{k}}}.
 	\end{equation}
-	\quad Therefore, the light-matter interaction part of the second quantization Hamiltonian has the following form:
+	\quad Equation (\ref{momentum}) enables us to numerically calculate the momentum matrix elements at discrete k-points. Therefore, the light-matter interaction part of the second quantization Hamiltonian takes the following form:
 	\begin{equation}
-		H^{e-L} = \frac{e}{m}\textbf{A}(t)\vdot\sum_{\lambda\lambda' \textbf{k}}\textbf{p}_{\lambda \lambda'}(\textbf{k})c^\dg_{\lambda\textbf{k}}c_{\lambda' \textbf{k}} + \bigg(\hbar \textbf{k} + \frac{e^2 \textbf{A}^2}{2m}\bigg)\sum_{\lambda \textbf{k}} c^\dg_{\lambda \textbf{k}} c_{\lambda\textbf{k}}.
+		\hat{H}^{e-L} = \frac{e}{m}\textbf{A}(t)\vdot\sum_{\lambda\lambda' \textbf{k}}\textbf{p}_{\lambda \lambda'}(\textbf{k})c^\dg_{\lambda\textbf{k}}c_{\lambda' \textbf{k}} + \bigg(\hbar \textbf{k} + \frac{e^2 \textbf{A}^2}{2m}\bigg)\sum_{\lambda \textbf{k}} c^\dg_{\lambda \textbf{k}} c_{\lambda\textbf{k}}.
 	\end{equation}
-	\quad The $H^{e-e}$ derivation will be presented in Appendix \ref{V ee derivation}. Thus, the many-body electron system Hamiltonian in second quantization in VG have the form:
+	\quad The $H^{e-e}$ derivation is presented in Appendix \ref{V ee derivation}. Thus, the many-body electron system Hamiltonian in second quantization in VG has the form:
 		\begin{align}
 		\label{H with Coulomb in second}
-		H =& H^0_{1e} +H^{e-e} + H^{e-L} \nonumber \\
+		\hat{H} =& \hat{H}^0_{1e} +\hat{H}^{e-e} + \hat{H}^{e-L} \nonumber \\
 		=&  \sum_{\lambda\textbf{k}} \varepsilon_\textbf{k} c_{\lambda\textbf{k}}^\dg c_{\lambda\textbf{k}} \nonumber \\ 
 		&+ \frac{1}{2} \sum_{\textbf{k}, \textbf{k}', \textbf{q}} \sum_{\alpha \beta \gamma \delta} W^{\alpha \beta \gamma \delta}_{\textbf{k},\textbf{k'},\textbf{q}} c_{\alpha, \textbf{k}+\textbf{q}}^\dg c_{\beta, \textbf{k}' - \textbf{q}}^\dg c_{\gamma, \textbf{k}}c_{\delta, \textbf{k'}} \nonumber \\
 		&+ \frac{e}{m}\textbf{A}(t)\vdot\sum_{\lambda\lambda' \textbf{k}}\textbf{p}_{\lambda \lambda'}(\textbf{k})c^\dg_{\lambda\textbf{k}}c_{\lambda' \textbf{k}} + \bigg(\hbar \textbf{k} + \frac{e^2 \textbf{A}^2}{2m}\bigg)\sum_{\lambda \textbf{k}} c^\dg_{\lambda \textbf{k}} c_{\lambda\textbf{k}},
@@ -404,28 +448,26 @@ W^{\alpha \beta \gamma \delta}_{\textbf{k}, \textbf{k}', \textbf{q}} &= \bra{\ps
 	\begin{equation}
 		\rho_{\lambda \lambda'}(\textbf{k}) = \ev{c^\dg_{\lambda'\textbf{k}} c_{\lambda\textbf{k}}},
 	\end{equation}
-	\quad we using the motion equation in Heisenberg picture for operator $c^\dg_{\lambda'\textbf{k}} c_{\lambda\textbf{k}}$ and take expected value to have:
+	\quad We use the equation of motion in Heisenberg picture for operator $c^\dg_{\lambda'\textbf{k}} c_{\lambda\textbf{k}}$ and take its expectation value to have:
 	\begin{equation}
 		\label{Heisenberg eq}
 		\dv{}{t}\ev{c^\dg_{\lambda'\textbf{k}} c_{\lambda\textbf{k}}} = \frac{i}{\hbar}\ev{\big[H,c^\dg_{\lambda'\textbf{k}} c_{\lambda\textbf{k}} \big]}.
 	\end{equation}
-\quad Through the derivation in Appendix \ref{Motion Equation}, we have obtained the Semiconductor Bloch Equation(s) (SBE) with Coulomb interaction in the Hartree-Fock Approximation:
+\quad Through the derivation in Appendix \ref{Motion Equation}, we have obtained the Semiconductor Bloch Equation(s) with Coulomb interaction in the Hartree-Fock approximation:
 \begin{align}
 	\label{SBE HF}
 \dv{ }{t}\rho_{\lambda\lambda'}(\textbf{k}) =& - \frac{i}{\hbar} (\varepsilon_\lambda(\textbf{k}) - \varepsilon_{\lambda'} (\textbf{k}))\rho_{\lambda \lambda'}(\textbf{k}) - \frac{ie}{\hbar m} \textbf{A}(t)\sum_{\mu}\left[\textbf{p}_{\lambda\mu}(\textbf{k})\rho_{\mu \lambda'}(\textbf{k}) - \rho_{\lambda\mu}(\textbf{k})\textbf{p}_{\mu \lambda'}(\textbf{k})\right] \nonumber \\
-&+ \frac{i}{\hbar}\left[\Omega_{\lambda \mu}(\textbf{k})\rho_{\mu \lambda'}(\textbf{k}) - \rho_{\lambda\mu}(\textbf{k}) \Omega_{\mu \lambda'} (\textbf{k})\right] +\dv{ }{t}\rho_{\lambda\lambda'}(\textbf{k})\bigg|_{\mathrm{scat.}}.
+&+ \frac{i}{\hbar}\left[\Omega_{\lambda \mu}(\textbf{k})\rho_{\mu \lambda'}(\textbf{k}) - \rho_{\lambda\mu}(\textbf{k}) \Omega_{\mu \lambda'} (\textbf{k})\right] +\dv{ }{t}\rho_{\lambda\lambda'}(\textbf{k})\bigg|_{\mathrm{scat.}},
 \end{align}
-\quad In which
+\quad where
 \begin{equation}
 \Omega_{\mu\nu} (\textbf{k})=\sum_{\alpha \beta \textbf{q}} W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}+\textbf{q},\textbf{q}} \rho_{\alpha\beta} (\textbf{k}+\textbf{q}).
 \end{equation}
-\quad In (\ref{SBE HF}) for the $\rho_{\lambda \lambda}(\textbf{k})$, the density of electrons in the conduction bands and the hole densities in valence bands can be neglected due to the weak external electromagnetic field, which is also referred to as the "Low Excitation Limit"\cite{haug_quantum_2009}. Therefore,\\
-$$\biggl(\dv{}{t} \rho(\textbf{k})\big|_\mathrm{scat.}\biggr)_{\lambda\lambda} \to 0$$ 
-\quad The term "interband polarization" describes the decay of quantum coherence. A common and generally accurate approximation is to use the dephasing time parameter $T_2$, also known as the transverse relaxation time. This simple approximation is limited by nonlinear and non-Markovian effects, which, as mentioned earlier, can be ignored in this work. Therefore,
+\quad The term "interband polarization" describes the decay of quantum coherence. A common and generally accurate approximation is to use the dephasing time parameter $T_2$, also known as the transverse relaxation time. This simple approximation is limited by nonlinear and non-Markovian effects, which can be ignored in this work. Therefore,
 \begin{equation}
 	\bigg(\dv{ }{t} \rho(\textbf{k})\bigg|_{\mathrm{scat.}}\bigg)_{\lambda \lambda'} \approx -\frac{\rho_{\lambda \lambda'}(\textbf{k})}{T_2}\quad \forall \lambda \neq \lambda'. 
 \end{equation}
-Include above discussion into (\ref{SBE HF}), we obtain the Semiconductor Bloch Equations\cite{haug_quantum_2009}:
+Including above discussion into Eq. (\ref{SBE HF}), we obtain the Semiconductor Bloch Equations\cite{haug_quantum_2009}:
 \begin{align}
 	\label{SBE}
 	\dv{ }{t}\rho_{\lambda\lambda'}(\textbf{k}) = &- \frac{i}{\hbar} (\varepsilon_\lambda(\textbf{k}) - \varepsilon_{\lambda'} (\textbf{k}))\rho_{\lambda \lambda'}(\textbf{k}) - \frac{ie}{\hbar m} \textbf{A}(t)\sum_{\mu}(\textbf{p}_{\lambda\mu}(\textbf{k})\rho_{\mu \lambda'}(\textbf{k}) - \rho_{\lambda\mu}(\textbf{k})\textbf{p}_{\mu \lambda'}(\textbf{k})) \nonumber \\
@@ -433,66 +475,62 @@ Include above discussion into (\ref{SBE HF}), we obtain the Semiconductor Bloch 
 \end{align}
 \quad where
 \begin{equation}
-	\Omega_{\mu\nu} (\textbf{k})=\sum_{\substack{\alpha\beta \textbf{q}}} W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}+\textbf{q},\textbf{q}} \rho_{\alpha\beta} (\textbf{k}+\textbf{q})
+	\Omega_{\mu\nu} (\textbf{k})=\sum_{\substack{\alpha\beta \textbf{q}}} W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}+\textbf{q},\textbf{q}} \rho_{\alpha\beta} (\textbf{k}+\textbf{q}).
 \end{equation}
 \subsection{Polarization Density}
-\quad Polarization density is calculated form the trace of dipole and density matrix multiplication
+\quad Polarization density is calculated from the trace of dipole and density matrix multiplication
 \begin{equation}
 \label{polar density or}
 \textbf{P}(t) = \frac{e}{L^2} \sum_{\textbf{k}}\Tr[\vec{\xi}(\textbf{k})\rho(\textbf{k},t)] = \frac{e}{L^2}\sum_{\substack{\lambda \lambda'\textbf{k}}} \vec{\xi}_{\lambda \lambda' }(\textbf{k})\rho_{\lambda' \lambda}(\textbf{k},t).
 \end{equation}
-\quad Take the sum over all $\textbf{k}$-points in the first BZ in 2D \textbf{k}-grid through the integral
+\quad Taking the sum over all $\textbf{k}$-points in the first BZ in 2D \textbf{k}-grid through the integral
 \begin{equation}
 \sum_{\textbf{k}}... \to \frac{L^2}{(2\pi)^2}\int_{\mathrm{BZ}} d^2 k...
 \end{equation}
-\quad Include it into polarization density (\ref{polar density or}) to have:
+\quad Including it into polarization density Eq. (\ref{polar density or}) to have:
 \begin{equation}
 	\label{polar}
 \textbf{P}(t) = \frac{e}{L^2} \sum_{\textbf{k}} \Tr[\vec{\xi} (\textbf{k}) \rho(\textbf{k},t)] = \frac{1}{(2\pi)^2} \sum_{\lambda\lambda'}	\int \vec{\xi}_{\lambda \lambda'} (\textbf{k}) \rho_{\lambda'\lambda}(\textbf{k},t)d\textbf{k},
 \end{equation}
-in which the dipole $\vec{\xi}_{\lambda \lambda'}(\textbf{k})$ can be calculated through $\vec{p}_{\lambda \lambda'}(\textbf{k})$ as derived in appendix \ref{Dipole Matrix Elements}:
+in which the dipole $\vec{\xi}_{\lambda \lambda'}(\textbf{k})$ can be calculated through $\textbf{p}_{\lambda \lambda'}(\textbf{k})$ (derived in appendix \ref{Dipole Matrix Elements}):
 \begin{equation}
-	\vec{\xi}_{\lambda \lambda'} (\textbf{k}) = -\frac{i\hbar }{m} \frac{\vec{p}_{\lambda \lambda'}(\textbf{k})}{\varepsilon_{\lambda}(\textbf{k}) - \varepsilon_{\lambda'}(\textbf{k})}.
+	\vec{\xi}_{\lambda \lambda'} (\textbf{k}) = -\frac{i\hbar }{m} \frac{\textbf{p}_{\lambda \lambda'}(\textbf{k})}{\varepsilon_{\lambda}(\textbf{k}) - \varepsilon_{\lambda'}(\textbf{k})}.
 \end{equation}
-\quad The Numerical result will be taken by using the Riemann Sum Integral.
+\quad The numerical result of Eq. (\ref{polar}) will be obtained by using the Riemann sum integral.
 \newpage
 \section{Numerical Methods}
 \subsection{Numerical Sum Over k-Space}
-\quad Monolayer TMD's actual lattice, denoted as $MX_2$, possesses the D3h point-group symmetry, as illustrated in Figure \ref{real space}. The 2D first Brillouin zone takes on the shape of a hexagon. This study concentrates on the linear abortion spectrum, a feature that relies heavily on the k-points with the direct band gap of this material. To numerical calculate the eq. (\ref{polar}), we need to take numerical integral over the first BZ, which is inconvenient when working with the hexagon shape. Furthermore, a direct band gap is observed at the K and K' points in the first BZ, as depicted in fig. (\ref{BS}). There are three K and three K' points situated at the edge of the first BZ as shown in fig. \ref{Rhombus}, with each points being shared between three BZ. Consequently, we need to calculate the average numerical position by adding up the positions and then dividing by the number of points, which can pose further challenges for the many-body problems we are addressing.\\\null
-\quad To address this, we introduce the use of the rhombus primitive cell, as shown in Figure 3. This cell is constructed from 4 M-points located between K and K' on the edge of the hexagon, enabling us to focus on the properties of K and K' points both individually and in pairs.
-\begin{figure}
+\quad Monolayer TMD's actual lattice, denoted as $MX_2$, possesses the $D_3h$ point-group symmetry, which is illustrated in Fig. \ref{real space}. The 2D first Brillouin zone takes on the shape of a hexagon. This study concentrates on the linear abortion spectrum, a feature that relies heavily on the k-point with the direct band gap of this material. To numerical calculate the Eq. (\ref{polar}), we need to take numerical integral over the first BZ, which is inconvenient when working with the hexagon shape. Furthermore, a direct band gap is observed at the K and K' points in the first BZ, as depicted in Fig. (\ref{BS}). There are three K and three K' points situated at the edge of the first BZ as shown in fig. \ref{Rhombus}, with each point being shared between three BZ. Consequently, we need to calculate the average numerical position by adding up the positions and then dividing by the number of points, which can pose further challenges for the many-body problems we are addressing.\\\null
+\quad To address this, we introduce the use of the rhombus primitive cell, as shown in Fig. 3. This cell is constructed from 4 M-points located between K and K' on the edge of the hexagon, enabling us to focus on the properties of K and K' points both individually and in pairs.
+\begin{figure}[h]
 	\begin{center}
 \includegraphics[width= 0.75\linewidth]{Images/Rhombus.pdf}
-\caption[Rhombus primitive unit cell in compare with hexagon primitive unit cell (the first Brillouin zone)]{Rhombus primitive unit cell construct through four M-Points, it have the same Area as first the Brillouin zone (the green Hexagon bounded with "K-point" and "K'-point")}
+\caption[Rhombus primitive unit cell in compare with hexagon primitive unit cell (the first Brillouin zone)]{Rhombus primitive unit cell constructed through four M-points, which has the same area as the first Brillouin zone (the green Hexagon with six corners at "K-point" and "K'-point")}
 \label{Rhombus}
 	\end{center}
 \end{figure}\\\null
-\quad In order to establish a new coordinate system, we will utilize the two unit vectors located at the left corner of the rhombus $u_1, u_2$ as shown in fig. \ref{rhombuskgrid}, which will be reference to as the "Rhombus basics" hereinafter. To change coordinate of a point which has coordinate $(v_1,v_2)$ in Rhombus basics into coordinate $(x,y)$ in Cartesian Oxy basics and vice versa, we will use the transformation matrix:
+\quad In order to establish a new coordinate system, we will utilize the two unit vectors located at the left corner of the rhombus $u_1 = (2\pi/3a,2\pi/\sqrt{3}a)$ and $u_2 = (2\pi/3a,-2\pi/\sqrt{3}a)$ as shown in Fig. \ref{rhombuskgrid}, which will be reference to as the "Rhombus basis" hereinafter. Consider a point $\textbf{P}$, which have coordinate $(v_1, v_2)$ in rhombus basis and coordinate $(k_x,k_y)$ in rectangular basis. These coordinate have the relation through the transformation:
 \begin{equation}
-	\begin{pmatrix} x \\ y \end{pmatrix}
-	= \frac{2\pi}{a} \biggl[\begin{pmatrix}
-		1 & 1\\ \frac{1}{\sqrt{3}} & -\frac{1}{\sqrt{3}}\end{pmatrix}
-		\begin{pmatrix} v_1 \\v_2\end{pmatrix}
-		-\begin{pmatrix} 1 \\ 0\end{pmatrix}\biggr]
+	\begin{pmatrix} k_x \\ k_y \end{pmatrix}
+	= \frac{2\pi}{a} \begin{pmatrix}
+		1 & 1\\ \frac{1}{\sqrt{3}} & -\frac{1}{\sqrt{3}}\end{pmatrix} \begin{pmatrix} v_1 \\v_2\end{pmatrix} - \begin{pmatrix} \frac{2\pi}{a} \\ 0\end{pmatrix},\quad  \begin{pmatrix} v_1 \\v_2\end{pmatrix}
+		= \frac{a}{4\pi} \begin{pmatrix}
+		1 & \sqrt{3}\\1 & -\sqrt{3}\end{pmatrix}\begin{pmatrix} k_x \\ k_y \end{pmatrix}  + \begin{pmatrix} 1/2 \\ 1/2\end{pmatrix}, 
 \end{equation}
-\quad Since the coordinate system $Ou_1 u_2$ is a continuous variable, we need to convert it into discrete coordinates in order to proceed with a numerical solution. To do this, we divide the vectors $u_1$ and $u_2$ into $nk$ equal segments, which are then labeled as $nk_1$ and $nk_2$, respectively.\\\null
-\quad For a point label as $(nk_1,nk_2)$ in discrete coordinate, its coordinate in Cartesian basics (x,y) can be obtain by:
-\begin{equation}
-	\begin{pmatrix} x \\ y \end{pmatrix}
-	= \frac{2\pi}{n_ka} \begin{pmatrix}
-		1 & 1\\ \frac{1}{\sqrt{3}} & -\frac{1}{\sqrt{3}}\end{pmatrix}
-	\begin{pmatrix} nk_1 \\nk_2\end{pmatrix}
-	-\frac{2\pi}{a}\begin{pmatrix} 1 \\ 0\end{pmatrix}
-\end{equation}
+\quad Since the $v_1,v_2$ is a continuous variable, we need to convert it into discrete coordinates in order to proceed with a numerical solution. To do this, we divide the vectors $u_1$ and $u_2$ into $n$ equal segments, which are then labeled as $n_{1}$ and $n_{2}$, respectively. We discrete the continuous coordinate $(v_1,v_2)$ in term of $(n_{1},n_{2})$:
+$$\begin{cases}
+v_1 = n_{1} \frac{u_1}{n}\\
+v_2 = n_{2} \frac{u_2}{n}
+\end{cases}, n_1, n_2 \in \{0,1,..,n\}.$$
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=0.5\linewidth]{Images/rhombuskgrid.pdf}
-		\caption{New Basics Based on the rhombus unit vectors}
+		\caption{New basis Based on the rhombus unit vectors}
 		\label{rhombuskgrid}
 	\end{center}
 \end{figure}
-\subsection{Cut Off K-point Technique}
-\quad In our research, we are focusing on the transition between the valence and conduction bands around the K and K' points. We achieve this by using a small-intensity electric field and limiting the photon energy to extract the band gap $E_{gap}$. However, the calculation of the Coulomb interaction for every point in the Rhombus with other points all over the Rhombus is not efficient in terms of time cost, and convergence. As demonstrated in the 2-D Coulomb interaction equation (\ref{2D coulomb}), the Coulomb potential is inversely proportional to the distance between two points in k-space. To address this issue, we are introducing a technique to limit the points taken into account in the Coulomb interaction part.\\\null
+\subsection{Cut-off K-point Technique}
+\quad In our research, we are focusing on the transition between the valence and conduction bands around the K and K' points. We achieve this by using a small-intensity electric field and limiting the photon energy to around the band gap energy $E_{gap}$. However, the calculation of the Coulomb interaction for every point in the rhombus with other points all over the rhombus is not efficient in terms of time cost, and convergence. As demonstrated in the 2-D Coulomb interaction Eq. (\ref{2D coulomb}), the Coulomb potential is inversely proportional to the distance between two points in k-space. To address this issue, we are introducing a technique to limit the points taken into account in the Coulomb interaction part.\\\null
 \begin{figure}[ht]
 	\begin{center}
 		\includegraphics[width = 0.5 \linewidth]{Images/kcutoff.pdf}
@@ -500,27 +538,27 @@ in which the dipole $\vec{\xi}_{\lambda \lambda'}(\textbf{k})$ can be calculated
 		\label{k cutoff}
 	\end{center}
 \end{figure}
-\quad In the diagram shown in figure \ref{k cutoff}, a circle is drawn around the K' point with a radius of $k_{cut.}$. When calculating the equation (\ref{SBE}) at a k-point, if this k-point is outside the circle, we use
+\quad In the diagram shown in Fig. \ref{k cutoff}, a circle is drawn around the K' point with a radius of $k_{cut.}$. When calculating the Eq. (\ref{SBE}) at a k-point, if this k-point is outside the circle, we use
 $$\Omega_{\mu \nu}(\textbf{k}) = 0 \quad \forall \mu,\nu.$$
-\quad However, if the k-point is inside the circle, we will only consider interactions with other points that are also inside the circle.\\\null
+\quad When dealing with k-point inside the circle, we only consider interactions with other points inside the circle. This reduces the computational load significantly. In a 2-dimensional system, each doubling of k-points results in a 32-fold increase in simulation time (we calculate on both K and K'). However, by focusing around the K/K' point and reducing the number of k-points, the time cost only increases by approximately 8 to 10 times.\\\null
 \quad In summary, we approximate the Coulomb interaction matrix elements:
 $$W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}',\textbf{q}} \approx W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}',\textbf{q}} \theta(k_{cut.} - |\textbf{k} - \textbf{k}_{K'}|) \theta(k_{cut.} - |\textbf{k}' - \textbf{k}_{K'}|).$$
-\quad Where $\theta(k)$ is the Heaviside function, the Coulomb interaction is excluded if either point is inside the circle. The same process applies for the K point.
+\quad Where $\theta(k)$ represents the Heaviside function, the Coulomb interaction is excluded if either point is outside the circle. The same process applies for the K point.
 \subsection{Numerical Analyzing}
 \quad The linear absorption spectrum is determined by\cite{haug_quantum_2009}
 \begin{equation}
 	\alpha(\omega) \propto \Im{\frac{P(\omega)}{E(\omega)}}.
 	\label{absorpt}
 \end{equation}
-\quad In which $\textbf{P}(\omega)= \int_{-\infty}^{\infty}\textbf{P}(t) e^{i\omega t} dt$ and $\textbf{E}(\omega) = \int_{-\infty}^{\infty}\textbf{E}(t) e^{i\omega t} dt$ is Fourier transform for polarization density and Electric field. This integral can be approximated using a Riemann sum with the cutoff point by using condition $\textbf{E}(t_{cutoff}) \lessapprox 10^{-6} \abs{\max{\textbf{E}(t)}}$ and $\textbf{P}(t_{cutoff}) \lessapprox 10^{-6} \abs{\max{\textbf{P}(t)}}$. In this work, we are using the electric field in form of Gaussian wave:
+\quad In which $\textbf{P}(\omega)= \int_{-\infty}^{\infty}\textbf{P}(t) e^{i\omega t} dt$ and $\textbf{E}(\omega) = \int_{-\infty}^{\infty}\textbf{E}(t) e^{i\omega t} dt$ are the Fourier transform for polarization density and electric field. These integral can be approximated using a Riemann sum with the cut-off point by using condition $\textbf{E}(t_{cutoff}) \lessapprox 10^{-6} \abs{\max{\textbf{E}(t)}}$ and $\textbf{P}(t_{cutoff}) \lessapprox 10^{-6} \abs{\max{\textbf{P}(t)}}$. In this work, we are using the electric field in form:
 \begin{equation}
 	\textbf{E}(t) = E_0 e^{-\frac{t^2}{\tau_L^2}}(cos(\omega_0t), 0),
 \end{equation} 
-with the $E_0$ is the maximal amplitude, $\hbar\omega_0 = E_{\mathrm{gap}}$, $\tau_L$ is the duration of the Gaussian pulse, and $t$ is time, all will be calculated in SI units. The $E_x(t)$ and it Fourier transform shape shown in fig. \ref{Et}.\\
+with the $E_0$ is the maximal amplitude, $\hbar\omega_0 = E_{\mathrm{gap}}$, $\tau_L$ is the duration of the Gaussian envelope, and $t$ is time, all will be calculated in SI units. The $E_x(t)$ and its Fourier transform shape are shown in Fig. \ref{Et}.\\
 \begin{figure}
 	\begin{center}
 \includegraphics[width = 0.75\linewidth]{Images/EAt.pdf}
-\caption{Electric field on Ox direction and it Fourier Transform}
+\caption{Electric field on Ox direction and its Fourier Transform}
 \label{Et}
 	\end{center}
 \end{figure}
@@ -531,18 +569,18 @@ with the $E_0$ is the maximal amplitude, $\hbar\omega_0 = E_{\mathrm{gap}}$, $\t
 %2. Use the electromagnetic wave as the delta Dirac function of time $\delta(t-t_0)$, resulting in $E(\omega) = Const$ and (\ref{absorpt}) becoming $\alpha_i \propto \Im{P_i(\omega)}$ with $i \in \{x,y\}$. However, this method will require a very small time step $ Delta t $ to accurately simulate. Therefore, we will chose a small $\tau_L$ to approximate $E(\omega) \approx Const$ around $\omega_0$ and estimate the range of the calculation spectrum around that point.
 \newpage
 \section{Results and Discussion}
-\quad In a previous study \cite{zhang_absorption_2014}, the absorption spectrum of $\mathrm{MoS}_2$ at $T = 5K$ was measured and presented in figure \ref{Absorpt Ex.}. The results revealed two exciton resonances labeled as A and B, which were observed at energy levels of $1.9$ and $2.1$ eV, respectively. Additionally, a small trion peak was observed before the A peak. The splitting between the exciton and trion absorption peaks was approximately $34$ meV at $5K$.\\
+\quad In the previous study \cite{zhang_absorption_2014}, the absorption spectrum of $\mathrm{MoS}_2$ at $T = 5K$ was measured and presented in Fig. \ref{Absorpt Ex.}. The results revealed two exciton resonances labeled as A and B, which were observed at energy levels of $1.9$ and $2.1$ eV, respectively. Additionally, a small trion peak was observed before the A peak. The splitting between the exciton and trion absorption peaks was approximately $34$ meV at $5K$.\\
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=0.75\linewidth]{images/experiment.pdf}
-		\caption[Measured absorption spectrum of $\mathrm{MoS}_2$]{Measure Absorption Spectrum of $\mathrm{MoS}_2$ at $T=5K$  extracted from \cite{zhang_absorption_2014}, two Exciton resonances labeled by A and B, and small trion peak labeled with $A'$.}
+		\caption[absorption spectrum of $\mathrm{MoS}_2$]{absorption spectrum of $\mathrm{MoS}_2$ at $T=5K$  extracted from \cite{zhang_absorption_2014}, two exciton resonances labeled by A and B, and small trion peak labeled with $A'$.}
 		\label{Absorpt Ex.}
 	\end{center}
 \end{figure}\null
-\quad When solving the semiconductor Bloch equations (SBE) numerically, we utilize the external electric field as follows: \(E_0 = \frac{3}{\sqrt{2}} \times 10^3 \, \text{V/cm}\), \(\hbar \omega_0 = E_{\text{gap}} = 1.77 \, \text{eV}\), time step \(\Delta t = 0.02 \, \text{fs}\), $ T_2= 20 (fs^{-1})$, and cutoff the Coulomb interaction at \(3.0 \, \text{nm}^{-1}\) around K and K' points to simplify the calculation. By simulating with the given parameters, we observe that the density of electrons in the conduction band after the external field passes is relatively small compared to the initial electron density in the valence band (\(1.10^{7} \, \text{cm}^{-2} << 1.10^{11} \, \text{cm}^{-2}\)), which confirms our discussion on the neglect of electron-electron scattering in equation (\ref{SBE}). We perform Fourier transforms of energies from above and below the band gap by \(1 \, \text{eV}\). There are three main parameters we can adjust to obtain results that agree with or predict recent or future measurements: dielectric \(\varepsilon\), \(T_2\) parameter, and the number of k points on the k grid.\\\null
-\quad In Figure \ref{Vary T2}, our results for calculating the Absorption Spectrum with LDA parameters are presented, where the dielectric constant is $\varepsilon = 2.5$ and the difference dephasing parameter is $T_2$. As $T_2$ increases, two main peaks become clearer at $1.528$ and $1.640 eV$, indicating a binding energy of approximately $0.25 eV$.\\ \null 
-\quad We present our results for calculating the Absorption Spectrum using the LDA parameter and the difference dielectric $\varepsilon$ in Figure \ref{Vary e}. As the dielectric constant $\varepsilon$ increases, two main peaks shift to the left, which can be used to determine the fitting value with the experiment, the exciton binding energy result vary on dielectric parameter $\varepsilon$ shown in table \ref{Binding table}.\\\null
-\begin{table}[]
+\quad When solving the SBE numerically, we utilize the external electric field as follows: \(E_0 = \frac{3}{\sqrt{2}} \times 10^3 \, \text{V/cm}\), \(\hbar \omega_0 = E_{\text{gap}} = 1.77 \, \text{eV}\), time step \(\Delta t = 0.02 \, \text{fs}\), $ T_2= 20\, \text{fs}$, and cutoff the Coulomb interaction at \(3.0 \, \text{nm}^{-1}\) around K and K' points to simplify the calculation. By simulating with the given parameters, we observe that the density of electrons in the conduction bands after the external field passes is relatively small compared to the initial electron density in the valence bands (\(1.10^{7} \, \text{cm}^{-2} \ll 1.10^{11} \, \text{cm}^{-2}\)), which confirms our discussion on the neglect of electron-electron scattering in Eq. (\ref{SBE}). We perform Fourier transforms of energies from above and below the band gap by \(1 \, \text{eV}\). There are three main parameters we can adjust to obtain results that agree with recent measurement or predict future measurements: relative dielectric \(\varepsilon\), dephasing time \(T_2\), and the number of k points on the k grid.\\\null
+\quad In Fig. \ref{Vary T2}, our results for calculating the absorption spectrum with LDA parameters are presented, where the dielectric constant is $\varepsilon = 2.5$ with difference $T_2$. As $T_2$ increases, two main peaks become clearer at $1.528$ and $1.640$ \(eV\), indicating a binding energy of approximately $0.25$ \(eV\).\\ \null 
+\quad We present our results for calculating the absorption spectrum using the LDA parameter and the difference dielectric $\varepsilon$ in Fig. \ref{Vary e}. As the dielectric constant $\varepsilon$ increases, two main peaks shift to the right, which can be used to determine the fitting value with the experiment, the exciton binding energy result vary on dielectric parameter $\varepsilon$ shown in Tab. \ref{Binding table}.\\\null
+\begin{table}[h]
 	\begin{center}
 		\begin{tabular}{| c | c | c | c | c|}
 			\hline
@@ -553,8 +591,8 @@ with the $E_0$ is the maximal amplitude, $\hbar\omega_0 = E_{\mathrm{gap}}$, $\t
 		\label{Binding table}
 	\end{center}
 \end{table}
-\quad In Figure \ref{Vary nk}, we present our calculated results with varying numbers of k-grid points, using a dielectric constant of $\varepsilon = 2.5$ to demonstrate the convergence of the results. The calculations converge when the value of nk is between 60 and 120. To strike a balance between precision and time cost, we opt for $nk = 60$ for the subsequent calculations.\\\null
-\quad With a small $T_2$ of 15 (fs), the results in fig. \ref{Vary T2} have already shown two main exciton peaks in comparison with the experimental results in fig. \ref{Absorpt Ex.}. However, as the $T_2$ increases at the cost of simulation time, we can see smaller exciton peaks in the absorption spectrum, as described in fig. \ref{Vary T2}. These A and B exciton resonances involve the conduction band and two valence bands (split due to spin-orbit coupling) near the K and $-\mathrm{K}$ points, as shown in the band structure in fig. \ref{BS}, providing evidence for the good approximation of the transverse relaxation time $T_2$. In our results shown in Fig. \ref{Vary T2} and the experiment by Zhang et al. \cite{zhang_absorption_2014} in Fig. \ref{Absorpt Ex.}, we observed that the energy peak does not align with the expected value for the dielectric constant $\varepsilon = 2.5$. As per the data in Fig. \ref{Absorpt Ex.} \cite{zhang_absorption_2014}, the exciton peaks are situated at $1.9$ and $2.1 eV$, while in our calculations, the two peaks are at $1.528$ and $1.640 eV$, indicating a binding energy of the exciton of about $0.25 eV$. If we only consider the distance from the band gap, our result is smaller than some previous calculations predicting the binding energy between $0.5 eV$ to $1 eV$\cite{ramasubramaniam_large_2012,qiu_optical_2013,cheiwchanchamnangij_quasiparticle_2012, shi_quasiparticle_2013}. This result agrees with more precise calculations and measurements \cite{zhang_absorption_2014, kirichenko_influence_2021, zhang_direct_2014}. The difference in band gap energy can be attributed to the use of DFT calculations in our model \cite{liu_three-band_2013}. This model does not consider the band gap shift caused by the underlying layers and temperature variations in the experimental measurement. The absence of the trion peak in Figure 1 is due to the trion involving an interaction between three particles (2 holes and 1 electron for a positive trion, 1 hole and 2 electrons for a negative trion), which is not included in the Hartree-Fock approximation. To observe the trion peak, it is suggested to go beyond the HFA in established equations.\\
+\quad In Fig. \ref{Vary nk}, we present our numerical results with varying numbers of k-grid points, using a dielectric constant of $\varepsilon = 2.5$ to demonstrate the convergence of the results. The calculations converge when the value of nk is between 60 and 120. To strike a balance between precision and time cost, we opt for $nk = 60$ for the subsequent calculations.\\\null
+\quad With a small $T_2$ of 15 \(fs\), the results in Fig. \ref{Vary T2} have already shown two main exciton peaks in comparison with the experimental results in Fig. \ref{Absorpt Ex.}. However, as the $T_2$ increases at the cost of simulation time, we can see smaller exciton peaks in the absorption spectrum, as described in fig. \ref{Vary T2}. These A and B exciton resonances involve the conduction bands and two valence bands (split due to spin-orbit coupling) near the K and $\mathrm{K}$' points, as shown in the band structure in Fig. \ref{BS}, providing evidence for the good approximation of the transverse relaxation time $T_2$. In our results shown in Fig. \ref{Vary T2} and the experiment by Zhang et al. \cite{zhang_absorption_2014} in Fig. \ref{Absorpt Ex.}, we observe that the energy peak does not align with the expected value for the dielectric constant $\varepsilon = 2.5$. As per the data in Fig. \ref{Absorpt Ex.} \cite{zhang_absorption_2014}, the exciton peaks are situated at $1.9$ and $2.1$ \(eV\), while in our calculations, the two peaks are at $1.528$ and $1.640$ \(eV\), indicating a binding energy of the exciton of about $0.25$ \(eV\). If we only consider the distance from the band gap, our result is smaller than some previous calculations predicting the binding energy between $0.5$ \(eV\) to $1 $ \(eV\)\cite{ramasubramaniam_large_2012,qiu_optical_2013,cheiwchanchamnangij_quasiparticle_2012, shi_quasiparticle_2013}. This result agrees with more precise calculations and measurements \cite{zhang_absorption_2014, kirichenko_influence_2021, zhang_direct_2014}. The difference in band gap energy can be attributed to the use of DFT calculations in our model \cite{liu_three-band_2013}. This model does not consider the band gap shift caused by the underlying layers and temperature variations in the experimental measurement. The absence of the trion peak in Fig. 1 is due to the trion involving an interaction between three particles (2 holes and 1 electron for a positive trion, 1 hole and 2 electrons for a negative trion), which is not included in the Hartree-Fock approximation. To observe the trion peak, it is suggested to go beyond the HFA in established equations.\\
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=0.75\linewidth]{images/varyT2.pdf}
@@ -569,7 +607,7 @@ with the $E_0$ is the maximal amplitude, $\hbar\omega_0 = E_{\mathrm{gap}}$, $\t
 		\label{Vary e}
 	\end{center}
 \end{figure}\null
-\quad This model is effective and has advantages for calculation over BZ, but it also has disadvantages and requires denser k-grids for results to converge (as shown in Fig. \ref{Vary nk}) compared to DFT models or parabola approximation models. The Bare Coulomb interaction works well in calculating the linear absorption spectrum, but for a more realistic case, the shield Coulomb interaction must be taken into account\cite{erben_excitation-induced_2018,erben_optical_2022}, especially when we want to go beyond the small excitation limit. It's worth noting that the parameter $T_2$ is proved to be a good approximation without requiring further techniques in showing two main exciton peaks and predicting other smaller peaks. However, for a more realistic representation, the $T_2$ approximation can also be expanded in terms of electron-electron and electron-phonon scattering terms, which would provide a more comprehensive analysis of the system under consideration. Additionally, it is crucial to consider the implications of these findings in the context of practical applications and the broader theoretical framework.
+\quad This model is effective and has advantages for calculation over BZ, but it also has disadvantages and requires denser k-grids for results to converge (as shown in Fig. \ref{Vary nk}) compared to DFT models or parabola approximation models. The bare Coulomb interaction works well in calculating the linear absorption spectrum, but for a more realistic case, the shield Coulomb interaction must be taken into account\cite{erben_excitation-induced_2018,erben_optical_2022}, especially when we want to go beyond the small excitation limit. It's worth noting that the parameter $T_2$ is proved to be a good approximation without requiring further techniques in showing two main exciton peaks and predicting other smaller peaks. However, for a more realistic representation, the $T_2$ approximation can also be expanded in terms of electron-electron and electron-phonon scattering terms, which would provide a more comprehensive analysis of the system under consideration. Additionally, it is crucial to consider the implications of these findings in the context of practical applications and the broader theoretical framework.
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=0.75\linewidth]{images/varynk.pdf}
@@ -579,69 +617,74 @@ with the $E_0$ is the maximal amplitude, $\hbar\omega_0 = E_{\mathrm{gap}}$, $\t
 \end{figure}\null
 \newpage
 \section{Conclusion and Further}
-\quad In our research, we calculated the linear absorption of monolayer $\mathrm{MoS}_2$ using a Tight-Binding three-band model with spin orbit coupling through semiconductor Bloch equations in Hartree-Fock approximation. We varied various parameters to analyze their relationship with the absorption spectrum and found that the results align with other calculations, indicating a significant binding energy up to two magnitude in comparision with other bulk semiconductors.\\\null
+\quad In our research, we have calculated the linear absorption of monolayer $\mathrm{MoS}_2$ using a tight-binding three-band model with spin-orbit coupling through semiconductor Bloch equations in Hartree-Fock approximation. We varied three parameters to analyze their relation with the absorption spectrum and found that the results align with other calculations, indicating a significant binding energy up to two magnitude in comparison with other bulk semiconductors.\\\null
 \quad We did encounter some limitations, like the time-consuming process of enhancing the k-grid for better convergence and the discrepancy in the bandgap position as compared to experimental data. We also observed that the bare Coulomb interaction might not be adequate for an accurate depiction and should be fine-tuned for better outcomes.\\\null
-\quad For further researches, we can utilize this three-band tight-binding model to calculate other optoelectronic phenomena affected by excitons, such as high harmonic generation (HHG), high-order sideband generation (HSG), and photovoltaic current. When calculating the photovoltaic effect, it's important to consider the influence of Coulomb interactions. Without the consideration of Coulomb interactions, only the shift current is apparent, as we've calculated the current tensors as per ref. \cite{vo_calculation_2024}. However, once we include the Coulomb interaction, the ballistic current becomes significant, and the shift tensor current is also affected. It's crucial to account for Coulomb interactions to obtain a realistic picture of the photovoltaic effect.
+\quad For further researches, we can utilize this three-band tight-binding model to calculate other optoelectronic phenomena affected by excitons, such as high harmonic generation (HHG), high-order sideband generation (HSG), and photovoltaic current. When calculating the photovoltaic effect, it's important to consider the influence of Coulomb interactions. Without the consideration of Coulomb interactions, only the shift current is apparent, as we've calculated the current tensors as per Ref. \cite{vo_calculation_2024}. However, once we include the Coulomb interaction, the ballistic current becomes significant, and the shift tensor current is also affected. It's crucial to account for Coulomb interactions to obtain a realistic picture of the photovoltaic effect.
 
 \newpage
 \begin{appendices}
-\section{Electromagnetic Field - Charge Interaction Hamiltonian}
-\quad From classical Electromagnetic Interaction, we derive the Interaction Hamiltonian between an electric charge and a classical/semi-classical electromagnetic field. The Coulomb's force and Lorentz's force for an electric charge in an electromagnetic field have the following form:
-\begin{equation}
-	\vec{F} = q (\vec{E} + \vec{v} \times \vec{B}).
-\end{equation}
-\quad From Euler-Largrange equation, we have
-\begin{equation}
-	\label{C-L force}
-	\vec{F} = - \vec{\nabla} U + \dv{ }{t} \bigg(\pdv{U}{\vec{v}}\bigg) ,
-\end{equation}
-\quad To satisfied (\ref{C-L force}), $U$ must be
-\begin{equation}
-	U = q(\phi- \vec{v}.\vec{A}).
-\end{equation}
-\quad From it, we can construct the Largrangian of the Interaction between the electric charge and classical Electromagnetic field
-\begin{equation}
-	L = T - U = \frac{1}{2}m \vec{v}^2 + q\vec{v}.\vec{A} -q\phi.
-\end{equation}
-\quad Canonical momentum for the charge is
-\begin{equation}
-	\label{cannonical momentum}
-	\vec{p} = \pdv{L}{\vec{v}} = m\vec{v} + q\vec{A}.
-\end{equation}
-\quad From that, we can construct classical Hamiltonian for electric charge in electromagnetic field
-\begin{equation}
-	\label{classical H}
-	H = \vec{p}.\vec{v} - L = \frac{1}{2m}\big(\vec{p} - q \vec{A}\big)^2 + q\phi.
-\end{equation}
-\quad To quantization Hamiltonian, we change the classical position and canonical momentum to position and canonical momentum operators, respectively
-$$\vec{p}\longrightarrow \hat{p}, \quad \vec{r}\longrightarrow \hat{r},$$ \null
-\quad include this into (\ref{classical H}) to get Hamiltonian operator:
-\begin{equation}
-	\label{H operator}
-	\hat{H} = \frac{1}{2m}\big(\hat{p} - q \vec{A}\big)^2 + q\phi
-\end{equation}
-\quad To confirm the Gauge variant of Schrödinger equation, we can start from it
-\begin{equation}
-	\label{Schro}
-	i \hbar \pdv{}{t}\psi = \hat{H}\psi = \bigg[\frac{1}{2m}\big(\hat{p} - q \vec{A}\big)^2 + q\phi\bigg] \psi.
-\end{equation}
-\quad Doing Gauge transform for the electromagnetic field and phase transform for the wave function
-$$\vec{A} \longrightarrow \vec{A} - \vec{\nabla} \chi,\quad \phi \longrightarrow \phi + \pdv{\chi}{t},\quad \psi \longrightarrow e^{-i\frac{q}{\hbar}\chi} \psi,$$
-\null \quad include it into (\ref{Schro}) to get
-\begin{equation*}
-	i \hbar \pdv{}{t}e^{-i\frac{q}{\hbar}\chi} \psi  = \bigg[\frac{1}{2m}\big(\hat{p} - q (\vec{A} - \vec{\nabla} \chi)\big)^2 + q(\phi + \pdv{\chi}{t})\bigg] e^{-i\frac{q}{\hbar}\chi} \psi.
-\end{equation*}
-
-\newpage
-\section{Electron - Electron Interaction Hamiltonian}
+\begin{comment}
+	\section{Electromagnetic Field - Charge Interaction Hamiltonian}
+	\label{Electromagnetic Field - Charge Interaction Hamiltonian}
+	\quad From classical Electromagnetic Interaction, we derive the Interaction Hamiltonian between an electric charge and a classical/semi-classical electromagnetic field. The Coulomb's force and Lorentz's force for an electric charge in an electromagnetic field have the following form:
+	\begin{equation}
+		\vec{F} = q (\vec{E} + \vec{v} \times \vec{B}).
+	\end{equation}
+	\quad From Euler-Largrange equation, we have
+	\begin{equation}
+		\label{C-L force}
+		\vec{F} = - \vec{\nabla} U + \dv{ }{t} \bigg(\pdv{U}{\vec{v}}\bigg) ,
+	\end{equation}
+	\quad To satisfied (\ref{C-L force}), $U$ must be
+	\begin{equation}
+		U = q(\phi- \vec{v}.\vec{A}).
+	\end{equation}
+	\quad From it, we can construct the Largrangian of the Interaction between the electric charge and classical Electromagnetic field
+	\begin{equation}
+		L = T - U = \frac{1}{2}m \vec{v}^2 + q\vec{v}.\vec{A} -q\phi.
+	\end{equation}
+	\quad Canonical momentum for the charge is
+	\begin{equation}
+		\label{cannonical momentum}
+		\vec{p} = \pdv{L}{\vec{v}} = m\vec{v} + q\vec{A}.
+	\end{equation}
+	\quad From that, we can construct classical Hamiltonian for electric charge in electromagnetic field
+	\begin{equation}
+		\label{classical H}
+		H = \vec{p}.\vec{v} - L = \frac{1}{2m}\big(\vec{p} - q \vec{A}\big)^2 + q\phi.
+	\end{equation}
+	\quad To quantization Hamiltonian, we change the classical position and canonical momentum to position and canonical momentum operators, respectively
+	$$\vec{p}\longrightarrow \hat{p}, \quad \vec{r}\longrightarrow \hat{r},$$ \null
+	\quad include this into (\ref{classical H}) to get Hamiltonian operator:
+	\begin{equation}
+		\label{H operator}
+		\hat{H} = \frac{1}{2m}\big(\hat{p} - q \vec{A}\big)^2 + q\phi
+	\end{equation}
+	\quad To confirm the Gauge variant of Schrödinger equation, we can start from it
+	\begin{equation}
+		\label{Schro}
+		i \hbar \pdv{}{t}\psi = \hat{H}\psi = \bigg[\frac{1}{2m}\big(\hat{p} - q \vec{A}\big)^2 + q\phi\bigg] \psi.
+	\end{equation}
+	\quad Doing Gauge transform for the electromagnetic field and phase transform for the wave function
+	$$\vec{A} \longrightarrow \vec{A} - \vec{\nabla} \chi,\quad \phi \longrightarrow \phi + \pdv{\chi}{t},\quad \psi \longrightarrow e^{-i\frac{q}{\hbar}\chi} \psi,$$
+	\null \quad include it into (\ref{Schro}) to get
+	\begin{equation*}
+		i \hbar \pdv{}{t}e^{-i\frac{q}{\hbar}\chi} \psi  = \bigg[\frac{1}{2m}\big(\hat{p} - q (\vec{A} - \vec{\nabla} \chi)\big)^2 + q(\phi + \pdv{\chi}{t})\bigg] e^{-i\frac{q}{\hbar}\chi} \psi.
+	\end{equation*}
+	
+	\newpage
+\end{comment}
+\section{Coulomb matrix elements}
 \label{V ee derivation}
-\quad In this section, we will derive Hamiltonian for charge system in second quantization. Starting from Hamiltonian
-\begin{equation}
-	H = \sum_{\textbf{k}} \varepsilon_\textbf{k} c_\textbf{k}^\dg c_\textbf{k} + \frac{1}{2} \sum_{\textbf{k}, \textbf{k}', \textbf{q}} \sum_{\alpha \beta \gamma \delta} W^{\alpha \beta \gamma \delta}_{\textbf{k},\textbf{k'},\textbf{q}} c_{\alpha, \textbf{k}+\textbf{q}}^\dg c_{\beta, \textbf{k}' - \textbf{q}}^\dg c_{\gamma, \textbf{k}}c_{\delta, \textbf{k'}}
-\end{equation}
-\quad the Coulomb matrix elements is
+\begin{comment}
+	\quad In this section, we will derive Hamiltonian for charge system in second quantization. Starting from Hamiltonian
+	\begin{equation}
+		H = \sum_{\textbf{k}} \varepsilon_\textbf{k} c_\textbf{k}^\dg c_\textbf{k} + \frac{1}{2} \sum_{\textbf{k}, \textbf{k}', \textbf{q}} \sum_{\alpha \beta \gamma \delta} W^{\alpha \beta \gamma \delta}_{\textbf{k},\textbf{k'},\textbf{q}} c_{\alpha, \textbf{k}+\textbf{q}}^\dg c_{\beta, \textbf{k}' - \textbf{q}}^\dg c_{\gamma, \textbf{k}}c_{\delta, \textbf{k'}}
+	\end{equation}
+\end{comment}
+\quad The Coulomb matrix elements is
 \begin{equation*}
-	W^{\alpha \beta \gamma \delta}_{\textbf{k}, \textbf{k}', \textbf{q}} = \bra{\psi_{\alpha \textbf{k + q}} \psi_{\beta \textbf{k}' - \textbf{q}}} W_{ee} \ket{\psi_{\gamma \textbf{k}'} \psi_{\delta \textbf{k}}}
+	W^{\alpha \beta \gamma \delta}_{\textbf{k}, \textbf{k}', \textbf{q}} = \bra{\psi_{\alpha \textbf{k + q}} \psi_{\beta \textbf{k}' - \textbf{q}}} V_{e-e} \ket{\psi_{\gamma \textbf{k}'} \psi_{\delta \textbf{k}}}
 	= \begin{tikzpicture}
 		\begin{feynman}
 			% Define vertices
@@ -663,11 +706,11 @@ $$\vec{A} \longrightarrow \vec{A} - \vec{\nabla} \chi,\quad \phi \longrightarrow
 \end{equation*}
 \begin{equation}
 \label{V element}
- = \int \frac{d^3 r}{V} \int \frac{d^3 r'}{V} e^{-i \textbf{q}(\textbf{r}-\textbf{r}')} u^*_{\alpha\textbf{k}+\textbf{q}}(\textbf{r})u^*_{\beta\textbf{k}-\textbf{q}}(\textbf{r}') V_{ee}(\textbf{r}-\textbf{r}') u_{\gamma \textbf{k}'}(\textbf{r}')u_{\delta \textbf{k}}(\textbf{r}),
+ = \int \frac{d^3 r}{V} \int \frac{d^3 r'}{V} e^{-i \textbf{q}(\textbf{r}-\textbf{r}')} u^*_{\alpha\textbf{k}+\textbf{q}}(\textbf{r})u^*_{\beta\textbf{k}-\textbf{q}}(\textbf{r}') V_{e-e}(\textbf{r}-\textbf{r}') u_{\gamma \textbf{k}'}(\textbf{r}')u_{\delta \textbf{k}}(\textbf{r}),
  \end{equation}
 \quad with
 \begin{equation}
-	W_{ee}(\textbf{r}) = \frac{e^2}{4\pi \varepsilon \varepsilon_0}\frac{1} {|\textbf{r}|},
+	V_{e-e}(\textbf{r}) = \frac{e^2}{4\pi \varepsilon \varepsilon_0}\frac{1} {|\textbf{r}|},
 \end{equation}
 \quad we expand it using Fourier transform
 \begin{align}
@@ -816,6 +859,6 @@ Using this relation along with (\ref{p after LWA}) and $\comm{H^0_{1e}}{\textbf{
 \end{equation}
 \end{appendices}
 \newpage
-\bibliographystyle{ieeetr}
+\bibliographystyle{unsrt}
 \bibliography{library}
 \end{document}

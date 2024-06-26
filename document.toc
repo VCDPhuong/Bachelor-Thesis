@@ -1,23 +1,19 @@
-\contentsline {section}{\numberline {1}Introduction}{6}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Overview of Two Dimensional Material Research}{6}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Methods and Results}{6}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Overview on Theories}{7}{subsection.1.3}%
-\contentsline {section}{\numberline {2}Theories}{8}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Tight-Binding Theories}{8}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Three Band Tight-Binding Model}{9}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}System Hamiltonian}{12}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}First Quantization Hamiltonian}{12}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Second Quantization Hamiltonian}{13}{subsubsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.4}Semiconductor Bloch Equation}{14}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Polarization Density}{15}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Numerical Methods}{16}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Numerical Sum Over k-Space}{16}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Cut Off K-point Technique}{17}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Numerical Analyzing}{18}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Results and Discussion}{19}{section.4}%
-\contentsline {section}{\numberline {5}Conclusion and Further}{22}{section.5}%
-\contentsline {section}{Appendices}{23}{section*.22}%
-\contentsline {section}{\numberline {A}Electromagnetic Field - Charge Interaction Hamiltonian}{23}{appendix.1.A}%
-\contentsline {section}{\numberline {B}Electron - Electron Interaction Hamiltonian}{24}{appendix.1.B}%
-\contentsline {section}{\numberline {C}Motion Equation}{26}{appendix.1.C}%
-\contentsline {section}{\numberline {D}Dipole Matrix Elements}{28}{appendix.1.D}%
+\contentsline {section}{\numberline {1}Introduction}{7}{section.1}%
+\contentsline {section}{\numberline {2}Theories}{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Tight-Binding Theories}{10}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Three Band Tight-Binding Model}{11}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}System Hamiltonian}{14}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}First Quantization Hamiltonian}{14}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Second Quantization Hamiltonian}{15}{subsubsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.4}Semiconductor Bloch Equation}{17}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Polarization Density}{18}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Numerical Methods}{19}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Numerical Sum Over k-Space}{19}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Cut-off K-point Technique}{20}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Numerical Analyzing}{21}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Results and Discussion}{22}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion and Further}{26}{section.5}%
+\contentsline {section}{Appendices}{27}{section*.23}%
+\contentsline {section}{\numberline {A}Coulomb matrix elements}{27}{appendix.1.A}%
+\contentsline {section}{\numberline {B}Motion Equation}{29}{appendix.1.B}%
+\contentsline {section}{\numberline {C}Dipole Matrix Elements}{31}{appendix.1.C}%

@@ -15,22 +15,28 @@
 %\hypersetup{colorlinks = true,linkcolor = black,filecolor= black,urlcolor= black}
 \usepackage{cancel}
 \usepackage{subcaption}
-\usepackage[super,sort&compress]{natbib}
+\usepackage[style=authortitle,backend=bibtex]{biblatex}
+\addbibresource{library.bib}
 \usepackage{svg}
 \usepackage[toc,page]{appendix}
 \author{Vo Chau Duc Phuong}
 % Title page details: 
 \title{Calculation of the Linear-Absorption Spectrum of\\ an Ideal Two-Dimensional System of $\mathrm{MoS}_2$}
-\author{Vo Chau Duc Phuong}
-\date{\today}
+\author{Vo Chau Duc Phuong \inst{1} \\
+	{\and} \\
+	{\textit{Supervisors}} \\
+Dr. Huynh Thanh Duc \inst{2}}
+\institute[shortinst]{\inst{1} University of Science, Ho Chi Minh city\and %
+\inst{2} Institute of Applied Mechanics and Informatics}
+\date{14/07/2024}
 \logo{\large \LaTeX{}}
 
-
 \begin{document}
+	
 	\small
 	% Title page frame
 	\begin{frame}
-		\titlepage 
+		\titlepage
 	\end{frame}
 	
 	% Remove logo from the next slides
@@ -44,39 +50,42 @@
 	
 	
 	% Lists frame
-	\section{Overview}	
-	
-	
-	\begin{frame}{Transition Metal Dichalcogenides Monolayer}
-		Group VI-B Transition Metal Dichalcogenides (TMD) are compound semiconductors of the type $MX_2$. $M$ is Transition Metal atom (black dots), $X$ are Dichalcogenides atom (green dots):
+	\section{Overview}
+	\begin{frame}{}
+		Group VI-B Transition Metal Dichalcogenide (TMD) are compound semiconductors of the type $MX_2$. $M$ is Transition Metal atom (black dots), $X$ is Dichalcogenide atom (green dots):
 		\begin{figure}
-			\includegraphics[width=0.4\linewidth]{images/RS.pdf}
+			\includegraphics[width=0.5\linewidth]{images/RS.pdf}
 		\end{figure}
+	\end{frame}
+	
+	\begin{frame}{Transition Metal Dichalcogenide Monolayer}
 		\begin{itemize}
-			\item They stable in both mono- and few-layer in the air at room temperature.\\
-			\item They are semiconductor with a direct band gap.\\
+			\item They are stable in both mono- and few-layer in the air at room temperature. \\
+			\item They are semiconductors with a direct band gap in visible range.
+			\item Its monolayer form has no center of inversion.\\
 			\item Strong spin-orbit Coupling (SOC) in TMD monolayers leads to spin splitting of hundreds meV.
 		\end{itemize}
+		$\Rightarrow$ Promise material in electronic and optoelectronic applications (for example: solar cell).
 	\end{frame}
 	\begin{frame}{Exciton Binding Energy In TMD}
-		Why calculate the linear absorption spectrum?\\ $\to$ Exciton Binding Energy
+		Why calculate the linear absorption spectrum?\\ $\to$ Exicton binding energy
 		\begin{itemize}
-			\item TMD is a low-dimension material, create huge binding energy in compare with bulk semiconductor $\to$ huge effect on phenomenon $\Rightarrow$ need to be calculated and taken into account in any further many-body calculation.
-			\item Early theories predict binding energy too large ($0.5-1$ eV) in compare with experiment ($0.2-0.5$ eV) $\Rightarrow$ need precise calculation in agree with experiment.
-			\item Other theory only fitting bandstructure around high symmetry point such as $K/K'$, not on entire BZ $\Rightarrow$ Tight-Binding method for fitting on entire BZ.
+			\item TMD is a low-dimensional material $\to$ huge binding energy in compare with bulk semiconductor $\to$ many-body interaction play key role $\Rightarrow$ need to be calculated and taken into account in any further many-body calculation.
+			\item Early theories predict binding energy too large ($0.5-1$ eV) in compare with experiment ($0.2-0.5$ eV) $\Rightarrow$ need precise calculation in agreement with the experiment.
+			\item Other theories only fit bandstructure around highly symmetry points such as $K/K'$, not on entire BZ $\Rightarrow$ Tight-binding method for fitting on entire BZ.
 		\end{itemize}
 	\end{frame}
 	% Blocks frame
 	\section{Method}
 	\subsection{Three-band Tight-binding Model}
 	\begin{frame}
-		Tight-Binding (TB) wave function have the form of Linear combination of Atomic Orbital (LCAO):
+		Tight-binding (TB) wave function have the form of linear combination of atomic orbital (LCAO):
 		\begin{equation}
-			\ket{\psi_{\lambda \textbf{k}}(\textbf{r})} = \sum_{\alpha} c_{\lambda \alpha} (\textbf{k}) \sum_{\textbf{R}} e^{i\textbf{k}\textbf{R}} \ket{\phi_{\alpha}(\textbf{r}-\textbf{R})}
+			\ket{\psi_{\lambda \textbf{k}}(\textbf{r})} = \sum_{\alpha} c_{\lambda \alpha} (\textbf{k}) \sum_{\textbf{R}} e^{i\textbf{k}\textbf{R}} \ket{\phi_{\alpha}(\textbf{r}-\textbf{R})}.
 		\end{equation}
-		Time-independence independence-electron approximation Schrödinger equation with LCAO included:
+		The Time-independence Schrödinger equation with LCAO included:
 		\begin{equation*}
-			H_{1e} \sum_{\alpha} c_{\lambda \alpha} (\textbf{k}) \sum_{\textbf{R}} e^{i\textbf{k}\textbf{R}} \ket{\phi_{\alpha}(\textbf{r}-\textbf{R})} = \varepsilon_{\lambda} (\textbf{k}) \sum_{\alpha} c_{\lambda \alpha} (\textbf{k}) \sum_{\textbf{R}} e^{i\textbf{k}\textbf{R}} \ket{\phi_{\alpha}(\textbf{r}-\textbf{R})}
+			H_{1e} \sum_{\alpha} c_{\lambda \alpha} (\textbf{k}) \sum_{\textbf{R}} e^{i\textbf{k}\textbf{R}} \ket{\phi_{\alpha}(\textbf{r}-\textbf{R})} = \varepsilon_{\lambda} (\textbf{k}) \sum_{\alpha} c_{\lambda \alpha} (\textbf{k}) \sum_{\textbf{R}} e^{i\textbf{k}\textbf{R}} \ket{\phi_{\alpha}(\textbf{r}-\textbf{R})}.
 		\end{equation*}
 		Multiply with $\bra{\phi_{\beta}}$ on the left and take integral over $\textbf{r}$
 		\begin{equation}
@@ -84,23 +93,26 @@
 		\end{equation}
 		In which the Tight-binding Hamiltonian matrix elements:
 		\begin{equation}
-			H^{TB}_{\beta \alpha}(\textbf{k}) = \sum_{\textbf{R}} \bra{\phi_{\beta} (\textbf{r})} H_{1e}\ket{\phi_{\alpha}(\textbf{r}-\textbf{R})}
+			H^{TB}_{\beta \alpha}(\textbf{k}) = \sum_{\textbf{R}} \bra{\phi_{\beta} (\textbf{r})} H_{1e}\ket{\phi_{\alpha}(\textbf{r}-\textbf{R})}.
 		\end{equation}
 	\end{frame}
 	\begin{frame}
-Use basic functions of d-type Orbitals: $$\ket{\phi_1} = d_{z^2}, \ket{\phi_2} = d_{xy}, \ket{\phi_3} = d_{x^2- y^2}.$$\\Three-band TB Hamiltonian with SOC has the form:
-		\begin{equation}
+Use basic functions of d-type orbitals: $$\ket{\phi_1} = d_{z^2}, \ket{\phi_2} = d_{xy}, \ket{\phi_3} = d_{x^2- y^2}.$$\\Three-band TB Hamiltonian with SOC has the form:
+		\begin{equation*}
 			H^{TB}_{6\times 6}(\textbf{k}) = \begin{bmatrix}
 				H^{TB}_{3\times 3}(\textbf{k}) + \gamma L_z & 0\\ 0& H^{TB}_{3\times 3}(\textbf{k}) - \gamma L_z
 			\end{bmatrix}, \quad L_z= \begin{bmatrix}
 			0 & 0 & 0\\
 			0 & 0 & i\\
 			0 & -i& 0
-			\end{bmatrix}
-		\end{equation}
-		\begin{figure}			
-			\includegraphics[width=0.5\linewidth]{images/BS.pdf}
-			\caption{$MoS_2$ Bandstructure calculated from 3-band TB models\cite{liu_three-band_2013}}
+			\end{bmatrix}.
+		\end{equation*}
+	\end{frame}
+	\begin{frame}
+		\begin{figure}
+			\caption{Band structure of $MoS_2$ monolayer
+				\footcitetext{liu_three-band_2013}}
+			\includegraphics[width=0.75\linewidth]{images/BS.pdf}
 		\end{figure}
 	\end{frame}
 	\subsection{Semiconductor Bloch Equations}
@@ -114,7 +126,7 @@ Use basic functions of d-type Orbitals: $$\ket{\phi_1} = d_{z^2}, \ket{\phi_2} =
 	where
 	\begin{align}
 		\Omega_{\mu \nu}(\textbf{k}) = &\frac{1}{\hbar} \bigg(\frac{e}{m}\textbf{A}(t)\textbf{p}_{\mu \nu}(\textbf{k}) - \sum_{\alpha \beta \textbf{q}} W^{\alpha \mu \beta\nu}_{\textbf{k},\textbf{k}+\textbf{q},\textbf{q}}\rho_{\beta\alpha}(\textbf{k}+\textbf{q})\bigg),\\
-		&\textbf{p}_{\mu\nu}(\textbf{k}) = \frac{m}{\hbar}\sum_{\alpha,\beta} c^*_{\mu\alpha}\nabla_{\textbf{k}}H^{TB}_{\alpha\beta}(\textbf{k})c_{\nu\beta}(\textbf{k})
+		&\textbf{p}_{\mu\nu}(\textbf{k}) = \frac{m}{\hbar}\sum_{\alpha,\beta} c^*_{\mu\alpha}\nabla_{\textbf{k}}H^{TB}_{\alpha\beta}(\textbf{k})c_{\nu\beta}(\textbf{k}).
 	\end{align}
 	\end{frame}
 \subsection{Inter-band Polarization}
@@ -122,12 +134,12 @@ Use basic functions of d-type Orbitals: $$\ket{\phi_1} = d_{z^2}, \ket{\phi_2} =
 		\begin{multicols}{2}
 For $\mu \neq \nu$:
 			\begin{equation}
-\vec{\xi}_{\mu\nu}(\textbf{k}) = \frac{-i\hbar}{m}\frac{\textbf{p}_{\mu\nu}(\textbf{k})}{\varepsilon_{\mu}(\textbf{k}) - \varepsilon_{\nu}(\textbf{k})}
+\vec{\xi}_{\mu\nu}(\textbf{k}) = \frac{-i\hbar}{m}\frac{\textbf{p}_{\mu\nu}(\textbf{k})}{\varepsilon_{\mu}(\textbf{k}) - \varepsilon_{\nu}(\textbf{k})}.
 			\end{equation}
-Time-dependence interband polarization density:
+Time-dependent interband polarization density:
 	\begin{align}
 		\textbf{P}(t) = &\frac{e}{L^2} \sum_{\textbf{k}} \Tr\bigg[\vec{\xi}(\textbf{k})\rho(\textbf{k},t)\bigg]\nonumber\\
-		= &\frac{e}{L^2} \sum_{\textbf{k}\lambda\lambda'}\vec{\xi}_{\lambda\lambda'}(\textbf{k})\rho_{\lambda'\lambda}(\textbf{k},t)
+		= &\frac{e}{L^2} \sum_{\textbf{k}\lambda\lambda'}\vec{\xi}_{\lambda\lambda'}(\textbf{k})\rho_{\lambda'\lambda}(\textbf{k},t).
 	\end{align}
 			\columnbreak
 			\includegraphics[width=0.8\linewidth]{images/cvbeamer.pdf}
@@ -152,21 +164,21 @@ Time-dependence interband polarization density:
 	\end{frame}
 	\begin{frame}{Electromagnetic Field}
 	\begin{multicols}{2}
-Electromagnetic has Gaussian form:
+Electric field has Gaussian envelope form:
 \begin{equation}
-	\textbf{E}(t) = \textbf{E}_0 \cos(\omega t)e^{-\frac{t^2}{\tau_L^2}}
+	\textbf{E}(t) = \textbf{E}_0 \cos(\omega_0 t)e^{-\frac{t^2}{\tau_L^2}}
 \end{equation}
 \begin{itemize}
 	\item small $E_0: \rho_{cc}(\textbf{k}) \to 0$
-	\item $\hbar \omega = E_{gapp.} \to $ linear absorption
-	\item small $\tau_L$ for better range around $\omega$
+	\item $\hbar \omega = E_{gap.} \to $ linear absorption
+	\item small $\tau_L$ for better range around $\omega_0$
 \end{itemize}
 \columnbreak
 \includegraphics[width=1\linewidth]{images/Eat.pdf}
 
-Absorption obtain by\cite{haug_quantum_2009}:
+Absorption is obtain by\footcite{haug_quantum_2009}:
 \begin{equation}
-	\alpha(\omega) \propto \frac{P(\omega)}{E(\omega)}
+	\alpha(\omega) \propto \frac{P(\omega)}{E(\omega)}.
 \end{equation}
 	\end{multicols}
 	\end{frame}
@@ -175,11 +187,11 @@ Absorption obtain by\cite{haug_quantum_2009}:
 		\begin{multicols}{2}
 		\begin{figure}
 	\includegraphics[width = 1\linewidth]{images/Experiment.pdf}
-	\caption{Measure Absorption Spectrum of $\mathrm{MoS}_2$ at $T=5K$  extracted from \cite{zhang_absorption_2014}}
+	\caption{Measure Absorption Spectrum of $\mathrm{MoS}_2$ at $T=5K$  extracted from \footcite{zhang_absorption_2014}}
 	\end{figure}
 	\columnbreak
 	\begin{itemize}
-		\item Two resonance labeled by A and B is Exciton peak. Show band split by SOC
+		\item Two resonance labeled by A and B are Exciton peaks. Show band split by SOC
 		\item Small trion peak near A label by A'
 	\end{itemize}
 	\end{multicols}
@@ -187,8 +199,8 @@ Absorption obtain by\cite{haug_quantum_2009}:
 \begin{frame}
 	\includegraphics[width=0.8\linewidth]{images/varyepsilon.pdf}
 	\begin{itemize}
-		\item Choosing the $\varepsilon$ for fitting with experiment.
-		\item For 3-band TB model: $\varepsilon \in (1.5,2.5)$ is good with Exciton binding energy $E_{bind.}= 0.2-0.5 eV$ 
+		\item Choosing the $\varepsilon$ for fitting with the experiment.
+		\item For 3-band TB model: $\varepsilon \in (1.5,2.5)$ is good agreement with Exciton binding energy $E_{bind.}= 0.2-0.5 eV$ 
 	\end{itemize}
 \end{frame}
 \begin{frame}
@@ -210,7 +222,7 @@ Absorption obtain by\cite{haug_quantum_2009}:
 		Summary:
 		\begin{itemize}
 	\item From three-band TB + SBE $\to $ Linear Absorption Spectrum
-	\item Confirm on Exciton binding energy in monolayer $\mathrm{MoS}_2$ in contract with experiment, predict smaller exciton peaks.
+	\item Confirm the Exciton binding energy in monolayer $\mathrm{MoS}_2$ in contract with the experiment, predict smaller exciton peaks.
 		\end{itemize}
 	Further research:
 	\begin{itemize}
@@ -218,10 +230,5 @@ Absorption obtain by\cite{haug_quantum_2009}:
 		\item High-order Side-band Generation
 		\item Photovoltaic effect
 	\end{itemize}
-	\end{frame}
-	\begin{frame}
-		
-		\bibliographystyle{ieeetr}
-		\bibliography{library}
 	\end{frame}
 \end{document}
