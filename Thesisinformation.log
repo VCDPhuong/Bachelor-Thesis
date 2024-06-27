@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  26 JUN 2024 15:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  26 JUN 2024 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1020,14 +1020,14 @@ LaTeX Font Info:    ... okay on input line 18.
 * bindingoffset: 14.45377pt
 * modes: 
 * h-part:(L,W,R)=(54.2025pt, 474.64911pt, 54.2025pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* v-part:(T,H,B)=(36.135pt, 736.64186pt, 72.26999pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=474.64911pt
-* \textheight=700.50687pt
+* \textheight=736.64186pt
 * \oddsidemargin=-3.61372pt
 * \evensidemargin=-18.06749pt
-* \topmargin=-37.0pt
+* \topmargin=-73.135pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -1124,7 +1124,7 @@ Here is how much of TeX's memory you used:
 ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/te
 xmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><c:/texlive/2023/texmf-dist/fonts/typ
 e1/vntex/vnr/vnr12.pfb>
-Output written on Thesisinformation.pdf (2 pages, 61689 bytes).
+Output written on Thesisinformation.pdf (2 pages, 61697 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream

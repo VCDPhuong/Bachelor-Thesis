@@ -1,5 +1,24 @@
 \begin{thebibliography}{10}
 
+\bibitem{jiang_flexo-photovoltaic_2021}
+Jie Jiang, Zhizhong Chen, Yang Hu, Yu~Xiang, Lifu Zhang, Yiping Wang, Gwo-Ching
+  Wang, and Jian Shi.
+\newblock Flexo-photovoltaic effect in $\mathrm{MoS}_2$.
+\newblock {\em Nat. Nanotechnol.}, 16(8):894--901, August 2021.
+\newblock Publisher: Nature Publishing Group.
+
+\bibitem{shockley_detailed_1961}
+William Shockley and Hans~J. Queisser.
+\newblock Detailed {Balance} {Limit} of {Efficiency} of p‐n {Junction}
+  {Solar} {Cells}.
+\newblock {\em Journal of Applied Physics}, 32(3):510--519, March 1961.
+
+\bibitem{sturman_ballistic_2020}
+B.~I. Sturman.
+\newblock Ballistic and shift currents in the bulk photovoltaic effect theory.
+\newblock {\em Phys.-Usp.}, 63(4):407, April 2020.
+\newblock Publisher: IOP Publishing.
+
 \bibitem{geim_van_2013}
 A.~K. Geim and I.~V. Grigorieva.
 \newblock Van der {Waals} heterostructures.
@@ -13,12 +32,18 @@ Qing~Hua Wang, Kourosh Kalantar-Zadeh, Andras Kis, Jonathan~N. Coleman, and
   dichalcogenides.
 \newblock {\em Nature Nanotech}, 7(11):699--712, November 2012.
 
-\bibitem{jiang_flexo-photovoltaic_2021}
-Jie Jiang, Zhizhong Chen, Yang Hu, Yu~Xiang, Lifu Zhang, Yiping Wang, Gwo-Ching
-  Wang, and Jian Shi.
-\newblock Flexo-photovoltaic effect in $\mathrm{MoS}_2$.
-\newblock {\em Nat. Nanotechnol.}, 16(8):894--901, August 2021.
-\newblock Publisher: Nature Publishing Group.
+\bibitem{xiao_valley-contrasting_2007}
+Di~Xiao, Wang Yao, and Qian Niu.
+\newblock Valley-{Contrasting} {Physics} in {Graphene}: {Magnetic} {Moment} and
+  {Topological} {Transport}.
+\newblock {\em Phys. Rev. Lett.}, 99(23):236809, December 2007.
+\newblock Publisher: American Physical Society.
+
+\bibitem{yao_valley-dependent_2008}
+Wang Yao, Di~Xiao, and Qian Niu.
+\newblock Valley-dependent optoelectronics from inversion symmetry breaking.
+\newblock {\em Phys. Rev. B}, 77(23):235406, June 2008.
+\newblock Publisher: American Physical Society.
 
 \bibitem{kim_giant_2022}
 Bumseop Kim, Noejung Park, and Jeongwoo Kim.
@@ -43,19 +68,6 @@ Dongyang Yang, Jingda Wu, Benjamin~T. Zhou, Jing Liang, Toshiya Ideue, Teri
   rhombohedrally stacked {MoS2}.
 \newblock {\em Nat. Photon.}, 16(6):469--474, June 2022.
 \newblock Publisher: Nature Publishing Group.
-
-\bibitem{xiao_valley-contrasting_2007}
-Di~Xiao, Wang Yao, and Qian Niu.
-\newblock Valley-{Contrasting} {Physics} in {Graphene}: {Magnetic} {Moment} and
-  {Topological} {Transport}.
-\newblock {\em Phys. Rev. Lett.}, 99(23):236809, December 2007.
-\newblock Publisher: American Physical Society.
-
-\bibitem{yao_valley-dependent_2008}
-Wang Yao, Di~Xiao, and Qian Niu.
-\newblock Valley-dependent optoelectronics from inversion symmetry breaking.
-\newblock {\em Phys. Rev. B}, 77(23):235406, June 2008.
-\newblock Publisher: American Physical Society.
 
 \bibitem{kirichenko_influence_2021}
 E.~V. Kirichenko and V.~A. Stephanovich.
