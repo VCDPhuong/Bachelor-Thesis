@@ -157,7 +157,7 @@
     \verb EKIP\\Liu et al. - 2013 - Three-band tight-binding model for monolaye
     \verb rs of g.pdf:application/pdf
     \endverb
-    \field{journaltitle}{Physical Review B}
+    \field{journaltitle}{Phys. Rev. B}
     \field{month}{08}
     \field{year}{2013}
     \field{urlday}{08}
@@ -227,12 +227,9 @@
     \field{number}{20}
     \field{pages}{205436}
     \field{shorttitle}{Absorption of light by excitons and trions in monolayers
-  of metal dichalcogenide
-  \${\textbackslash}mathrm\{{Mo}\}\{{\textbackslash}mathrm\{{S}\}\}\_\{2\}\$}
+  of metal dichalcogenide $\mathrm{MoS}_2$}
     \field{title}{Absorption of light by excitons and trions in monolayers of
-  metal dichalcogenide
-  \${\textbackslash}mathrm\{{Mo}\}\{{\textbackslash}mathrm\{{S}\}\}\_\{2\}\$:
-  {Experiments} and theory}
+  metal dichalcogenide $\mathrm{MoS}_2$: {Experiments} and theory}
     \verb{url}
     \verb https://link.aps.org/doi/10.1103/PhysRevB.89.205436
     \endverb
@@ -243,7 +240,7 @@
     \verb 8XN3\\Zhang et al. - 2014 - Absorption of light by excitons and trion
     \verb s in mono.pdf:application/pdf
     \endverb
-    \field{journaltitle}{Physical Review B}
+    \field{journaltitle}{Phys. Rev. B}
     \field{month}{05}
     \field{year}{2014}
     \field{urlday}{05}

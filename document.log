@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  27 JUN 2024 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  1 JUL 2024 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -807,7 +807,22 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip60
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 18.
+(c:/texlive/2023/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+
+(c:/texlive/2023/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(c:/texlive/2023/texmf-dist/tex/generic/xstring/xstring.sty
+(c:/texlive/2023/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count342
+\xs_countb=\count343
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+\AC@clearlist=\toks39
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 19.
 
 (c:/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
@@ -827,21 +842,21 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen303
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count342
-\c@continuedfloat=\count343
+\c@caption@flags=\count344
+\c@continuedfloat=\count345
 Package caption Info: hyperref package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count344
+\c@subfigure=\count346
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count345
+\c@subtable=\count347
 )
 (c:/texlive/2023/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip61
 \bibsep=\skip62
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count346
+\c@NAT@ctr=\count348
 )
 (c:/texlive/2023/texmf-dist/tex/latex/svg/svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
@@ -871,9 +886,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@svg@param@lastpage=\count347
+\c@svg@param@lastpage=\count349
 \svg@box=\box116
-\c@svg@param@currpage=\count348
+\c@svg@param@currpage=\count350
 )
 (c:/texlive/2023/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
@@ -882,32 +897,40 @@ Package: transparent 2022-10-27 v1.5 Transparency with color stacks
 Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
  stack (HO)
 ))
+(c:/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen304
+\WF@size=\dimen305
+\c@WF@wrappedlines=\count351
+\WF@box=\box117
+\WF@everypar=\toks40
+Package: wrapfig 2003/01/31  v 3.6
+)
 (c:/texlive/2023/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count349
-\c@@ppsavesec=\count350
-\c@@ppsaveapp=\count351
+\c@@pps=\count352
+\c@@ppsavesec=\count353
+\c@@ppsaveapp=\count354
 ) (./document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -946,17 +969,17 @@ LaTeX Font Info:    ... okay on input line 29.
 
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count352
-\scratchdimen=\dimen304
-\scratchbox=\box117
-\nofMPsegments=\count353
-\nofMParguments=\count354
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count355
-\MPscratchDim=\dimen305
-\MPnumerator=\count356
-\makeMPintoPDFobject=\count357
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count355
+\scratchdimen=\dimen306
+\scratchbox=\box118
+\nofMPsegments=\count356
+\nofMParguments=\count357
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count358
+\MPscratchDim=\dimen307
+\MPnumerator=\count359
+\makeMPintoPDFobject=\count360
+\everyMPtoPDFconversion=\toks42
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -977,27 +1000,28 @@ e
 
 Package tikz-feynman Warning: LuaTeX is required if you wish to have vertices a
 utomatically placed. You can disable this warning by setting /tikzfeynman/warn 
-luatex=false on input line 29.
+luatex=false on input line 31.
 
 
 Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[co
 mpat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on
- input line 29.
+ input line 31.
 
-Package hyperref Info: Link coloring ON on input line 29.
+Package hyperref Info: Link coloring ON on input line 31.
 (./document.out) (./document.out)
 \@outlinefile=\write5
 \openout5 = `document.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
 
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
 
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1005,28 +1029,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<images/qrgithub.png, id=92, 451.6875pt x 451.6875pt>
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
+
+<images/qrgithub.png, id=93, 451.6875pt x 451.6875pt>
 File: images/qrgithub.png Graphic file (type png)
 <use images/qrgithub.png>
-Package pdftex.def Info: images/qrgithub.png  used on input line 81.
+Package pdftex.def Info: images/qrgithub.png  used on input line 74.
 (pdftex.def)             Requested size: 113.81102pt x 113.81068pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.86 	\end{titlepage}
-                      [1 <./Images/qrgithub.png (PNG copy)>]
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.123 	\newpage
-                [1] [2] (./document.toc)
+l.79 	\end{titlepage}
+                      [1 <./Images/qrgithub.png (PNG copy)>] [1] [2]
+(./document.toc)
 \tf@toc=\write6
 \openout6 = `document.toc'.
 
- [3] (./document.lof)
+ [3] [4] (./document.lof)
 \tf@lof=\write7
 \openout7 = `document.lof'.
 
@@ -1034,185 +1057,219 @@ l.123 	\newpage
 \tf@lot=\write8
 \openout8 = `document.lot'.
 
+ [5]
+Package acronym Info: Label `acro:TMD' newly defined as it shall be overridden
+although it is yet undefined on input line 165.
+Package acronym Info: Label `acro:LAS' newly defined as it shall be overridden
+although it is yet undefined on input line 165.
+ [6] [7]
+Package acronym Info: Label `acro:BPV' newly defined as it shall be overridden
+although it is yet undefined on input line 185.
+Package acronym Info: Label `acro:2D' newly defined as it shall be overridden
+although it is yet undefined on input line 186.
+Package acronym Info: Label `acro:BZ' newly defined as it shall be overridden
+although it is yet undefined on input line 192.
+Package acronym Info: Label `acro:SBE' newly defined as it shall be overridden
+although it is yet undefined on input line 193.
 
-[4] [5] [6] [7] [8] [9]
-<Images/RS.pdf, id=247, 1598.97375pt x 842.39719pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.197 \begin{itemize}
+                      [1] [2] [3]
+Package acronym Info: Label `acro:LCAO' newly defined as it shall be overridden
+
+although it is yet undefined on input line 215.
+<Images/RS.pdf, id=314, 1598.97375pt x 842.39719pt>
 File: Images/RS.pdf Graphic file (type pdf)
 <use Images/RS.pdf>
-Package pdftex.def Info: Images/RS.pdf  used on input line 224.
+Package pdftex.def Info: Images/RS.pdf  used on input line 240.
 (pdftex.def)             Requested size: 355.98683pt x 187.53882pt.
- [10] [11 <./Images/RS.pdf>]
-Overfull \hbox (45.76875pt too wide) detected at line 258
-[]
- []
-
-[12]
+ [4]
+Package acronym Info: Label `acro:TNN' newly defined as it shall be overridden
+although it is yet undefined on input line 253.
+ [5 <./Images/RS.pdf>]
+Package acronym Info: Label `acro:SOC' newly defined as it shall be overridden
+although it is yet undefined on input line 278.
+ [6]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 285.
+               Default added (so using `tbp') on input line 301.
 
+Package acronym Info: Label `acro:LDA' newly defined as it shall be overridden
+although it is yet undefined on input line 316.
 
 
 pdfTeX warning: pdflatex.exe (file ./Images/BS.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<Images/BS.pdf, id=519, 361.35pt x 216.81pt>
+<Images/BS.pdf, id=590, 361.35pt x 216.81pt>
 File: Images/BS.pdf Graphic file (type pdf)
 <use Images/BS.pdf>
-Package pdftex.def Info: Images/BS.pdf  used on input line 306.
+Package pdftex.def Info: Images/BS.pdf  used on input line 322.
 (pdftex.def)             Requested size: 379.72073pt x 227.83255pt.
-[13 <./Images/BS.pdf>] [14] [15] [16] [17] [18]
-<Images/Rhombus.pdf, id=629, 1243.64626pt x 782.17218pt>
+[7] [8 <./Images/BS.pdf>]
+Package acronym Info: Label `acro:VG' newly defined as it shall be overridden
+although it is yet undefined on input line 379.
+ [9] [10] [11] [12]
+<Images/Rhombus.pdf, id=704, 1243.64626pt x 782.17218pt>
 File: Images/Rhombus.pdf Graphic file (type pdf)
 <use Images/Rhombus.pdf>
-Package pdftex.def Info: Images/Rhombus.pdf  used on input line 509.
+Package pdftex.def Info: Images/Rhombus.pdf  used on input line 518.
 (pdftex.def)             Requested size: 355.98683pt x 223.88812pt.
- [19 <./Images/Rhombus.pdf>]
-<Images/rhombuskgrid.pdf, id=657, 1329.46687pt x 559.33969pt>
+ [13 <./Images/Rhombus.pdf>]
+<Images/rhombuskgrid.pdf, id=733, 1329.46687pt x 559.33969pt>
 File: Images/rhombuskgrid.pdf Graphic file (type pdf)
 <use Images/rhombuskgrid.pdf>
-Package pdftex.def Info: Images/rhombuskgrid.pdf  used on input line 529.
+Package pdftex.def Info: Images/rhombuskgrid.pdf  used on input line 538.
 (pdftex.def)             Requested size: 237.32455pt x 99.8489pt.
-<Images/kcutoff.pdf, id=659, 1162.3425pt x 681.29532pt>
+<Images/kcutoff.pdf, id=735, 1162.3425pt x 681.29532pt>
 File: Images/kcutoff.pdf Graphic file (type pdf)
 <use Images/kcutoff.pdf>
-Package pdftex.def Info: Images/kcutoff.pdf  used on input line 538.
+Package pdftex.def Info: Images/kcutoff.pdf  used on input line 547.
 (pdftex.def)             Requested size: 237.32455pt x 139.10507pt.
 
-[20 <./Images/rhombuskgrid.pdf>]
+[14 <./Images/rhombuskgrid.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Images/EAt.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<Images/EAt.pdf, id=685, 361.35pt x 216.81pt>
+<Images/EAt.pdf, id=761, 361.35pt x 216.81pt>
 File: Images/EAt.pdf Graphic file (type pdf)
 <use Images/EAt.pdf>
-Package pdftex.def Info: Images/EAt.pdf  used on input line 562.
+Package pdftex.def Info: Images/EAt.pdf  used on input line 571.
 (pdftex.def)             Requested size: 355.98683pt x 213.59384pt.
-[21 <./Images/kcutoff.pdf>]
+[15 <./Images/kcutoff.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Images/Experiment.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<images/experiment.pdf, id=717, 361.35pt x 216.81pt>
+<images/experiment.pdf, id=793, 361.35pt x 216.81pt>
 File: images/experiment.pdf Graphic file (type pdf)
 <use images/experiment.pdf>
-Package pdftex.def Info: images/experiment.pdf  used on input line 577.
+Package pdftex.def Info: images/experiment.pdf  used on input line 586.
 (pdftex.def)             Requested size: 355.98683pt x 213.59384pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./Images/varyT2.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<images/varyT2.pdf, id=742, 361.35pt x 216.81pt>
+<images/varyT2.pdf, id=815, 361.35pt x 216.81pt>
 File: images/varyT2.pdf Graphic file (type pdf)
 <use images/varyT2.pdf>
-Package pdftex.def Info: images/varyT2.pdf  used on input line 600.
+Package pdftex.def Info: images/varyT2.pdf  used on input line 609.
 (pdftex.def)             Requested size: 355.98683pt x 213.59384pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./Images/varyepsilon.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<images/varyepsilon.pdf, id=743, 361.35pt x 216.81pt>
+<images/varyepsilon.pdf, id=816, 361.35pt x 216.81pt>
 File: images/varyepsilon.pdf Graphic file (type pdf)
 <use images/varyepsilon.pdf>
-Package pdftex.def Info: images/varyepsilon.pdf  used on input line 607.
+Package pdftex.def Info: images/varyepsilon.pdf  used on input line 616.
 (pdftex.def)             Requested size: 355.98683pt x 213.59384pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./Images/varynk.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<images/varynk.pdf, id=747, 361.35pt x 216.81pt>
+<images/varynk.pdf, id=822, 361.35pt x 216.81pt>
 File: images/varynk.pdf Graphic file (type pdf)
 <use images/varynk.pdf>
-Package pdftex.def Info: images/varynk.pdf  used on input line 615.
+Package pdftex.def Info: images/varynk.pdf  used on input line 624.
 (pdftex.def)             Requested size: 355.98683pt x 213.59384pt.
-[22 <./Images/EAt.pdf>] [23 <./Images/Experiment.pdf>] [24 <./Images/varyT2.pdf
->] [25 <./Images/varyepsilon.pdf> <./Images/varynk.pdf
+[16 <./Images/EAt.pdf>] [17 <./Images/Experiment.pdf>] [18 <./Images/varyT2.pdf
+>] [19 <./Images/varyepsilon.pdf> <./Images/varynk.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Images/varynk.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->] [26] Excluding 'comment' comment. Excluding 'comment' comment.
+>]
+Package acronym Info: Label `acro:HHG' newly defined as it shall be overridden
+although it is yet undefined on input line 633.
+Package acronym Info: Label `acro:HSG' newly defined as it shall be overridden
+although it is yet undefined on input line 633.
+ [20] Excluding 'comment' comment. Excluding 'comment' comment.
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 693.
+tance' requires LuaTeX. It will be ignored. on input line 702.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 693.
+stance' requires LuaTeX. It will be ignored. on input line 702.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 693.
+distance' requires LuaTeX. It will be ignored. on input line 702.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 701.
+tance' requires LuaTeX. It will be ignored. on input line 710.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 701.
+stance' requires LuaTeX. It will be ignored. on input line 710.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 701.
+distance' requires LuaTeX. It will be ignored. on input line 710.
 
 
 Package tikz-feynman Warning: The key you tried to use '/tikz/horizontal'' requ
-ires LuaTeX. It will be ignored. on input line 701.
+ires LuaTeX. It will be ignored. on input line 710.
 
 
-Overfull \hbox (7.57518pt too wide) detected at line 743
+Overfull \hbox (42.80167pt too wide) detected at line 752
 []
  []
 
-[27] [28]
-Overfull \hbox (19.2671pt too wide) detected at line 777
-[]
- []
-
-
-Overfull \hbox (39.69836pt too wide) detected at line 798
+[21] [22]
+Overfull \hbox (19.2671pt too wide) detected at line 786
 []
  []
 
 
-Overfull \hbox (8.0601pt too wide) detected at line 820
+Overfull \hbox (39.69836pt too wide) detected at line 807
 []
  []
 
-[29] [30] [31] (./document.bbl [32] [33]) [34] (./document.aux)
+
+Overfull \hbox (8.0601pt too wide) detected at line 829
+[]
+ []
+
+[23] [24] [25] (./document.bbl [26] [27]) [28] (./document.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 18197C46C12A00D098802509C268DFF7;3239.
+(rerunfilecheck)             Checksum: 0EE1EEA912BB2E73D9AEB93EF9CA6F2B;3253.
  ) 
 Here is how much of TeX's memory you used:
- 29120 strings out of 474267
- 571177 string characters out of 5751464
- 1976558 words of memory out of 5000000
- 50629 multiletter control sequences out of 15000+600000
- 569610 words of font info for 78 fonts, out of 8000000 for 9000
+ 29884 strings out of 474267
+ 581639 string characters out of 5751464
+ 1975558 words of memory out of 5000000
+ 51347 multiletter control sequences out of 15000+600000
+ 572172 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,18n,121p,2315b,1888s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,18n,121p,1760b,1888s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/te
 xlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/202
 3/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2023/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/t
-exlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfont
-s/latxfont/line10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/s
-ymbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbo
-ls/msbm10.pfb>
-Output written on document.pdf (36 pages, 1022539 bytes).
+st/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2023/texmf-dist/font
+s/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive
+/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10
+.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
+><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on document.pdf (37 pages, 1044741 bytes).
 PDF statistics:
- 1033 PDF objects out of 1200 (max. 8388607)
- 798 compressed objects within 8 object streams
- 180 named destinations out of 1000 (max. 500000)
+ 1128 PDF objects out of 1200 (max. 8388607)
+ 886 compressed objects within 9 object streams
+ 206 named destinations out of 1000 (max. 500000)
  220 words of extra memory for PDF output out of 10000 (max. 10000000)
 
