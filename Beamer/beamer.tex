@@ -53,10 +53,10 @@ Dr. Huynh Thanh Duc \inst{2}}
 	\section{Overview}
 	% Lists frame
 	\begin{frame}{}
-		Group VI-B Transition Metal Dichalcogenides (TMD) are compound semiconductors of the type $MX_2$. $M$ is Transition Metal atom (black dots), $X$ is Dichalcogenide atom (green dots):
+		Group VI-B Transition Metal Dichalcogenides (TMD) are compound semiconductors of the type $MX_2$. :
 		\begin{figure}
 			\includegraphics[width=0.5\linewidth]{images/RS.pdf}
-			\caption{Structure of TMD and its first Brillouin Zone}
+			\caption{Structure of TMD and its first Brillouin Zone. $M$ is Transition Metal atom (black dots), $X$ is Dichalcogenide atom (green dots)}
 		\end{figure}
 	\end{frame}
 	
@@ -65,7 +65,7 @@ Dr. Huynh Thanh Duc \inst{2}}
 			\item They are stable in both mono- and few-layer in the air at room temperature. \\
 			\item They are semiconductors with a direct band gap in visible light range.
 			\item Their crystal structure has no center of inversion.\\
-			\item Strong spin-orbit Coupling (SOC) in TMD monolayers leads to spin splitting of hundreds meV.
+			\item Strong spin-orbit coupling (SOC) in TMD monolayers leads to spin splitting of hundreds meV.
 		\end{itemize}
 		$\Rightarrow$ Promising materials in electronic and optoelectronic applications (for example: solar cells with energy conversion efficiency surpassing the Schockley-Queisser limit).
 	\end{frame}
@@ -127,25 +127,32 @@ Use basic functions of d-type orbitals: $$\ket{\phi_1} = d_{z^2}, \ket{\phi_2} =
 	\end{align}
 	where
 	\begin{align}
-		\Omega_{\mu \nu}(\textbf{k}) = &\frac{1}{\hbar} \bigg(\frac{e}{m}\textbf{A}(t)\textbf{p}_{\mu \nu}(\textbf{k}) - \sum_{\alpha \beta \textbf{q}} W^{\alpha \mu \beta\nu}_{\textbf{k},\textbf{k}+\textbf{q},\textbf{q}}\rho_{\beta\alpha}(\textbf{k}+\textbf{q})\bigg),\\
-		&\textbf{p}_{\mu\nu}(\textbf{k}) = \frac{m}{\hbar}\sum_{\alpha,\beta} c^*_{\mu\alpha}\nabla_{\textbf{k}}H^{TB}_{\alpha\beta}(\textbf{k})c_{\nu\beta}(\textbf{k}).
+		\Omega_{\mu \nu}(\textbf{k}) = &\frac{1}{\hbar} \bigg(\frac{e}{m}\textbf{A}(t)\textbf{p}_{\mu \nu}(\textbf{k}) - \sum_{\alpha \beta \textbf{q}} W^{\alpha \mu \beta\nu}_{\textbf{k},\textbf{k}+\textbf{q},\textbf{q}}\rho_{\beta\alpha}(\textbf{k}+\textbf{q})\bigg),
 	\end{align}
+	momentum matrix elements:
+	\begin{equation}
+		\textbf{p}_{\mu\nu}(\textbf{k}) = \frac{m}{\hbar}\sum_{\alpha,\beta} c^*_{\mu\alpha}\nabla_{\textbf{k}}H^{TB}_{\alpha\beta}(\textbf{k})c_{\nu\beta}(\textbf{k}).
+	\end{equation}
 	\end{frame}
 \subsection{Inter-band Polarization}
 \begin{frame}
 		\begin{multicols}{2}
-For $\mu \neq \nu$:
-			\begin{equation}
-\vec{\xi}_{\mu\nu}(\textbf{k}) = \frac{-i\hbar}{m}\frac{\textbf{p}_{\mu\nu}(\textbf{k})}{\varepsilon_{\mu}(\textbf{k}) - \varepsilon_{\nu}(\textbf{k})}.
-			\end{equation}
+Dipole matrix elements can be obtained through:
+\begin{align}
+&\vec{\xi}_{\mu\nu}(\textbf{k}) = \frac{-i\hbar}{m}\frac{\textbf{p}_{\mu\nu}(\textbf{k})}{\varepsilon_{\mu}(\textbf{k}) - \varepsilon_{\nu}(\textbf{k})}.\\
+&\text{for } \mu \neq \nu \nonumber
+\end{align}
 Time-dependent interband polarization density:
 \begin{align}
 \textbf{P}(t) = &\frac{e}{L^2} \sum_{\textbf{k}} \Tr\bigg[\vec{\xi}(\textbf{k})\rho(\textbf{k},t)\bigg]\nonumber\\
 = &\frac{e}{L^2} \sum_{\textbf{k}\lambda\lambda'}\vec{\xi}_{\lambda\lambda'}(\textbf{k})\rho_{\lambda'\lambda}(\textbf{k},t).
 \end{align}
-			\columnbreak
-			\includegraphics[width=1\linewidth]{images/cvbeamer.pdf}
-		\end{multicols}
+\columnbreak
+\begin{figure}
+\includegraphics[width=1\linewidth]{images/cvbeamer.pdf}
+\caption{Density matrix element illustration}
+\end{figure}
+	\end{multicols}
 	\end{frame}
 \section{Numerical Results}
 	\begin{frame}{Numerical Sum Over k-Space}
@@ -153,6 +160,7 @@ Time-dependent interband polarization density:
 \includegraphics[width=0.5\linewidth]{images/Rhombus.pdf}
 \caption{Rhombus primitive cell}
 \end{figure}
+Numerical evaluate
 		\begin{equation}
 			\sum_{\textbf{k}} ... \to \frac{L^2}{4\pi^2} \int \int_{BZ} dk_x dk_y...
 		\end{equation}
@@ -161,9 +169,11 @@ Time-dependent interband polarization density:
 	\begin{figure}
 		\includegraphics[width=0.75\linewidth]{images/kcutoff.pdf}
 	\end{figure}
+For k-point around \textbf{K}' point
 	\begin{equation}
 		W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}',\textbf{q}} \approx W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}',\textbf{q}} \theta(k_{cut.} - |\textbf{k} - \textbf{k}_{K'}|) \theta(k_{cut.} - |\textbf{k}' - \textbf{k}_{K'}|).
 	\end{equation}
+	The same for k-point around \textbf{K} point
 	\end{frame}
 	\begin{frame}{Electromagnetic Field}
 	\begin{multicols}{2}
@@ -173,7 +183,7 @@ The electric field has a Gaussian envelope form:
 \end{equation}
 \begin{itemize}
 	\item small $E_0: \rho_{cc}(\textbf{k}) \to 0$
-	\item $\hbar \omega = E_{gap.}$
+	\item $\hbar \omega_0 = E_{gap.}$
 	\item small $\tau_L \to $ rounder Fourier transform's peak around $\omega_0$
 \end{itemize}
 \columnbreak
@@ -196,6 +206,10 @@ Absorption is obtain by\footcite{haug_quantum_2009}:
 		\item Two resonance labeled by A and B are Exciton peaks (band split due to SOC).
 		\item Weak trion peak near A labeled by A'
 	\end{itemize}
+To fit with experiment, we can change:
+\begin{itemize}
+\item Relative permittivity $\varepsilon$
+\end{itemize}
 	\end{multicols}
 	\end{frame}
 \begin{frame}
