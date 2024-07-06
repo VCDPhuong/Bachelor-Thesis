@@ -61,21 +61,25 @@ Dr. Huynh Thanh Duc \inst{2}}
 	\end{frame}
 	
 	\begin{frame}{Transition Metal Dichalcogenide Monolayer}
-		\begin{itemize}
-			\item They are stable in both mono- and few-layer in the air at room temperature. \\
-			\item They are semiconductors with a direct band gap in visible light range.
-			\item Their crystal structure has no center of inversion.\\
-			\item Strong spin-orbit coupling (SOC) in TMD monolayers leads to spin splitting of hundreds meV.
-		\end{itemize}
+\begin{block}{Properties}
+\begin{itemize}
+\item They are stable in both mono- and few-layer in the air at room temperature. \\
+\item They are semiconductors with a direct band gap in visible light range.
+\item Their crystal structure has no center of inversion.\\
+\item Strong spin-orbit coupling (SOC) in TMD monolayers leads to spin splitting of hundreds meV.
+\end{itemize}
+\end{block}
 		$\Rightarrow$ Promising materials in electronic and optoelectronic applications (for example: solar cells with energy conversion efficiency surpassing the Schockley-Queisser limit).
 	\end{frame}
 	\begin{frame}{Exciton Binding Energy In TMD}
 		What is the purpose of calculating the linear absorption spectrum?\\ $\to$ Exicton binding energy
-		\begin{itemize}
-			\item TMD is a low-dimensional material $\to$ huge exciton binding energy in compared with bulk semiconductors $\to$ electron-hole Coulomb interaction need to be calculated and taken into account.
-			\item Early theories predict large binding energy ($0.5-1$ eV) in compare with experiment ($0.2-0.5$ eV) $\Rightarrow$ more precise calculations to match with the experiments.
-			\item Theories only fit bandstructure around highly symmetry points such as $K/K'$, not on entire BZ $\Rightarrow$ a models for fitting in the entire BZ.
+\begin{block}{Overview}
+\begin{itemize}
+\item TMD is a low-dimensional material $\to$ huge exciton binding energy in compared with bulk semiconductors $\to$ electron-hole Coulomb interaction need to be calculated and taken into account.
+\item Early theories predict large binding energy ($0.5-1$ eV) in compare with experiment ($0.2-0.5$ eV) $\Rightarrow$ more precise calculations to match with the experiments.
+\item Theories only fit bandstructure around highly symmetry points such as $K/K'$, not on entire BZ $\Rightarrow$ a models for fitting in the entire BZ.
 		\end{itemize}
+\end{block}
 	\end{frame}
 	% Blocks frame
 	\section{Method}
@@ -127,12 +131,11 @@ Use basic functions of d-type orbitals: $$\ket{\phi_1} = d_{z^2}, \ket{\phi_2} =
 	\end{align}
 	where
 	\begin{align}
-		\Omega_{\mu \nu}(\textbf{k}) = &\frac{1}{\hbar} \bigg(\frac{e}{m}\textbf{A}(t)\textbf{p}_{\mu \nu}(\textbf{k}) - \sum_{\alpha \beta \textbf{q}} W^{\alpha \mu \beta\nu}_{\textbf{k},\textbf{k}+\textbf{q},\textbf{q}}\rho_{\beta\alpha}(\textbf{k}+\textbf{q})\bigg),
+		\Omega_{\mu \nu}(\textbf{k}) &= \frac{1}{\hbar} \bigg(\frac{e}{m}\textbf{A}(t)\textbf{p}_{\mu \nu}(\textbf{k}) - \sum_{\alpha \beta \textbf{q}} W^{\alpha \mu \beta\nu}_{\textbf{k},\textbf{k}+\textbf{q},\textbf{q}}\rho_{\beta\alpha}(\textbf{k}+\textbf{q})\bigg),\\
+		\textbf{p}_{\mu\nu}(\textbf{k}) &= \frac{m}{\hbar}\sum_{\alpha,\beta} c^*_{\mu\alpha}(\textbf{k})\nabla_{\textbf{k}}H^{TB}_{\alpha\beta}(\textbf{k})c_{\nu\beta}(\textbf{k}),\\
+		W^{\alpha \beta \gamma \delta}_{\textbf{k}, \textbf{k}',\textbf{q}} &= \frac{e^2}{2\varepsilon\varepsilon_0 L^2} \frac{1}{|\textbf{q}|}
+\sum_{\mu,\nu} c^*_{\alpha\mu}(\textbf{k}+\textbf{q})c_{\delta\mu}(\textbf{k}) c^*_{\beta \nu}(\textbf{k}'-\textbf{q}) c_{\gamma \nu}(\textbf{k}')
 	\end{align}
-	momentum matrix elements:
-	\begin{equation}
-		\textbf{p}_{\mu\nu}(\textbf{k}) = \frac{m}{\hbar}\sum_{\alpha,\beta} c^*_{\mu\alpha}\nabla_{\textbf{k}}H^{TB}_{\alpha\beta}(\textbf{k})c_{\nu\beta}(\textbf{k}).
-	\end{equation}
 	\end{frame}
 \subsection{Inter-band Polarization}
 \begin{frame}
@@ -209,9 +212,21 @@ Absorption is obtain by\footcite{haug_quantum_2009}:
 To fit with experiment, we can change:
 \begin{itemize}
 \item Relative permittivity $\varepsilon$
+\item Dephasing time $T_2$
 \end{itemize}
 	\end{multicols}
 	\end{frame}
+\begin{frame}
+\begin{figure}
+	\includegraphics[width=0.8\linewidth]{images/varyT2.pdf}
+\end{figure}
+		
+\begin{itemize}
+\item Choosing the $T_2$ for clearer Exciton peak.
+\item The bigger $T_2$, the clearer main Exciton peaks $\to $ confirm two peak.
+\item At $T_2 = 30$ \(fs\) show other smaller peaks $\to $ predict other peaks.
+\end{itemize}
+\end{frame}
 \begin{frame}
 	\begin{center}		
 		\includegraphics[width=0.8\linewidth]{images/varyepsilon.pdf}
@@ -221,32 +236,27 @@ To fit with experiment, we can change:
 		\item For 3-band TB model: $\varepsilon \in (1.5,2.5)$ is in good agreement with exciton binding energy of $E_{bind.}= 0.2-0.5 eV$ 
 	\end{itemize}
 \end{frame}
-\begin{frame}
-		\begin{figure}
-			\includegraphics[width=0.8\linewidth]{images/varyT2.pdf}
-		\end{figure}
-	
-	\begin{itemize}
-	\item Choosing the $T_2$ for clearer Exciton peak.
-	\item The bigger $T_2$, the clearer main Exciton peaks $\to $ confirm two peak.
-	\item At $T_2 = 30$ \(fs\) show other smaller peaks $\to $ predict other peaks.
-	\end{itemize}
-\end{frame}
 	%\begin{frame}
 	%\includegraphics[width=1\linewidth]{images/varynk.pdf}
 	%\end{frame}
 	\section{Summary and Outlook}
 	\begin{frame}
-		Summary:
-		\begin{itemize}
-	\item From three-band TB + SBE $\to $ Linear Absorption Spectrum
-	\item Confirm the Exciton binding energy in monolayer $\mathrm{MoS}_2$ in agreement with experimental data, and predict smaller exciton peaks.
-		\end{itemize}
-	Further research:
+	\begin{block}{Summary:}
+\begin{itemize}
+\item From three-band TB + SBE $\to $ Linear Absorption Spectrum
+\item Confirm the Exciton binding energy in monolayer $\mathrm{MoS}_2$ in agreement with experimental data, and predict smaller exciton peaks.
+\end{itemize}
+	\end{block}
+	\begin{exampleblock}{Further research:}
 	\begin{itemize}
 		\item High Harmonic Generation
 		\item High-order Side-band Generation
 		\item Photovoltaic effect
 	\end{itemize}
+\end{exampleblock}
+	\begin{center}
+		Thank you for your listening.
+	\end{center}
 	\end{frame}
+	
 \end{document}
