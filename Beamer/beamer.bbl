@@ -46,6 +46,7 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{H}
     \field{sortinithash}{H}
+    \true{singletitle}
     \field{abstract}{%
     This invaluable textbook presents the basic elements needed to understand
   and research into semiconductor physics. It deals with elementary excitations
@@ -118,6 +119,7 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{L}
     \field{sortinithash}{L}
+    \true{singletitle}
     \field{abstract}{%
     We present a three-band tight-binding (TB) model for describing the
   low-energy physics in monolayers of group-VIB transition metal
@@ -204,6 +206,7 @@
     \field{labeltitlesource}{shorttitle}
     \field{sortinit}{Z}
     \field{sortinithash}{Z}
+    \true{singletitle}
     \field{abstract}{%
     We measure the optical-absorption spectra and optical conductivities of
   excitons and trions in monolayers of metal dichalcogenide MoS2 and compare
@@ -229,7 +232,7 @@
     \field{shorttitle}{Absorption of light by excitons and trions in monolayers
   of metal dichalcogenide $\mathrm{MoS}_2$}
     \field{title}{Absorption of light by excitons and trions in monolayers of
-  metal dichalcogenide $\mathrm{MoS}_2$: {Experiments} and theory}
+  metal dichalcogenide $\mathrm{MoS}_2$: Experiments and theory}
     \verb{url}
     \verb https://link.aps.org/doi/10.1103/PhysRevB.89.205436
     \endverb

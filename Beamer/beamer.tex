@@ -1,7 +1,7 @@
 \documentclass{beamer}
-\setbeameroption{show notes on second screen=right} % Both
+%\setbeameroption{show notes on second screen=right} % Both
 %\setbeameroption{hide notes} % Only slides
-%\setbeameroption{show only notes} % Only notes
+\setbeameroption{show only notes} % Only notes
 % Theme choice:
 \usetheme{Antibes}
 \usepackage{tikz-feynman}
@@ -18,9 +18,14 @@
 \usepackage{cancel}
 \usepackage{subcaption}
 \usepackage{comment}
-\usepackage[style=authortitle,backend=bibtex]{biblatex}
-\AtEveryCitekey{\clearfield{title}}
-\addbibresource{library.bib}
+\usepackage[backend=bibtex,bibencoding=utf8,style=authortitle,citestyle=authortitle]{biblatex}
+\addbibresource{library}
+\AtEveryBibitem{%
+	\clearname{translator}%
+	\clearlist{publisher}%
+	\clearfield{pagetotal}%
+}
+\usepackage{xparse}
 \usepackage{svg}
 \usepackage[toc,page]{appendix}
 \author{Vo Chau Duc Phuong}
@@ -36,7 +41,6 @@ Dr. Huynh Thanh Duc \inst{2}}
 \logo{\large \LaTeX{}}
 
 \begin{document}
-	
 	\small
 	% Title page frame
 	\begin{frame}
@@ -52,21 +56,27 @@ Dr. Huynh Thanh Duc \inst{2}}
 	\section*{Outline}
 	\begin{frame}{Outline}
 		\tableofcontents
-		\note{First, let's go through the overview of this presentation. I will go through the overview of the compound, its properties, and why we choose this path}
+		\note{First, let's go through the overview of this presentation. I will go through:}
+		\note[item]{the overview of the compound, its properties, and why we choose this path.}
+		\note[item]{Then, introducing the model we are using, the equations and the outcome we need to calculate.}
+		\note[item]{after that, talk and discussion about the results}
+		\note[item]{finally, I will summary and talk about further research}
 	\end{frame}
 	
 	\section{Overview}
 	% Lists frame
-	\begin{frame}{}
+	\begin{frame}{Transition Metal Dichalcogenides Monolayers}
 		Group VI-B Transition Metal Dichalcogenides (TMD) are compound semiconductors of the type $MX_2$. :
 		\begin{figure}
 			\includegraphics[width=0.5\linewidth]{images/RS.pdf}
 			\caption{Structure of TMD and its first Brillouin Zone. $M$ is Transition Metal atom (black dots), $X$ is Dichalcogenide atom (green dots)}
 		\end{figure}
-		\note{Transition metal dichalcogenides, which I will refer to as TMD, are compounds of the type MX2. The monolayer structure is like a sandwich, with chalcogenide layers above and below and the transition metal layer in between. The first Brillouin zone, which I will abbreviate as BZ, has a hexagonal shape. TMD has a layered structure, so it's easy to create a monolayer by extracting the layers like a Lego structure.}
+		\note[item]{Transition metal dichalcogenides, which I will refer to as TMD, are compounds of the type MX2.}
+		\note[item]{TMD has a layered structure, so it's easy to create a monolayer by extracting the layers like a Lego structure. The monolayer structure is like a sandwich, with chalcogenide layers above and below and the transition metal layer in between, you can see in figure a from top and b from side in here.}
+		\note[item]{The first Brillouin zone, which I will abbreviate as BZ, has a hexagonal shape, show in figure c.}
 	\end{frame}
 
-	\begin{frame}{Transition Metal Dichalcogenide Monolayer}
+	\begin{frame}{Transition Metal Dichalcogenide Monolayers}
 \begin{block}{Properties}
 \begin{itemize}
 \item They are stable in both mono- and few-layer in the air at room temperature. \\
@@ -76,11 +86,14 @@ Dr. Huynh Thanh Duc \inst{2}}
 \end{itemize}
 \end{block}
 $\Rightarrow$ Promising materials in electronic and optoelectronic applications (for example: solar cells with energy conversion efficiency surpassing the Schockley-Queisser limit).
-\note{The monolayer of TMD has some interesting properties, such as: "Stable in the air at the room's temperature", direct band-gap in the visible light range, "no center of inversion" and strong spin-orbit coupling. These properties of TMD promise it will become a gift material in electronic and optoelectronic. For example: making solar cells with aiming to surpass the Schockley-Queisser limit.
-}
+\note{The monolayer of TMD has some interesting properties, such as:}
+\note[item]{Stable in the air at the room's temperature}
+\note[item]{direct band-gap in the visible light range}
+\note[item]{"no center of inversion"}
+\note[item]{strong spin-orbit coupling. These properties of TMD promise it will become a gift material in electronic and optoelectronic.For example: making solar cells with aiming to surpass the Schockley-Queisser limit.}
 	\end{frame}
 	\begin{frame}{Exciton Binding Energy In TMD}
-		What is the purpose of calculating the linear absorption spectrum?\\ $\to$ Exicton binding energy
+Exciton binding energy can be extracted from the linear absorption spectrum
 \begin{block}{Overview}
 \begin{itemize}
 \item TMD is a low-dimensional material $\to$ huge exciton binding energy in compared with bulk semiconductors $\to$ electron-hole Coulomb interaction need to be calculated and taken into account.
@@ -88,13 +101,15 @@ $\Rightarrow$ Promising materials in electronic and optoelectronic applications 
 \item Theories only fit bandstructure around highly symmetry points such as $K/K'$, not on entire BZ $\Rightarrow$ a models for fitting in the entire BZ.
 		\end{itemize}
 \end{block}
-\note{In this work, we calculate the linear absorption spectrum to obtain the exciton binding energy. Since TMD is a low-dimensional material, it results in a huge exciton binding energy (two magnitude orders compared with other bulk semiconductors). Early theories predict binding energy is too large compared with the experiment, so we need to calculate it to match with the experiment. In this work, we choose a tight-binding model, which is developed to fit in the entire BZ.}
+\note[item]{In this work, we calculate the linear absorption spectrum to obtain the exciton binding energy. Since TMD is a low-dimensional material, it results in a huge exciton binding energy (about two magnitude orders compared with other bulk semiconductors).}
+\note[item]{Early theories predict binding energy is too large compared with the experiment, so we need to calculate it to match with the experiment.}
+\note[item]{In this work, we choose a tight-binding model, which is developed to fit in the entire BZ.}
 	\end{frame}
 	% Blocks frame
 	\section{Method}
 	\subsection{Three-band Tight-binding Model}
 	\begin{frame}
-		Tight-binding (TB) wave function have the form:
+		Tight-binding (TB) wave function has the form:
 		\begin{equation}
 			\ket{\psi_{\lambda \textbf{k}}(\textbf{r})} = \sum_{\alpha} c_{\lambda \alpha} (\textbf{k}) \sum_{\textbf{R}} e^{i\textbf{k}\textbf{R}} \ket{\phi_{\alpha}(\textbf{r}-\textbf{R})}.
 		\end{equation}
@@ -106,7 +121,7 @@ $\Rightarrow$ Promising materials in electronic and optoelectronic applications 
 		\begin{equation}
 			\sum_{\alpha} [H^{TB}_{\beta \alpha}(\textbf{k}) - \varepsilon_{\lambda}(\textbf{k})\delta_{\beta\alpha}]c_{\lambda \alpha}(\textbf{k}) = 0.
 		\end{equation}
-		In which the Tight-binding Hamiltonian matrix elements:
+		Tight-binding Hamiltonian matrix elements:
 		\begin{equation}
 			H^{TB}_{\beta \alpha}(\textbf{k}) = \sum_{\textbf{R}} \bra{\phi_{\beta} (\textbf{r})} H_{1e}\ket{\phi_{\alpha}(\textbf{r}-\textbf{R})}.
 		\end{equation}
@@ -128,7 +143,7 @@ Use basic functions of d-type orbitals: $$\ket{\phi_1} = d_{z^2}, \ket{\phi_2} =
 	\begin{frame}
 		\begin{figure}
 			\caption{Band structure of $MoS_2$ monolayer
-	\autocite{liu_three-band_2013}}	
+\footcite{liu_three-band_2013}}
 			\includegraphics[width=0.75\linewidth]{images/BS.pdf}
 		\end{figure}
 	\note{The BS of this model is shown here, which huge band split (about 144 meV) at K and K' points. In this work, we will focus on the transition between the valence bands and the first pair of conduction bands.}
@@ -169,31 +184,30 @@ Time-dependent interband polarization density:
 \caption{Density matrix element illustration}
 \end{figure}
 	\end{multicols}
-\note{Along with the dipole matrix element, we can obtain the interband polarization through Eq. (9).}
+\note{Using the density and dipole matrix elements, we can obtain the time dependence interband polarization through Eq.(9)}
 	\end{frame}
 \section{Numerical Results}
-	\begin{frame}{Evaluate Numerically Sum Over k-Space}
+	\begin{frame}{Numerical Evaluation of The Sum Over k-space}
 		\begin{figure}
 \includegraphics[width=0.5\linewidth]{images/Rhombus.pdf}
 \caption{Rhombus primitive cell}
 \end{figure}
-Numerical evaluate
 		\begin{equation}
 			\sum_{\textbf{k}} ... \to \frac{L^2}{4\pi^2} \int \int_{BZ} dk_x dk_y...
 		\end{equation}
-\note[item]{However, the hexagon BZ of TMD is inconvenient for us when sampling the k-grid, so we will use the rhombus primitive cell with the same area as the hexagon.}
-\note[item]{In order to numerically evaluate results across the entire BZ, we approximate the sum by the integral.}
+\note[item]{As I have mentioned above, The first Brillouin Zone of monolayer TMD have the shape of Hexagon. However, the hexagon is inconvenient for us when sampling the k-grid, so we will use the rhombus primitive cell with the same area as the hexagon.}
+\note[item]{In order to evaluate the numerical results in the entire BZ, we approximate the sum by this integral.}
 	\end{frame}
 	\begin{frame}{k-Cutoff}
 	\begin{figure}
 		\includegraphics[width=0.75\linewidth]{images/kcutoff.pdf}
 	\end{figure}
-For k-point around \textbf{K}' point
+For k-points around \textbf{K}' point
 	\begin{equation}
 		W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}',\textbf{q}} \approx W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}',\textbf{q}} \theta(k_{cut.} - |\textbf{k} - \textbf{k}_{K'}|) \theta(k_{cut.} - |\textbf{k}' - \textbf{k}_{K'}|).
 	\end{equation}
-	The same for k-point around \textbf{K} point
-	\note[item]{When considering the Coulomb interaction, it's essential to account for every k-point in the Rhombus. However, including every k-point may result in an overwhelming workload for achieving convergence. For this reason, we employ a technique that focuses specifically on k-points around K and K'.}
+	The same for k-points around \textbf{K} point
+	\note[item]{When considering the Coulomb interaction, it's essential to account for every k-point in the Rhombus primitive cell. However, including every k-point may result in an overwhelming workload for achieving convergence. For this reason, we employ a technique that focuses specifically on k-points around K and K'.}
 	\note[item]{For instance, with the K' point, we draw a circle and calculate the Coulomb interaction only if both points fall within this circle. The same process applies to the K point.}
 	\end{frame}
 	\begin{frame}{Electromagnetic Field}
@@ -209,24 +223,28 @@ The electric field has a Gaussian envelope form:
 \end{itemize}
 \columnbreak
 \includegraphics[width=1\linewidth]{images/Eat.pdf}
-Absorption is obtain by\footcite{haug_quantum_2009}:
+Absorption coefficient\footcite{haug_quantum_2009}:
 \begin{equation}
 	\alpha(\omega) \propto \frac{P(\omega)}{E(\omega)}.
 \end{equation}
 	\end{multicols}
-\note{The polarized external field has a Gaussian envelope form with these properties to obtain the weak excitation limit for the linear absorption calculation.}
+\note[item]{The polarized external field has a Gaussian envelope form with these properties to obtain the weak excitation limit for the linear absorption calculation.}
+\note[item]{The absorption coefficient will be obtained by Eq. (13)}
+\note[item]{P and E is Fourier transformation of polarization density and external field, respectively}
 	\end{frame}
 	\begin{frame}
 		Experiment measure:
 		\begin{multicols}{2}
 		\begin{figure}
 	\includegraphics[width = 1\linewidth]{images/Experiment.pdf}
-	\caption{Measured Absorption Spectrum of $\mathrm{MoS}_2$ at $T=5K$  extracted from Ref.  \autocite{zhang_absorption_2014}}
+	\caption{Measured Absorption Spectrum of $\mathrm{MoS}_2$ at $T=5K$  extracted from Ref.  \footcite{zhang_absorption_2014}} $E_{gap} = 2.15 \pm 0.06$ \(eV\)
 	\end{figure}
-	\columnbreak
+Binding energy: \\
+	$E_{bind.} = E_{gap} - E_{A} = 0.22$ \(eV\)
+ \columnbreak
 	\begin{itemize}
-		\item Two resonance labeled by A and B are Exciton peaks (band split due to SOC).
-		\item Weak trion peak near A labeled by A'
+		\item Two resonance labeled by A ($1.93$ \(eV\)) and B ($2.1$ \(eV\)) are exciton peaks (band split due to SOC)
+		\item Weak trion peak near A labeled by A' ($18$ \(meV\))
 	\end{itemize}
 To fit with experiment, we can change:
 \begin{itemize}
@@ -234,7 +252,7 @@ To fit with experiment, we can change:
 \item Dephasing time $T_2$
 \end{itemize}
 	\end{multicols}
-\note[item]{The experiment measurement gives us two peaks, labeled as A and B,}
+\note[item]{The experiment measurement gives us two peaks, labeled as A ($1.93$ \(eV\)) and B ($2.1$ \(eV\)), the binding energy will be obtain by extract the exciton peak from the bandgap energy}
 \note[item]{they also have a weak trion peak in here.}
 \note[item]{To fit with the measurement, we will investigate the relationship between relative permittivity and dephasing time T2 with linear absorption spectrum.}
 	\end{frame}
@@ -270,7 +288,7 @@ To fit with experiment, we can change:
 	\begin{block}{Summary:}
 \begin{itemize}
 \item From three-band TB + SBE $\to $ Linear Absorption Spectrum
-\item Confirm the Exciton binding energy in monolayer $\mathrm{MoS}_2$ in agreement with experimental data, and predict smaller exciton peaks.
+\item We confirm the Exciton binding energy in this model is in agreement with experimental data, and predict smaller exciton peaks.
 \end{itemize}
 	\end{block}
 	\begin{exampleblock}{Further research:}
@@ -284,7 +302,6 @@ To fit with experiment, we can change:
 		Thank you for your listening.
 	\end{center}
 	\note[item]{So far, we have used the three-band tight-binding model and semiconductor Bloch equations to calculate the linear absorption spectrum. We confirm that this model matches the results with the experiment data and also predicts smaller exciton peaks.}
-	\note[item]{For further results, we can include the many-body interaction in the calculation of other phenomena for a realistic picture of TMD's properties.}
+	\note[item]{For further results, we can include the many-body interaction in calculating other phenomena for a realistic picture of TMD's properties.}
 	\end{frame}
-	
 \end{document}

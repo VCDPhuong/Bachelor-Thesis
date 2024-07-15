@@ -80,7 +80,7 @@ E.~V. Kirichenko and V.~A. Stephanovich.
 Changjian Zhang, Haining Wang, Weimin Chan, Christina Manolatou, and Farhan
   Rana.
 \newblock Absorption of light by excitons and trions in monolayers of metal
-  dichalcogenide $\mathrm{MoS}_2$: {Experiments} and theory.
+  dichalcogenide $\mathrm{MoS}_2$: Experiments and theory.
 \newblock {\em Phys. Rev. B}, 89(20):205436, May 2014.
 \newblock Publisher: American Physical Society.
 
@@ -111,6 +111,14 @@ Hongliang Shi, Hui Pan, Yong-Wei Zhang, and Boris~I. Yakobson.
   monolayer $\mathrm{MoS}_2$ and $\mathrm{WS}_2$.
 \newblock {\em Phys. Rev. B}, 87(15):155304, April 2013.
 \newblock Publisher: American Physical Society.
+
+\bibitem{Exper_for_quasi-bandgap}
+Chendong Zhang, Amber Johnson, Chang-Lung Hsu, Lain-Jong Li, and Chih-Kang
+  Shih.
+\newblock Direct imaging of band profile in single layer mos2 on graphite:
+  Quasiparticle energy gap, metallic edge states, and edge band bending.
+\newblock {\em Nano Letters}, 14(5):2443--2447, 2014.
+\newblock PMID: 24783945.
 
 \bibitem{meckbach_ultrafast_2020}
 L.~Meckbach, J.~Hader, U.~Huttner, J.~Neuhaus, J.~T. Steiner, T.~Stroucken,
@@ -167,10 +175,17 @@ C.~Ataca, H.~Şahin, and S.~Ciraci.
 \newblock {\em J. Phys. Chem. C}, 116(16):8983--8999, April 2012.
 \newblock Publisher: American Chemical Society.
 
+\bibitem{recombination_Ex}
+Haining Wang, Changjian Zhang, and Farhan Rana.
+\newblock Ultrafast dynamics of defect-assisted electron–hole recombination
+  in monolayer mos2.
+\newblock {\em Nano Letters}, 15(1):339--345, 2015.
+\newblock PMID: 25546602.
+
 \bibitem{haug_quantum_2009}
 Hartmut Haug and Stephan~W. Koch.
 \newblock {\em Quantum {Theory} {Of} {The} {Optical} {And} {Electronic}
-  {Properties} {Of} {Semiconductors} (5th {Edition})}.
+  {Properties} {Of} {Semiconductors} (fifth Edition)}.
 \newblock World Scientific Publishing Company, January 2009.
 \newblock Google-Books-ID: 1J1IDQAAQBAJ.
 

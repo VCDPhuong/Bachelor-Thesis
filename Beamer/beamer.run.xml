@@ -83,7 +83,7 @@
       <file>beamer-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>library.bib</file>
+      <file>library</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>
