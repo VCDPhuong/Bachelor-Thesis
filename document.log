@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  14 JUL 2024 01:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  23 JUL 2024 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1061,16 +1061,9 @@ l.78 	\end{titlepage}
 Package acronym Info: Label `acro:TMDs' newly defined as it shall be overridden
 
 although it is yet undefined on input line 164.
-
-
-Package acronym Warning: Acronym `TMDs' is not defined on input line 164.
-
-
-Package acronym Warning: Acronym `TMDs' is not defined on input line 164.
-
 Package acronym Info: Label `acro:LAS' newly defined as it shall be overridden
 although it is yet undefined on input line 164.
-[6] [7]
+ [6] [7]
 Package acronym Info: Label `acro:BPV' newly defined as it shall be overridden
 although it is yet undefined on input line 184.
 Package acronym Info: Label `acro:2D' newly defined as it shall be overridden
@@ -1089,7 +1082,7 @@ l.196 \begin{itemize}
 Package acronym Info: Label `acro:LCAO' newly defined as it shall be overridden
 
 although it is yet undefined on input line 214.
-<Images/RS.pdf, id=311, 1598.97375pt x 842.39719pt>
+<Images/RS.pdf, id=315, 1598.97375pt x 842.39719pt>
 File: Images/RS.pdf Graphic file (type pdf)
 <use Images/RS.pdf>
 Package pdftex.def Info: Images/RS.pdf  used on input line 239.
@@ -1111,7 +1104,7 @@ although it is yet undefined on input line 315.
 
 pdfTeX warning: pdflatex.exe (file ./Images/BS.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<Images/BS.pdf, id=587, 361.35pt x 216.81pt>
+<Images/BS.pdf, id=591, 361.35pt x 216.81pt>
 File: Images/BS.pdf Graphic file (type pdf)
 <use Images/BS.pdf>
 Package pdftex.def Info: Images/BS.pdf  used on input line 321.
@@ -1119,38 +1112,38 @@ Package pdftex.def Info: Images/BS.pdf  used on input line 321.
 [7] [8 <./Images/BS.pdf>]
 Package acronym Info: Label `acro:VG' newly defined as it shall be overridden
 although it is yet undefined on input line 378.
- [9] [10] [11] [12]
-<Images/Rhombus.pdf, id=704, 1243.64626pt x 782.17218pt>
+ [9] [10] [11] [12] [13]
+<Images/Rhombus.pdf, id=713, 1243.64626pt x 782.17218pt>
 File: Images/Rhombus.pdf Graphic file (type pdf)
 <use Images/Rhombus.pdf>
 Package pdftex.def Info: Images/Rhombus.pdf  used on input line 523.
 (pdftex.def)             Requested size: 284.79236pt x 179.10811pt.
- [13 <./Images/Rhombus.pdf>]
-<Images/rhombuskgrid.pdf, id=732, 1329.46687pt x 559.33969pt>
+ [14 <./Images/Rhombus.pdf>]
+<Images/rhombuskgrid.pdf, id=742, 1329.46687pt x 559.33969pt>
 File: Images/rhombuskgrid.pdf Graphic file (type pdf)
 <use Images/rhombuskgrid.pdf>
 Package pdftex.def Info: Images/rhombuskgrid.pdf  used on input line 543.
 (pdftex.def)             Requested size: 237.32455pt x 99.8489pt.
-<Images/kcutoff.pdf, id=734, 1162.3425pt x 681.29532pt>
+<Images/kcutoff.pdf, id=744, 1162.3425pt x 681.29532pt>
 File: Images/kcutoff.pdf Graphic file (type pdf)
 <use Images/kcutoff.pdf>
 Package pdftex.def Info: Images/kcutoff.pdf  used on input line 552.
 (pdftex.def)             Requested size: 237.32455pt x 139.10507pt.
 
-[14 <./Images/rhombuskgrid.pdf>]
+[15 <./Images/rhombuskgrid.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Images/EAt.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<Images/EAt.pdf, id=761, 361.35pt x 216.81pt>
+<Images/EAt.pdf, id=770, 361.35pt x 216.81pt>
 File: Images/EAt.pdf Graphic file (type pdf)
 <use Images/EAt.pdf>
 Package pdftex.def Info: Images/EAt.pdf  used on input line 576.
 (pdftex.def)             Requested size: 355.98683pt x 213.59384pt.
-[15 <./Images/kcutoff.pdf>]
+[16 <./Images/kcutoff.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Images/Experiment.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<images/experiment.pdf, id=793, 361.35pt x 216.81pt>
+<images/experiment.pdf, id=803, 361.35pt x 216.81pt>
 File: images/experiment.pdf Graphic file (type pdf)
 <use images/experiment.pdf>
 Package pdftex.def Info: images/experiment.pdf  used on input line 591.
@@ -1159,7 +1152,7 @@ Package pdftex.def Info: images/experiment.pdf  used on input line 591.
 
 pdfTeX warning: pdflatex.exe (file ./Images/varyT2.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<images/varyT2.pdf, id=816, 361.35pt x 216.81pt>
+<images/varyT2.pdf, id=826, 361.35pt x 216.81pt>
 File: images/varyT2.pdf Graphic file (type pdf)
 <use images/varyT2.pdf>
 Package pdftex.def Info: images/varyT2.pdf  used on input line 614.
@@ -1168,7 +1161,7 @@ Package pdftex.def Info: images/varyT2.pdf  used on input line 614.
 
 pdfTeX warning: pdflatex.exe (file ./Images/varyepsilon.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<images/varyepsilon.pdf, id=817, 361.35pt x 216.81pt>
+<images/varyepsilon.pdf, id=827, 361.35pt x 216.81pt>
 File: images/varyepsilon.pdf Graphic file (type pdf)
 <use images/varyepsilon.pdf>
 Package pdftex.def Info: images/varyepsilon.pdf  used on input line 621.
@@ -1177,13 +1170,13 @@ Package pdftex.def Info: images/varyepsilon.pdf  used on input line 621.
 
 pdfTeX warning: pdflatex.exe (file ./Images/varynk.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<images/varynk.pdf, id=823, 361.35pt x 216.81pt>
+<images/varynk.pdf, id=833, 361.35pt x 216.81pt>
 File: images/varynk.pdf Graphic file (type pdf)
 <use images/varynk.pdf>
 Package pdftex.def Info: images/varynk.pdf  used on input line 629.
 (pdftex.def)             Requested size: 355.98683pt x 213.59384pt.
-[16 <./Images/EAt.pdf>] [17 <./Images/Experiment.pdf>] [18 <./Images/varyT2.pdf
->] [19 <./Images/varyepsilon.pdf> <./Images/varynk.pdf
+[17 <./Images/EAt.pdf>] [18 <./Images/Experiment.pdf>] [19 <./Images/varyT2.pdf
+>] [20 <./Images/varyepsilon.pdf> <./Images/varynk.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Images/varynk.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
@@ -1192,7 +1185,7 @@ Package acronym Info: Label `acro:HHG' newly defined as it shall be overridden
 although it is yet undefined on input line 638.
 Package acronym Info: Label `acro:HSG' newly defined as it shall be overridden
 although it is yet undefined on input line 638.
- [20] Excluding 'comment' comment. Excluding 'comment' comment.
+ [21] Excluding 'comment' comment. Excluding 'comment' comment.
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
 tance' requires LuaTeX. It will be ignored. on input line 707.
@@ -1226,7 +1219,7 @@ Overfull \hbox (42.80167pt too wide) detected at line 757
 []
  []
 
-[21] [22]
+[22] [23]
 Overfull \hbox (19.2671pt too wide) detected at line 791
 []
  []
@@ -1241,7 +1234,7 @@ Overfull \hbox (8.0601pt too wide) detected at line 834
 []
  []
 
-[23] [24] [25] (./document.bbl [26] [27]) [28] (./document.aux)
+[24] [25] [26] (./document.bbl [27] [28]) [29] (./document.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -1251,12 +1244,12 @@ Package rerunfilecheck Info: File `document.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  29895 strings out of 474267
- 581900 string characters out of 5751464
+ 581890 string characters out of 5751464
  1975558 words of memory out of 5000000
- 51356 multiletter control sequences out of 15000+600000
+ 51354 multiletter control sequences out of 15000+600000
  572172 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,18n,121p,1790b,1888s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,18n,121p,1877b,1888s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/te
 xlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/202
 3/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2023/texmf-di
@@ -1274,10 +1267,10 @@ nts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10
 .pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 ><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on document.pdf (37 pages, 1046041 bytes).
+Output written on document.pdf (38 pages, 1046922 bytes).
 PDF statistics:
- 1129 PDF objects out of 1200 (max. 8388607)
- 887 compressed objects within 9 object streams
- 208 named destinations out of 1000 (max. 500000)
+ 1138 PDF objects out of 1200 (max. 8388607)
+ 895 compressed objects within 9 object streams
+ 210 named destinations out of 1000 (max. 500000)
  220 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -130,7 +130,7 @@ Supervisor:}\parbox{6cm}{Vo Chau Duc Phuong\\Dr. Huynh Thanh Duc}}
 	\section*{List of Acronyms}
 	\end{center}
 	\begin{acronym} % Give the longest label here so that the list is nicely aligned
-\acro{TMD}{transition metal dichacolgenides}
+\acro{TMDs}{transition metal dichacolgenides}
 \acro{LAS}{linear absoption spectrum}
 \acro{BPV}{bulk photovoltaic}
 \acro{2D}{two-dimensional}
@@ -472,7 +472,7 @@ we use the equation of motion in Heisenberg picture for operator $c^\dg_{\lambda
 \begin{equation}
 \Omega_{\mu\nu} (\textbf{k})=\sum_{\alpha \beta \textbf{q}} W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}+\textbf{q},\textbf{q}} \rho_{\alpha\beta} (\textbf{k}+\textbf{q}).
 \end{equation}
-\quad  In Eq. (\ref{SBE HF}), the last term is referred to as the scattering term, which characterizes the dephasing rates of interband polarization and collision rates and describes the relaxation of the electron and hole distributions. It is often approximated using the dephasing time parameter $T_2$ for interband polarization and two relaxation times called $T_1'$ and $T_1$ for intraband term ($\rho_{\lambda\lambda}$). The scattering term corresponding to parameter $T_1$ indicates the combination between electrons in the conduction band and holes in the valence band can be neglected since the pulse duration time is too small (a few tens fs) compared with the combination (about a few to few tens ps)\cite{recombination_Ex}. The scattering term corresponding to the parameter $T'_1$ describes the relaxation of electrons and holes into thermal distribution. The parameter $T'_1$ usually being chosen satisfied $T'_1 \gg T_2$. Therefore, in this work, we neglect this term for simplification. Here, we use 
+\quad  In Eq. (\ref{SBE HF}), the last term is referred to as the scattering term, which characterizes the dephasing rates of interband polarization and collision rates and describes the relaxation of the electron and hole distributions. It is often approximated using the dephasing time parameter $T_2$ for interband polarization and two relaxation times called $T_1'$ and $T_1$ for intraband term ($\rho_{\lambda\lambda}(\textbf{k})$). The scattering term corresponding to parameter $T_1$ indicates the combination between electrons in the conduction band and holes in the valence band can be neglected since the pulse duration time is too small (a few tens fs) compared with the combination (about a few to few tens ps)\cite{recombination_Ex}. The scattering term corresponding to the parameter $T'_1$ describes the relaxation of electrons and holes into thermal distribution. The parameter $T'_1$ usually being chosen satisfies $T'_1 \gg T_2$ in numerical simulation of the linear absorption spectrum since we only focus on the linear transition between the valence and conduction bands, ignoring the relaxation into the thermal distribution. Therefore, in this work, we neglect this term for simplification. Here, we use 
 \begin{equation}
 	\label{off diag scat.}
 	\bigg(\dv{ }{t} \rho(\textbf{k})\bigg|_{\mathrm{scat.}}\bigg)_{\lambda \lambda'} \approx -\frac{\rho_{\lambda \lambda'}(\textbf{k})}{T_2}\quad \forall \lambda \neq \lambda'. 
@@ -483,13 +483,13 @@ we use the equation of motion in Heisenberg picture for operator $c^\dg_{\lambda
 	\dv{ }{t}\rho_{\lambda\lambda'}(\textbf{k}) = &- \frac{i}{\hbar} (\varepsilon_\lambda(\textbf{k}) - \varepsilon_{\lambda'} (\textbf{k}))\rho_{\lambda \lambda'}(\textbf{k}) - \frac{ie}{\hbar m} \textbf{A}(t)\sum_{\mu}(\textbf{p}_{\lambda\mu}(\textbf{k})\rho_{\mu \lambda'}(\textbf{k}) - \rho_{\lambda\mu}(\textbf{k})\textbf{p}_{\mu \lambda'}(\textbf{k})) \nonumber \\
 	&+ \frac{i}{\hbar}(\Omega_{\lambda \mu}(\textbf{k})\rho_{\mu \lambda'}(\textbf{k}) - \rho_{\lambda\mu}(\textbf{k}) \Omega_{\mu \lambda'} (\textbf{k})) -\frac{1}{T_2}\rho_{\lambda\lambda'}(\textbf{k})(1-\delta_{\lambda\lambda'})\quad \forall \lambda\neq\lambda',
 \end{align}
-and
+and,
 \begin{align}
 	\label{SBE diag}
 	\dv{ }{t}\rho_{\lambda\lambda}(\textbf{k}) = & - \frac{ie}{\hbar m} \textbf{A}(t)\sum_{\mu}(\textbf{p}_{\lambda\mu}(\textbf{k})\rho_{\mu \lambda}(\textbf{k}) - \rho_{\lambda\mu}(\textbf{k})\textbf{p}_{\mu \lambda}(\textbf{k})) \nonumber \\
 	&+ \frac{i}{\hbar}(\Omega_{\lambda \mu}(\textbf{k})\rho_{\mu \lambda}(\textbf{k}) - \rho_{\lambda\mu}(\textbf{k}) \Omega_{\mu \lambda} (\textbf{k})),
 \end{align}
-\quad where
+\quad where,
 \begin{equation}
 	\Omega_{\mu\nu} (\textbf{k})=\sum_{\substack{\alpha\beta \textbf{q}}} W^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}+\textbf{q},\textbf{q}} \rho_{\alpha\beta} (\textbf{k}+\textbf{q}).
 \end{equation}
@@ -524,7 +524,7 @@ in which the dipole $\vec{\xi}_{\lambda \lambda'}(\textbf{k})$ can be calculated
 		\caption[Rhombus primitive unit cell in comparison with hexagon primitive unit cell (the first Brillouin zone)]{Rhombus primitive unit cell constructed through four M-points, which has the same area as the first Brillouin zone (the green Hexagon with six corners at "K-point" and "K'-point")}
 		\label{Rhombus}
 	\end{center}
-\end{figure}\\\null
+\end{figure}\null
 \quad To establish a new coordinate system, we will utilize the two unit vectors located at the left corner of the rhombus $u_1 = (2\pi/3a,2\pi/\sqrt{3}a)$ and $u_2 = (2\pi/3a,-2\pi/\sqrt{3}a)$ as shown in Fig. \ref{rhombuskgrid}, which will be reference to as the "Rhombus basis" hereinafter. Consider a point $\textbf{P}$, which have coordinate $(v_1, v_2)$ in rhombus basis and coordinate $(k_x,k_y)$ in rectangular basis. These coordinates have a relation through the transformation:
 \begin{equation}
 	\begin{pmatrix} k_x \\ k_y \end{pmatrix}
@@ -608,7 +608,7 @@ with the $E_0$ is the maximal amplitude, $\hbar\omega_0 = E_{\mathrm{gap}}$, $\t
 	\end{center}
 \end{table}
 \quad In Fig. \ref{Vary nk}, we present our numerical results with varying numbers of k-grid points, using a dielectric constant of $\varepsilon = 2.5$ to demonstrate the convergence of the results. The calculations show that to obtain the convergent result, a fairy large number of k points are required. To strike a balance between precision and computational time cost, we opt for $nk = 60$ for the subsequent calculations.\\\null
-\quad With a small $T_2$ of 15 \(fs\), the results in Fig. \ref{Vary T2} have already shown two main exciton peaks in comparison with the experimental results in Fig. \ref{Absorpt Ex.}. However, as the $T_2$ increases, we can see smaller exciton peaks in the absorption spectrum, as described in Fig. \ref{Vary T2}. These A and B exciton resonances involve the conduction bands and two valence bands (split due to SOC) near the K and $\mathrm{K}$' points, as shown in the band structure in Fig. \ref{BS}. In our results shown in Fig. \ref{Vary T2} and the experiment by Zhang et al. \cite{zhang_absorption_2014} in Fig. \ref{Absorpt Ex.}, our result is smaller than some previous calculations predicting the binding energy between $0.5$ \(eV\) to $1 $ \(eV\)\cite{ramasubramaniam_large_2012,qiu_optical_2013,cheiwchanchamnangij_quasiparticle_2012, shi_quasiparticle_2013}. This result agrees with more precise calculations and measurements \cite{zhang_absorption_2014, kirichenko_influence_2021, zhang_direct_2014,Exper_for_quasi-bandgap}. The difference in band gap energy can be attributed to the use of ab initio calculations in our model \cite{liu_three-band_2013}. This model does not consider the band gap shift caused by the underlying layers and temperature variations in the experimental measurement. The absence of the trion peak in Fig. \ref{Vary T2} in comparison with Fig. \ref{Absorpt Ex.} is due to the trion involving interaction between three particles (2 holes and 1 electron for a positive trion, 1 hole, and 2 electrons for a negative trion), which is not included in the Hartree-Fock approximation. To observe the trion peak, it is suggested to go beyond the Hartree-Fock Approximation in established equations.\\
+\quad With a small $T_2$ of 15 \(fs\), the results in Fig. \ref{Vary T2} have already shown two main exciton peaks in comparison with the experimental results in Fig. \ref{Absorpt Ex.}. However, as the $T_2$ increases, we can see smaller exciton peaks in the absorption spectrum, as described in Fig. \ref{Vary T2}. These A and B exciton resonances involve the conduction bands and two valence bands (split due to SOC) near the K and $\mathrm{K}$' points, as shown in the band structure in Fig. \ref{BS}. The erasing of two peaks under small $T_2$ can be attributed to the strong scattering. In our results shown in Fig. \ref{Vary T2} and the experiment by Zhang et al. \cite{zhang_absorption_2014} in Fig. \ref{Absorpt Ex.}, our result is smaller than some previous calculations predicting the binding energy between $0.5$ \(eV\) to $1 $ \(eV\)\cite{ramasubramaniam_large_2012,qiu_optical_2013,cheiwchanchamnangij_quasiparticle_2012, shi_quasiparticle_2013}. This result agrees with more precise calculations and measurements \cite{zhang_absorption_2014, kirichenko_influence_2021, zhang_direct_2014,Exper_for_quasi-bandgap}. The difference in band gap energy can be attributed to the use of ab initio calculations in our model \cite{liu_three-band_2013}. This model does not consider the band gap shift caused by the underlying layers and temperature variations in the experimental measurement. The absence of the trion peak in Fig. \ref{Vary T2} in comparison with Fig. \ref{Absorpt Ex.} is due to the trion involving interaction between three particles (2 holes and 1 electron for a positive trion, 1 hole, and 2 electrons for a negative trion), which is not included in the Hartree-Fock approximation. To observe the trion peak, it is suggested to go beyond the Hartree-Fock Approximation in established equations.\\
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=0.75\linewidth]{images/varyT2.pdf}

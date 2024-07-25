@@ -7,13 +7,13 @@
 \contentsline {subsubsection}{\numberline {2.3.2}Hamiltonian In Second Quantization}{9}{subsubsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.4}Semiconductor Bloch Equations}{11}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Polarization Density}{12}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Numerical Methods}{13}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Numerical Evaluation of The Sum over k}{13}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Cut-off K-point Technique}{14}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Absorption Coefficient}{15}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Results and Discussion}{16}{section.4}%
-\contentsline {section}{\numberline {5}Conclusion and Further Research}{20}{section.5}%
-\contentsline {section}{Appendices}{21}{section*.36}%
-\contentsline {section}{\numberline {A}Coulomb matrix elements}{21}{appendix.1.A}%
-\contentsline {section}{\numberline {B}Equation of Motion}{23}{appendix.1.B}%
-\contentsline {section}{\numberline {C}Dipole Matrix Elements}{25}{appendix.1.C}%
+\contentsline {section}{\numberline {3}Numerical Methods}{14}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Numerical Evaluation of The Sum over k}{14}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Cut-off K-point Technique}{15}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Absorption Coefficient}{16}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Results and Discussion}{17}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion and Further Research}{21}{section.5}%
+\contentsline {section}{Appendices}{22}{section*.36}%
+\contentsline {section}{\numberline {A}Coulomb matrix elements}{22}{appendix.1.A}%
+\contentsline {section}{\numberline {B}Equation of Motion}{24}{appendix.1.B}%
+\contentsline {section}{\numberline {C}Dipole Matrix Elements}{26}{appendix.1.C}%
