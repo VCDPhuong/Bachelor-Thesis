@@ -439,7 +439,7 @@ where
 		\begin{align}
 		\label{H with Coulomb in second}
 		\hat{H} =& \hat{H}^0_{1e} +\hat{H}^{e-e} + \hat{H}^{e-L} \nonumber \\
-		=&  \sum_{\lambda\textbf{k}} \varepsilon_\textbf{k} c_{\lambda\textbf{k}}^\dg c_{\lambda\textbf{k}} \nonumber \\ 
+		=&  \sum_{\lambda\textbf{k}} \varepsilon_{\lambda\textbf{k}} c_{\lambda\textbf{k}}^\dg c_{\lambda\textbf{k}} \nonumber \\ 
 		&+ \frac{1}{2} \sum_{\textbf{k}, \textbf{k}', \textbf{q}} \sum_{\alpha \beta \gamma \delta} W^{\alpha \beta \gamma \delta}_{\textbf{k},\textbf{k'},\textbf{q}} c_{\alpha, \textbf{k}+\textbf{q}}^\dg c_{\beta, \textbf{k}' - \textbf{q}}^\dg c_{\gamma, \textbf{k}}c_{\delta, \textbf{k'}} \nonumber \\
 		&+ \frac{e}{m}\textbf{A}(t)\vdot\sum_{\lambda\lambda' \textbf{k}}\textbf{p}_{\lambda \lambda'}(\textbf{k})c^\dg_{\lambda\textbf{k}}c_{\lambda' \textbf{k}} + \frac{e^2 \textbf{A}^2}{2m}\sum_{\lambda \textbf{k}} c^\dg_{\lambda \textbf{k}} c_{\lambda\textbf{k}},
 	\end{align}
@@ -755,9 +755,9 @@ Including Eq. (\ref{Coulomb q}) into Eq. (\ref{V element}), and do reverse Fouri
 	W^{\alpha\beta\gamma \delta}_{\textbf{k},\textbf{k'},\textbf{q}}&= \int \int d\textbf{r}_1 d\textbf{r}_2 u_{\textbf{k}_{||}+\textbf{q}_{||}}^{\alpha\dg}(\textbf{r}_1) u ^{\beta \dg}_{\textbf{k}'_{||}-\textbf{q}_{||}}(\textbf{r}_2) V^{3D}(\textbf{r}_2 - \textbf{r}_1) e^{i\textbf{q}_{||}(\textbf{r}_2 - \textbf{r}_1)} u^\gamma_{\textbf{k}'_{||}}(\textbf{r}_2) u^{\delta}_{\textbf{k}_{||}}(\textbf{r}_1)\\
 	&=\frac{e^2}{2 \varepsilon \varepsilon_0 L^2}\sum_{\textbf{q}'_{||}}\int \int d\textbf{r}_1 d\textbf{r}_2 u_{\textbf{k}_{||}+\textbf{q}_{||}}^{\alpha\dg}(\textbf{r}_1) u ^{\beta \dg}_{\textbf{k}'_{||}-\textbf{q}_{||}}(\textbf{r}_2)e^{i\textbf{q}'_{||} (\textbf{r}_{2||} - \textbf{r}_{1||})}\frac{e^{-|\textbf{q}'_{||}||z_2-z_1|}}{|\textbf{q}'_{||}|} e^{i\textbf{q}_{||}(\textbf{r}_2 - \textbf{r}_1)} u^\gamma_{\textbf{k}'_{||}}(\textbf{r}_2) u^{\delta}_{\textbf{k}_{||}}(\textbf{r}_1)\nonumber,
 \end{align}
-\quad We take the limit $z_1, z_2 \to 0$, therefore the $W^{\alpha\beta\gamma \delta}_{\textbf{k},\textbf{k'},\textbf{q}}$ take the form:
+\quad We apply long-wave approximation for the sum over \(\textbf{q}'_{\|}\), take the limit $z_1, z_2 \to 0$. Therefore the $W^{\alpha\beta\gamma \delta}_{\textbf{k},\textbf{k'},\textbf{q}}$ take the form:
 \begin{equation}
-	W^{\alpha\beta\gamma \delta}_{\textbf{k},\textbf{k'},\textbf{q}} = \frac{e^2}{2\varepsilon \varepsilon_0 L^2} \sum_{\textbf{q}} \frac{1}{|\textbf{q}|} \braket{u_{\textbf{k}+\textbf{q}}^{\alpha}}{u^{\delta}_{\textbf{k}}} \braket{u ^{\beta}_{\textbf{k}'-\textbf{q}}}{u^\gamma_{\textbf{k}'}}
+	W^{\alpha\beta\gamma \delta}_{\textbf{k},\textbf{k'},\textbf{q}} = \frac{e^2}{2\varepsilon \varepsilon_0 L^2} \frac{1}{|\textbf{q}|} \braket{u_{\textbf{k}+\textbf{q}}^{\alpha}}{u^{\delta}_{\textbf{k}}} \braket{u ^{\beta}_{\textbf{k}'-\textbf{q}}}{u^\gamma_{\textbf{k}'}}
 \end{equation}
 \newpage
 \section{Equation of Motion}

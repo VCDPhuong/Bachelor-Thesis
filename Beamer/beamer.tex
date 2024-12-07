@@ -1,6 +1,6 @@
 \documentclass{beamer}
-\setbeameroption{show notes on second screen=right} % Both
-%\setbeameroption{hide notes} % Only slides
+%\setbeameroption{show notes on second screen=right} % Both
+\setbeameroption{hide notes} % Only slides
 %\setbeameroption{show only notes} % Only notes
 % Theme choice:
 \usetheme{Antibes}
@@ -150,19 +150,22 @@ Use basic functions of d-type orbitals: $$\ket{\phi_1} = d_{z^2}, \ket{\phi_2} =
 	\end{frame}
 	\subsection{Semiconductor Bloch Equations}
 	\begin{frame}
-	Multiband semiconductor Bloch equations (SBE) with Coulomb interaction in Hatree Fock approximation:
+	\begin{block}{Multiband semiconductor Bloch equations (SBE) with Coulomb interaction in Hatree Fock approximation:}
 	\begin{align}
 		\dv{ }{t}\rho_{\lambda \lambda'} (\textbf{k},t) = &-\frac{i}{\hbar} (\varepsilon_{\lambda}(\textbf{k}) -\varepsilon_{\lambda'}(\textbf{k}))\rho_{\lambda \lambda'} (\textbf{k})\nonumber\\
 		& -i \sum_{\mu} (\Omega_{\lambda \mu}(\textbf{k})\rho_{\mu \lambda'}(\textbf{k},t) -\rho_{\lambda \mu}(\textbf{k},t)\Omega_{\mu \lambda'}(\textbf{k}))\\
 		& + \frac{\rho_{\lambda \lambda'}(\textbf{k},t)}{T_2}(1-\delta_{\lambda\lambda'}),\nonumber
 	\end{align}
+	\end{block}
 	where
+	\begin{small}
 	\begin{align}
 		\Omega_{\mu \nu}(\textbf{k}) &= \frac{1}{\hbar} \bigg(\frac{e}{m}\textbf{A}(t)\textbf{p}_{\mu \nu}(\textbf{k}) - \sum_{\alpha \beta \textbf{q}} W^{\alpha \mu \beta\nu}_{\textbf{k},\textbf{k}+\textbf{q},\textbf{q}}\rho_{\beta\alpha}(\textbf{k}+\textbf{q})\bigg),\\
 		\textbf{p}_{\mu\nu}(\textbf{k}) &= \frac{m}{\hbar}\sum_{\alpha,\beta} c^*_{\mu\alpha}(\textbf{k})\nabla_{\textbf{k}}H^{TB}_{\alpha\beta}(\textbf{k})c_{\nu\beta}(\textbf{k}),\\
 		W^{\alpha \beta \gamma \delta}_{\textbf{k}, \textbf{k}',\textbf{q}} &= \frac{e^2}{2\varepsilon\varepsilon_0 L^2} \frac{1}{|\textbf{q}|}
 \sum_{\mu,\nu} c^*_{\alpha\mu}(\textbf{k}+\textbf{q})c_{\delta\mu}(\textbf{k}) c^*_{\beta \nu}(\textbf{k}'-\textbf{q}) c_{\gamma \nu}(\textbf{k}')
 	\end{align}
+	\end{small}
 	\note{Using the semiconductor Bloch equation (SBE), we solve it in the form of Eq. (4) to obtain the time-dependent evolution of density matrix elements.}
 	\end{frame}
 \subsection{Inter-band Polarization}
