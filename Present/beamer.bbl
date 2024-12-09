@@ -93,6 +93,69 @@
     \field{urlyear}{2024}
   \endentry
 
+  \entry{cheiwchanchamnangij_quasiparticle_2012}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CT}{%
+         family={Cheiwchanchamnangij},
+         familyi={C\bibinitperiod},
+         given={Tawinan},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LWRL}{%
+         family={Lambrecht},
+         familyi={L\bibinitperiod},
+         given={Walter R.\bibnamedelima L.},
+         giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CTLWRL1}
+    \strng{fullhash}{CTLWRL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Quasiparticle self-consistent 𝐺⁢𝑊 calculations of the band
+  structures and related effective-mass parameters are carried out for bulk,
+  monolayer, and bilayer MoS2. Including excitonic effects within the
+  Mott-Wannier theory, quantitative agreement is obtained between the 𝐴,
+  𝐵 excitons, measured by absorption [Phys. Rev. Lett. 105, 136805 (2010)],
+  and the calculated exciton gap energies at 𝐾. The 𝐴-𝐵 splitting
+  arises from the valence-band splitting which in the monolayer is entirely due
+  to spin-orbit coupling and leads to spin-split states, while in the bilayer
+  it is a combined effect of interlayer and spin-orbit coupling., This article
+  appears in the following collection:%
+    }
+    \verb{doi}
+    \verb 10.1103/PhysRevB.85.205302
+    \endverb
+    \field{note}{Publisher: American Physical Society}
+    \field{number}{20}
+    \field{pages}{205302}
+    \field{title}{Quasiparticle band structure calculation of monolayer,
+  bilayer, and bulk $\mathrm{MoS}_2$}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.85.205302
+    \endverb
+    \field{volume}{85}
+    \verb{file}
+    \verb APS Snapshot:C\:\\Users\\ASUS\\Zotero\\storage\\QUDN2YSA\\PhysRevB.85
+    \verb .html:text/html;Full Text PDF:C\:\\Users\\ASUS\\Zotero\\storage\\IN2U
+    \verb B6LM\\Cheiwchanchamnangij and Lambrecht - 2012 - Quasiparticle band s
+    \verb tructure calculation of monola.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Phys. Rev. B}
+    \field{annotation}{%
+    Exciton 0.5-1%
+    }
+    \field{month}{05}
+    \field{year}{2012}
+    \field{urlday}{12}
+    \field{urlmonth}{06}
+    \field{urlyear}{2024}
+  \endentry
+
   \entry{diakite2016accurateelectronictransportbulk}{misc}{}
     \name{author}{6}{}{%
       {{hash=DYI}{%
@@ -362,6 +425,78 @@
     \field{urlyear}{2024}
   \endentry
 
+  \entry{qiu_optical_2013}{article}{}
+    \name{author}{3}{}{%
+      {{hash=QDY}{%
+         family={Qiu},
+         familyi={Q\bibinitperiod},
+         given={Diana\bibnamedelima Y.},
+         giveni={D\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=dJFH}{%
+         prefix={da},
+         prefixi={d\bibinitperiod},
+         family={Jornada},
+         familyi={J\bibinitperiod},
+         given={Felipe\bibnamedelima H.},
+         giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=LSG}{%
+         family={Louie},
+         familyi={L\bibinitperiod},
+         given={Steven\bibnamedelima G.},
+         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{QDYJFHdLSG1}
+    \strng{fullhash}{QDYJFHdLSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{Q}
+    \field{sortinithash}{Q}
+    \field{abstract}{%
+    We present first-principles calculations of the optical response of
+  monolayer molybdenum disulfide employing the 𝐺⁢𝑊-Bethe-Salpeter
+  equation (𝐺⁢𝑊-BSE) approach including self-energy, excitonic, and
+  electron-phonon effects. We show that monolayer MoS2 possesses a large and
+  diverse number of strongly bound excitonic states with novel 𝑘-space
+  characteristics that were not previously seen experimentally or
+  theoretically. The absorption spectrum is shown to be dominated by excitonic
+  states with a binding energy close to 1 eV and by strong electron-phonon
+  broadening in the visible to ultraviolet range. Our results explain recent
+  experimental measurements and resolve inconsistencies between previous
+  𝐺⁢𝑊-BSE calculations.%
+    }
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.111.216805
+    \endverb
+    \field{note}{Publisher: American Physical Society}
+    \field{number}{21}
+    \field{pages}{216805}
+    \field{shorttitle}{Optical {Spectrum} of $\mathrm{MoS}_2$}
+    \field{title}{Optical {Spectrum} of $\mathrm{MoS}_2$: {Many}-{Body}
+  {Effects} and {Diversity} of {Exciton} {States}}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.111.216805
+    \endverb
+    \field{volume}{111}
+    \verb{file}
+    \verb APS Snapshot:C\:\\Users\\ASUS\\Zotero\\storage\\D4IHV67M\\PhysRevLett
+    \verb .111.html:text/html;Full Text PDF:C\:\\Users\\ASUS\\Zotero\\storage\\
+    \verb GPPPTKEK\\Qiu et al. - 2013 - Optical Spectrum of $\mathrm{MoS}_2$ Ma
+    \verb ny-Bod.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{annotation}{%
+    Exciton 0.5-1%
+    }
+    \field{month}{11}
+    \field{year}{2013}
+    \field{urlday}{09}
+    \field{urlmonth}{06}
+    \field{urlyear}{2024}
+  \endentry
+
   \entry{radisavljevic_single-layer_2011}{article}{}
     \name{author}{5}{}{%
       {{hash=RB}{%
@@ -439,6 +574,149 @@
     \field{year}{2011}
     \field{urlday}{03}
     \field{urlmonth}{10}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{ramasubramaniam_large_2012}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RA}{%
+         family={Ramasubramaniam},
+         familyi={R\bibinitperiod},
+         given={Ashwin},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RA1}
+    \strng{fullhash}{RA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Quasiparticle band structures and optical properties of MoS2, MoSe2, MoTe2,
+  WS2, and WSe2 monolayers are studied using the GW approximation in
+  conjunction with the Bethe-Salpeter equation (BSE). The inclusion of
+  two-particle excitations in the BSE approach reveals the presence of two
+  strongly bound excitons (𝐴 and 𝐵) below the quasiparticle absorption
+  onset arising from vertical transitions between a spin-orbit-split valence
+  band and the conduction band at the 𝐾 point of the Brillouin zone. The
+  transition energies for monolayer MoS2, in particular, are shown to be in
+  excellent agreement with available absorption and photoluminescence
+  measurements. Excitation energies for the remaining monolayers are predicted
+  to lie in the range of 1–2 eV. Systematic trends are identified for
+  quasiparticle band gaps, transition energies, and exciton binding energies
+  within as well as across the Mo and W families of dichalcogenides. Overall,
+  the results suggest that quantum confinement of carriers within monolayers
+  can be exploited in conjunction with chemical composition to tune the
+  optoelectronic properties of layered transition-metal dichalcogenides at the
+  nanoscale.%
+    }
+    \verb{doi}
+    \verb 10.1103/PhysRevB.86.115409
+    \endverb
+    \field{note}{Publisher: American Physical Society}
+    \field{number}{11}
+    \field{pages}{115409}
+    \field{title}{Large excitonic effects in monolayers of molybdenum and
+  tungsten dichalcogenides}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.86.115409
+    \endverb
+    \field{volume}{86}
+    \verb{file}
+    \verb APS Snapshot:C\:\\Users\\ASUS\\Zotero\\storage\\BFSI63J5\\PhysRevB.86
+    \verb .html:text/html;Full Text PDF:C\:\\Users\\ASUS\\Zotero\\storage\\PMYV
+    \verb G89P\\Ramasubramaniam - 2012 - Large excitonic effects in monolayers
+    \verb of molybdenu.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Phys. Rev. B}
+    \field{annotation}{%
+    Exciton 0.5-1%
+    }
+    \field{month}{09}
+    \field{year}{2012}
+    \field{urlday}{09}
+    \field{urlmonth}{06}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{shi_quasiparticle_2013}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SH}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Hongliang},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Pan},
+         familyi={P\bibinitperiod},
+         given={Hui},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZYW}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yong-Wei},
+         giveni={Y\bibinithyphendelim W\bibinitperiod},
+      }}%
+      {{hash=YBI}{%
+         family={Yakobson},
+         familyi={Y\bibinitperiod},
+         given={Boris\bibnamedelima I.},
+         giveni={B\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SH+1}
+    \strng{fullhash}{SHPHZYWYBI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    The quasiparticle (QP) band structures of both strainless and strained
+  monolayer MoS2 are investigated using more accurate many-body perturbation
+  𝐺𝑊 theory and maximally localized Wannier functions (MLWFs) approach.
+  By solving the Bethe-Salpeter equation (BSE) including excitonic effects on
+  top of the partially self-consistent 𝐺𝑊0 (sc𝐺𝑊0) calculation, the
+  predicted optical gap magnitude is in good agreement with available
+  experimental data. With increasing strain, the exciton binding energy is
+  nearly unchanged, while optical gap is reduced significantly. The sc𝐺𝑊0
+  and BSE calculations are also performed on monolayer WS2, similar
+  characteristics are predicted and WS2 possesses the lightest effective mass
+  at the same strain among monolayers Mo(S,Se) and W(S,Se). Our results also
+  show that the electron effective mass decreases as the tensile strain
+  increases, resulting in an enhanced carrier mobility. The present calculation
+  results suggest a viable route to tune the electronic properties of monolayer
+  transition-metal dichalcogenides (TMDs) using strain engineering for
+  potential applications in high performance electronic devices.%
+    }
+    \verb{doi}
+    \verb 10.1103/PhysRevB.87.155304
+    \endverb
+    \field{note}{Publisher: American Physical Society}
+    \field{number}{15}
+    \field{pages}{155304}
+    \field{title}{Quasiparticle band structures and optical properties of
+  strained monolayer $\mathrm{MoS}_2$ and $\mathrm{WS}_2$}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.87.155304
+    \endverb
+    \field{volume}{87}
+    \verb{file}
+    \verb APS Snapshot:C\:\\Users\\ASUS\\Zotero\\storage\\T2JBHW4B\\PhysRevB.87
+    \verb .html:text/html;Full Text PDF:C\:\\Users\\ASUS\\Zotero\\storage\\URQ3
+    \verb AWDH\\Shi et al. - 2013 - Quasiparticle band structures and optical p
+    \verb roperti.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Phys. Rev. B}
+    \field{annotation}{%
+    Exciton 0.5-1%
+    }
+    \field{month}{04}
+    \field{year}{2013}
+    \field{urlday}{12}
+    \field{urlmonth}{06}
     \field{urlyear}{2024}
   \endentry
 

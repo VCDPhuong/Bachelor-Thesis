@@ -214,8 +214,8 @@ Ex: GeAs\footcite{diakite2016accurateelectronictransportbulk}: $$E_b \approx 4.8
 \end{itemize}
 $\Rightarrow$ Increasing of exciton binding energy. Larger magnitude about two orders in compared with bulk semiconductor.\\
 \begin{itemize}
-\item Previous theories predict binding energy too large ($0.5-1$ \(eV\)), precisely experiment predicts significant smaller binding energy ($0.2-0.5$ \(eV\)).
-\item Find a model not only simple but also precise enough for further research and application in industrial.
+\item Previous theories predict binding energy too large ($0.5-1$ \(eV\))\footcite{ramasubramaniam_large_2012,qiu_optical_2013}, precisely experiment predicts significant smaller binding energy ($0.2-0.5$ \(eV\))\footcite{zhang_absorption_2014}.
+\item Find a model not only simple but also precise enough for further research and application.
 \end{itemize}
 $\Rightarrow$ Look like enough for my bachelor's thesis \smiley{}.
 \end{frame}
@@ -356,11 +356,11 @@ in which
 \end{frame}
 \begin{frame}
 Equation \eqref{SBE no T} can describe the transition band between valence bands and conduction bands, but lack of relaxation effect.\\\null
-\quad For a better realistic picture, we taken into account the correction from the scattering effect:
+\quad For a realistic picture, we took into account the correction from the scattering effect:
 \begin{equation}
 	\bigg(\dv{\rho(\textbf{k})}{t}\bigg|_{scat.}\bigg)_{\lambda\lambda'} \to - \frac{\rho_{\lambda\lambda'}(\textbf{k})}{T_2}(1-\delta_{\lambda\lambda'})
 \end{equation}
-\quad The parameter \(T_2\) can be choosing to fit with the experiment, or confirms the exist of the exciton in the absorption spectrum.
+\quad The parameter \(T_2\) can be chosen to fit with the experiment data or confirm the exciton's existence in the absorption spectrum.
 \end{frame}
 \begin{frame}
 Finally, we have the semiconductor Bloch equations\footcite{haug_quantum_2009}:
@@ -376,12 +376,12 @@ where,
 %\subsection{Inter-band Polarization}
 \begin{frame}
 	\begin{multicols}{2}
-		Dipole matrix elements can be obtained through:
+The dipole matrix elements can be obtained through:
 		\begin{align}
 			&\vec{\xi}_{\mu\nu}(\textbf{k}) = \frac{-i\hbar}{m}\frac{\textbf{p}_{\mu\nu}(\textbf{k})}{\varepsilon_{\mu}(\textbf{k}) - \varepsilon_{\nu}(\textbf{k})}.\\
 			&\text{for } \mu \neq \nu \nonumber
 		\end{align}
-		Time-dependent interband polarization density:
+For time-dependent interband polarization density:
 		\begin{align}
 			\textbf{P}(t) = &\frac{e}{L^2} \sum_{\textbf{k}} \Tr\bigg[\vec{\xi}(\textbf{k})\rho(\textbf{k},t)\bigg]
 		\end{align}
@@ -393,7 +393,7 @@ where,
 	\end{multicols}
 \end{frame}
 \begin{frame}{Three-band Tightbinding model}
-	Use basic functions of d-type orbitals: $$\ket{\phi_1} = d_{z^2}, \ket{\phi_2} = d_{xy}, \ket{\phi_3} = d_{x^2- y^2}.$$\\Three-band TB Hamiltonian with SOC has the form:
+	Using basic functions of d-type orbitals: $$\ket{\phi_1} = d_{z^2}, \ket{\phi_2} = d_{xy}, \ket{\phi_3} = d_{x^2- y^2}.$$\\Three-band TB Hamiltonian with SOC has the form:
 	\begin{equation*}
 		H^{TB}_{6\times 6}(\textbf{k}) = \begin{bmatrix}
 			H^{TB}_{3\times 3}(\textbf{k}) + \gamma L_z & 0\\ 0& H^{TB}_{3\times 3}(\textbf{k}) - \gamma L_z
@@ -407,7 +407,9 @@ where,
 \end{frame}
 \section{Numerical Results}
 \begin{frame}{Numerical Evaluation of The Sum Over k-space}
-	\begin{figure}
+	\begin{figure}[hp]
+		\centering
+		\captionsetup{justification=centering}
 		\includegraphics[width=0.5\linewidth]{images/Rhombus.pdf}
 		\caption{Rhombus primitive cell}
 	\end{figure}
@@ -417,7 +419,7 @@ where,
 	\note[item]{As I have mentioned above, The first Brillouin Zone of monolayer TMD have the shape of Hexagon. However, the hexagon is inconvenient for us when sampling the k-grid, so we will use the rhombus primitive cell with the same area as the hexagon.}
 	\note[item]{In order to evaluate the numerical results in the entire BZ, we approximate the sum by this integral.}
 \end{frame}
-	\begin{frame}{k-Cutoff}
+	\begin{frame}{k-cutoff approximation method}
 	\begin{figure}
 		\includegraphics[width=0.75\linewidth]{images/kcutoff.pdf}
 	\end{figure}
@@ -441,7 +443,11 @@ where,
 			\item small $\tau_L \to $ rounder Fourier transform's peak around $\omega_0$
 		\end{itemize}
 		\columnbreak
-		\includegraphics[width=1\linewidth]{images/Eat.pdf}
+		\begin{figure}[hp]
+			\captionsetup{justification=centering}	
+			\includegraphics[width=1\linewidth]{images/Eat.pdf}
+			\caption{Electric field and it fourier transform}
+		\end{figure}
 		Absorption coefficient\footcite{haug_quantum_2009}:
 		\begin{equation}
 			\alpha(\omega) \propto \frac{P(\omega)}{E(\omega)}.
