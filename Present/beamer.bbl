@@ -1,0 +1,528 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{ataca_stable_2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AC}{%
+         family={Ataca},
+         familyi={A\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=�H}{%
+         family={Şahin},
+         familyi={�\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Ciraci},
+         familyi={C\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AC�HCS1}
+    \strng{fullhash}{AC�HCS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    Recent studies have revealed that single-layer transition-metal oxides and
+  dichalcogenides (MX2) might offer properties superior to those of graphene.
+  So far, only very few MX2 compounds have been synthesized as suspended single
+  layers, and some of them have been exfoliated as thin sheets. Using
+  first-principles structure optimization and phonon calculations based on
+  density functional theory, we predict that, out of 88 different combinations
+  of MX2 compounds, several of them can be stable in free-standing,
+  single-layer honeycomb-like structures. These materials have two-dimensional
+  hexagonal lattices and have top-view appearances as if they consisted of
+  either honeycombs or centered honeycombs. However, their bonding is different
+  from that of graphene; they can be viewed as a positively charged plane of
+  transition-metal atoms sandwiched between two planes of negatively charged
+  oxygen or chalcogen atoms. Electron correlation in transition-metal oxides
+  was treated by including Coulomb repulsion through LDA + U calculations. Our
+  analysis of stability was extended to include in-plane stiffness, as well as
+  ab initio, finite-temperature molecular dynamics calculations. Some of these
+  single-layer structures are direct- or indirect-band-gap semiconductors, only
+  one compound is half-metal, and the rest are either ferromagnetic or
+  nonmagnetic metals. Because of their surface polarity, band gap, high
+  in-plane stiffness, and suitability for functionalization by adatoms or
+  vacancies, these single-layer structures can be utilized in a wide range of
+  technological applications, especially as nanoscale coatings for surfaces
+  contributing crucial functionalities. In particular, the manifold WX2 heralds
+  exceptional properties promising future nanoscale applications.%
+    }
+    \verb{doi}
+    \verb 10.1021/jp212558p
+    \endverb
+    \field{issn}{1932-7447}
+    \field{title}{Stable, {Single}-{Layer} {MX2} {Transition}-{Metal} {Oxides}
+  and {Dichalcogenides} in a {Honeycomb}-{Like} {Structure}}
+    \verb{url}
+    \verb https://doi.org/10.1021/jp212558p
+    \endverb
+    \verb{file}
+    \verb Full Text PDF:C\:\\Users\\ASUS\\Zotero\\storage\\E6TXEE9M\\Ataca et a
+    \verb l. - 2012 - Stable, Single-Layer MX2 Transition-Metal Oxides a.pdf:ap
+    \verb plication/pdf
+    \endverb
+    \field{annotation}{%
+    MoS\_2 mostly contain d orbital%
+    }
+    \field{year}{2012}
+    \field{urlday}{20}
+    \field{urlmonth}{06}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{diakite2016accurateelectronictransportbulk}{misc}{}
+    \name{author}{6}{}{%
+      {{hash=DYI}{%
+         family={Diakite},
+         familyi={D\bibinitperiod},
+         given={Yacouba\bibnamedelima Issa},
+         giveni={Y\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=TSD}{%
+         family={Traore},
+         familyi={T\bibinitperiod},
+         given={Sibiri\bibnamedelima D.},
+         giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=MY}{%
+         family={Malozovsky},
+         familyi={M\bibinitperiod},
+         given={Yuriy},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KB}{%
+         family={Khamala},
+         familyi={K\bibinitperiod},
+         given={Bethuel},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=FL}{%
+         family={Franklin},
+         familyi={F\bibinitperiod},
+         given={Lashounda},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Bagayoko},
+         familyi={B\bibinitperiod},
+         given={Diola},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DYI+1}
+    \strng{fullhash}{DYITSDMYKBFLBD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{eprint}
+    \verb 1601.05300
+    \endverb
+    \field{title}{Accurate Electronic, Transport, and Bulk Properties of
+  Gallium Arsenide (GaAs)}
+    \verb{url}
+    \verb https://arxiv.org/abs/1601.05300
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cond-mat.mtrl-sci}
+    \field{year}{2016}
+  \endentry
+
+  \entry{haug_quantum_2009}{book}{}
+    \name{author}{2}{}{%
+      {{hash=HH}{%
+         family={Haug},
+         familyi={H\bibinitperiod},
+         given={Hartmut},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=KSW}{%
+         family={Koch},
+         familyi={K\bibinitperiod},
+         given={Stephan\bibnamedelima W.},
+         giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {World Scientific Publishing Company}%
+    }
+    \keyw{Science / Physics / Condensed Matter, Science / Physics / Quantum
+  Theory, Technology \& Engineering / Electronics / Semiconductors}
+    \strng{namehash}{HHKSW1}
+    \strng{fullhash}{HHKSW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    This invaluable textbook presents the basic elements needed to understand
+  and research into semiconductor physics. It deals with elementary excitations
+  in bulk and low-dimensional semiconductors, including quantum wells, quantum
+  wires and quantum dots. The basic principles underlying optical
+  nonlinearities are developed, including excitonic and many-body plasma
+  effects. Fundamentals of optical bistability, semiconductor lasers,
+  femtosecond excitation, the optical Stark effect, the semiconductor photon
+  echo, magneto-optic effects, as well as bulk and quantum-confined
+  Franz-Keldysh effects, are covered. The material is presented in sufficient
+  detail for graduate students and researchers with a general background in
+  quantum mechanics.This fifth edition includes an additional chapter on
+  'Quantum Optical Effects' where the theory of quantum optical effects in
+  semiconductors is detailed. Besides deriving the 'semiconductor luminescence
+  equations' and the expression for the stationary luminescence spectrum,
+  results are presented to show the importance of Coulombic effects on the
+  semiconductor luminescence and to elucidate the role of excitonic
+  populations.%
+    }
+    \field{isbn}{978-981-310-111-1}
+    \field{note}{Google-Books-ID: 1J1IDQAAQBAJ}
+    \field{title}{Quantum {Theory} {Of} {The} {Optical} {And} {Electronic}
+  {Properties} {Of} {Semiconductors} (fifth Edition)}
+    \verb{file}
+    \verb Haug and Koch - 2009 - Quantum Theory Of The Optical And Electronic P
+    \verb rope.pdf:C\:\\Users\\ASUS\\Zotero\\storage\\6I5MSZUC\\Haug and Koch -
+    \verb  2009 - Quantum Theory Of The Optical And Electronic Prope.pdf:applic
+    \verb ation/pdf
+    \endverb
+    \field{month}{01}
+    \field{year}{2009}
+  \endentry
+
+  \entry{liu_electronic_2015}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LGB}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Gui-Bin},
+         giveni={G\bibinithyphendelim B\bibinitperiod},
+      }}%
+      {{hash=XD}{%
+         family={Xiao},
+         familyi={X\bibinitperiod},
+         given={Di},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yao},
+         familyi={Y\bibinitperiod},
+         given={Yugui},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=XX}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Xiaodong},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=YW}{%
+         family={Yao},
+         familyi={Y\bibinitperiod},
+         given={Wang},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LGB+1}
+    \strng{fullhash}{LGBXDYYXXYW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    Two-dimensional group-VIB transition metal dichalcogenides have
+  extraordinary properties originating from their complex electronic
+  structures. , Atomically thin group-VIB transition metal dichalcogenides
+  (TMDs) have recently emerged as a new class of two-dimensional (2D)
+  semiconductors with extraordinary properties including the direct band gap in
+  the visible frequency range, the pronounced spin–orbit coupling, the
+  ultra-strong Coulomb interaction, and the rich physics associated with the
+  valley degree of freedom. These 2D TMDs exhibit great potential for device
+  applications and have attracted vast interest for the exploration of new
+  physics. 2D TMDs have complex electronic structures which underlie their
+  physical properties. Here we review the bulk electronic structures of these
+  new 2D materials as well as the theoretical models developed at different
+  levels, along which we sort out the understanding of the origins of a variety
+  of properties observed or predicted.%
+    }
+    \verb{doi}
+    \verb 10.1039/C4CS00301B
+    \endverb
+    \field{title}{Electronic structures and theoretical modelling of
+  two-dimensional group-{VIB} transition metal dichalcogenides}
+    \verb{url}
+    \verb https://xlink.rsc.org/?DOI=C4CS00301B
+    \endverb
+    \field{year}{2015}
+    \field{urlday}{27}
+    \field{urlmonth}{05}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{liu_three-band_2013}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LGB}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Gui-Bin},
+         giveni={G\bibinithyphendelim B\bibinitperiod},
+      }}%
+      {{hash=SWY}{%
+         family={Shan},
+         familyi={S\bibinitperiod},
+         given={Wen-Yu},
+         giveni={W\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yao},
+         familyi={Y\bibinitperiod},
+         given={Yugui},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=YW}{%
+         family={Yao},
+         familyi={Y\bibinitperiod},
+         given={Wang},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=XD}{%
+         family={Xiao},
+         familyi={X\bibinitperiod},
+         given={Di},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LGB+1}
+    \strng{fullhash}{LGBSWYYYYWXD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    We present a three-band tight-binding (TB) model for describing the
+  low-energy physics in monolayers of group-VIB transition metal
+  dichalcogenides MX2 (M=Mo, W; X=S, Se, Te). As the conduction- and
+  valence-band edges are predominantly contributed by the dz2, dxy, and
+  dx2−y2 orbitals of M atoms, the TB model is constructed using these three
+  orbitals based on the symmetries of the monolayers. Parameters of the TB
+  model are fitted from the first-principles energy bands for all MX2
+  monolayers. The TB model involving only the nearest-neighbor M-M hoppings is
+  sufficient to capture the band-edge properties in the ±K valleys, including
+  the energy dispersions as well as the Berry curvatures. The TB model
+  involving up to the third-nearest-neighbor M-M hoppings can well reproduce
+  the energy bands in the entire Brillouin zone. Spin-orbit coupling in valence
+  bands is well accounted for by including the on-site spin-orbit interactions
+  of M atoms. The conduction band also exhibits a small valley-dependent spin
+  splitting which has an overall sign difference between MoX2 and WX2. We
+  discuss the origins of these corrections to the three-band model. The
+  three-band TB model developed here is efficient to account for low-energy
+  physics in MX2 monolayers, and its simplicity can be particularly useful in
+  the study of many-body physics and physics of edge states.%
+    }
+    \verb{doi}
+    \verb 10.1103/PhysRevB.88.085433
+    \endverb
+    \field{title}{Three-band tight-binding model for monolayers of group-{VIB}
+  transition metal dichalcogenides}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.88.085433
+    \endverb
+    \verb{file}
+    \verb APS Snapshot:C\:\\Users\\ASUS\\Zotero\\storage\\HN7QJUQP\\PhysRevB.88
+    \verb .html:text/html;Full Text PDF:C\:\\Users\\ASUS\\Zotero\\storage\\24G4
+    \verb EKIP\\Liu et al. - 2013 - Three-band tight-binding model for monolaye
+    \verb rs of g.pdf:application/pdf
+    \endverb
+    \field{year}{2013}
+    \field{urlday}{08}
+    \field{urlmonth}{01}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{radisavljevic_single-layer_2011}{article}{}
+    \name{author}{5}{}{%
+      {{hash=RB}{%
+         family={Radisavljevic},
+         familyi={R\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Radenovic},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Brivio},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GV}{%
+         family={Giacometti},
+         familyi={G\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kis},
+         familyi={K\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Nanoscale materials, Electronic devices}
+    \strng{namehash}{RB+1}
+    \strng{fullhash}{RBRABJGVKA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Two-dimensional materials are attractive for use in next-generation
+  nanoelectronic devices because, compared to one-dimensional materials, it is
+  relatively easy to fabricate complex structures from them. The most widely
+  studied two-dimensional material is graphene1,2, both because of its rich
+  physics3,4,5 and its high mobility6. However, pristine graphene does not have
+  a bandgap, a property that is essential for many applications, including
+  transistors7. Engineering a graphene bandgap increases fabrication complexity
+  and either reduces mobilities to the level of strained silicon
+  films8,9,10,11,12,13 or requires high voltages14,15. Although single layers
+  of MoS2 have a large intrinsic bandgap of 1.8 eV (ref. 16), previously
+  reported mobilities in the 0.5–3 cm2 V−1 s−1 range17 are too low for
+  practical devices. Here, we use a halfnium oxide gate dielectric to
+  demonstrate a room-temperature single-layer MoS2 mobility of at least
+  200 cm2 V−1 s−1, similar to that of graphene nanoribbons, and
+  demonstrate transistors with room-temperature current on/off ratios of
+  1 × 108 and ultralow standby power dissipation. Because monolayer MoS2 has
+  a direct bandgap16,18, it can be used to construct interband tunnel FETs19,
+  which offer lower power consumption than classical transistors. Monolayer
+  MoS2 could also complement graphene in applications that require thin
+  transparent semiconductors, such as optoelectronics and energy harvesting.%
+    }
+    \verb{doi}
+    \verb 10.1038/nnano.2010.279
+    \endverb
+    \field{issn}{1748-3395}
+    \field{title}{Single-layer {$MoS_2$} transistors}
+    \verb{url}
+    \verb https://www.nature.com/articles/nnano.2010.279
+    \endverb
+    \verb{file}
+    \verb Full Text PDF:C\:\\Users\\ASUS\\Zotero\\storage\\CD3I7WJM\\Radisavlje
+    \verb vic et al. - 2011 - Single-layer MoS2 transistors.pdf:application/pdf
+    \endverb
+    \field{year}{2011}
+    \field{urlday}{03}
+    \field{urlmonth}{10}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{zhang_absorption_2014}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ZC}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Changjian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Haining},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CW}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={Weimin},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Manolatou},
+         familyi={M\bibinitperiod},
+         given={Christina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RF}{%
+         family={Rana},
+         familyi={R\bibinitperiod},
+         given={Farhan},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZC+1}
+    \strng{fullhash}{ZCWHCWMCRF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    We measure the optical-absorption spectra and optical conductivities of
+  excitons and trions in monolayers of metal dichalcogenide MoS2 and compare
+  the results with theoretical models. Our results show that the Wannier-Mott
+  model for excitons with modifications to account for small exciton radii and
+  large exciton relative wave function spread in momentum space, phase space
+  blocking due to Pauli exclusion in doped materials, and wave-vector-dependent
+  dielectric constant gives results that agree well with experiments. The
+  measured exciton optical-absorption spectra are used to obtain experimental
+  estimates for the exciton radii that fall in the 7–10Å range and agree
+  well with theory. The measured trion optical-absorption spectra are used to
+  obtain values for the trion radii that also agree well with theory. The
+  measured values of the exciton and trion radii correspond to binding energies
+  that are in good agreement with values obtained from first-principles
+  calculations.%
+    }
+    \verb{doi}
+    \verb 10.1103/PhysRevB.89.205436
+    \endverb
+    \field{note}{Publisher: American Physical Society}
+    \field{number}{20}
+    \field{pages}{205436}
+    \field{shorttitle}{Absorption of light by excitons and trions in monolayers
+  of metal dichalcogenide $\mathrm{MoS}_2$}
+    \field{title}{Absorption of light by excitons and trions in monolayers of
+  metal dichalcogenide $\mathrm{MoS}_2$: Experiments and theory}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.89.205436
+    \endverb
+    \field{volume}{89}
+    \verb{file}
+    \verb APS Snapshot:C\:\\Users\\ASUS\\Zotero\\storage\\5Q43X9VG\\PhysRevB.89
+    \verb .html:text/html;Full Text PDF:C\:\\Users\\ASUS\\Zotero\\storage\\K2DT
+    \verb 8XN3\\Zhang et al. - 2014 - Absorption of light by excitons and trion
+    \verb s in mono.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Phys. Rev. B}
+    \field{month}{05}
+    \field{year}{2014}
+    \field{urlday}{05}
+    \field{urlmonth}{06}
+    \field{urlyear}{2024}
+  \endentry
+\enddatalist
+\endinput
