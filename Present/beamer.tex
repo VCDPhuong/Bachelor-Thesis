@@ -58,23 +58,23 @@ Transition metal dichalcogenide (TMD) is the compound has the form of MX$_2$.
 	\end{figure}
 \end{center}
 	\end{frame}
-\begin{frame}{Transition Metal Dichalcogenide Monolayer}
-Some of the combination don't have the stable monolayer form. Others can be:
-\begin{itemize}
-	\item H (Honeycomb) structure (Example: MoS$_2$)
-	\item T (centered honeycomb) structure (Example: NBS$_2$)
-\end{itemize}
-or both (Example: VS$_2$).\\
-\quad These structure can affect the properties of the materials. TMD can be either metal (NbS$_2$, NbSe$_2$-T) or semiconductor (MoS$_2$)\footcite{ataca_stable_2012}.\\
-\quad My thesis focused on MoS$_2$ monolayer (only have the H-structure), has the visible band gap in the band structure, which can be used in creating the transistor devices.\footcite{radisavljevic_single-layer_2011}
-\end{frame}
+%\begin{frame}{Transition Metal Dichalcogenide Monolayer}
+%Some of the combination don't have the stable monolayer form. Others can be:
+%\begin{itemize}
+%	\item H (Honeycomb) structure (Example: MoS$_2$)
+%	\item T (centered honeycomb) structure (Example: NBS$_2$)
+%\end{itemize}
+%or both (Example: VS$_2$).\\
+%\quad These structure can affect the properties of the materials. TMD can be either metal (NbS$_2$, NbSe$_2$-T) or semiconductor (MoS$_2$)\footcite{ataca_stable_2012}.\\
+%\quad My thesis focused on MoS$_2$ monolayer (only have the H-structure), has the visible band gap in the band structure, which can be used in creating the transistor devices.\footcite{radisavljevic_single-layer_2011}
+%\end{frame}
 
-\begin{frame}{Mono-layer structure}
+\begin{frame}{TMD Mono-layer structure}
 \begin{multicols}{2}
 	\begin{itemize}
-\item The M (huge black dot) layer has been sandwiched by two \textcolor{green}{X} ( small green dot) layers as shown in top view (a) and side view (b).\\
-\item They have the inverse asymmetry in real lattice.\\
-\item The atomic lattice have the $D_{3h}$ symmetry group, result in the hexagon Brillouin Zone (BZ).
+\item The M (huge black dots) layer has been sandwiched by two \textcolor{green}{X} (small green dots) layers as shown in top view (a) and side view (b).\\
+\item They have the inverse asymmetry.\\
+\item The symmetry of the lattice results in the hexagon Brillouin Zone (BZ).
 	\end{itemize}
 	\columnbreak
 	\vfill
@@ -84,6 +84,7 @@ or both (Example: VS$_2$).\\
 \caption{Structure and Brillouin Zone of Monolayer TMD, redrawing from\footcite{liu_three-band_2013}}
 	\end{figure}
 \end{multicols}
+\quad My thesis focused on MoS$_2$ monolayer, has the visible band gap in the band structure, which can be used in creating the transistor devices.\footcite{radisavljevic_single-layer_2011}
 \end{frame}
 %\subsection{Properties}
 \begin{frame}{Splitting In The Band Structure}
@@ -115,50 +116,50 @@ $\Rightarrow$ Applications in spintronic and optoelectronics\footcite{liu_electr
 \end{multicols}
 \end{frame}
 \section{Exciton}
-\begin{frame}{Creation of An Exciton}
-	\quad When an electron transit from valence band to a conduction band, it leave behind a hole.\\
-	\quad This hole, acts like an positive charge, attract electrons to form a binding (called exciton).\\
-	\vfill
-\begin{figure}
-	\begin{tikzpicture}
-		\draw[step=5mm,black,thin,dash dot] (0,0) grid (2,2);
-		\node at (1.3,1.3) [circle,fill,inner sep=1.pt] {};
-		\draw[snake=snake,red,->] (0.25,1.25) node[above,xshift=0.5 cm, yshift=-0.15cm]{\small{$\hbar \omega$}} to (1,1);
-		\node at (1.,1.) {$\circ$};
-		%
-		%
-		\draw[->, black, thick] (2.04,1) to (2.98,1);
-		%
-		%
-		\draw[step=5mm,black,thin,dash dot] (2.99,0) grid (5,2);
-		\foreach \Point in {(4,1)}{
-			\node at \Point {$\circ$};
-		}
-		\node at (4.3,1.3) [circle,fill,inner sep=1.pt] {};
-		%
-		%draw ellipse
-		\node (p0) at (3.9,0.9) {};
-		\node (qt) at (4.5,1.5) {};
-		\path (p0.center) let \p1=($(qt.center)-(p0.center)$) in node[ellipse, minimum height=0.7cm, minimum width=0.1cm, anchor=south, thick, draw, gray, rotate={-atan2(\x1,\y1)}] {};
-		%
-		%
-		
-		\filldraw[color=black!60, fill=white!5, dashed](7,1) circle (0.3);
-		\draw[->, black, thick] (5.04,1) to (5.98,1);
-		\draw[step=5mm,black,thin,dash dot] (5.99,0) grid (8,2);
-		\foreach \Point in {(7,1)}{
-			\node at \Point {$\circ$};
-		}
-		\node at (7.2,1.2) [circle,fill,inner sep=1.pt] {};
-		%
-		%
-	\end{tikzpicture}
-	\caption{Illustration for the bouncing of the electron (black) and hole (circle)}
-\end{figure}
-\end{frame}
+%\begin{frame}{Creation of An Exciton}
+%	\quad When an electron transit from valence band to a conduction band, it leave behind a hole.\\
+%	\quad This hole, acts like an positive charge, attract electrons to form a binding (called exciton).\\
+%	\vfill
+%\begin{figure}
+%	\begin{tikzpicture}
+%		\draw[step=5mm,black,thin,dash dot] (0,0) grid (2,2);
+%		\node at (1.3,1.3) [circle,fill,inner sep=1.pt] {};
+%		\draw[snake=snake,red,->] (0.25,1.25) node[above,xshift=0.5 cm, yshift=-0.15cm]{\small{$\hbar \omega$}} to (1,1);
+%		\node at (1.,1.) {$\circ$};
+%		%
+%		%
+%		\draw[->, black, thick] (2.04,1) to (2.98,1);
+%		%
+%		%
+%		\draw[step=5mm,black,thin,dash dot] (2.99,0) grid (5,2);
+%		\foreach \Point in {(4,1)}{
+%			\node at \Point {$\circ$};
+%		}
+%		\node at (4.3,1.3) [circle,fill,inner sep=1.pt] {};
+%		%
+%		%draw ellipse
+%		\node (p0) at (3.9,0.9) {};
+%		\node (qt) at (4.5,1.5) {};
+%		\path (p0.center) let \p1=($(qt.center)-(p0.center)$) in node[ellipse, minimum height=0.7cm, minimum width=0.1cm, anchor=south, thick, draw, gray, rotate={-atan2(\x1,\y1)}] {};
+%		%
+%		%
+%		
+%		\filldraw[color=black!60, fill=white!5, dashed](7,1) circle (0.3);
+%		\draw[->, black, thick] (5.04,1) to (5.98,1);
+%		\draw[step=5mm,black,thin,dash dot] (5.99,0) grid (8,2);
+%		\foreach \Point in {(7,1)}{
+%			\node at \Point {$\circ$};
+%		}
+%		\node at (7.2,1.2) [circle,fill,inner sep=1.pt] {};
+%		%
+%		%
+%	\end{tikzpicture}
+%	\caption{Illustration for the bouncing of the electron (black) and hole (circle)}
+%\end{figure}
+%\end{frame}
 %next frame talk about the hydrogen-like exciton and binding energy.
 \begin{frame}{Binding Energy of Exciton}
-	\quad Interaction between a couple of electron and hole can be described as "a Hydrogen" atom, called "Exciton".\\
+When an electron has been excited, it create a hole at initial position. Interaction between the electron and the hole call "Exciton".
 	\begin{equation}
  -\bigg[\frac{\hbar^2\nabla^2_{\textbf{r}}}{2m_r} + V(r)\bigg]\psi_{\nu}(\textbf{r}) = E_{\nu}(\textbf{r})\psi_{\nu}(\textbf{r}),
 	\end{equation}
@@ -199,8 +200,8 @@ where,\\
 	\end{multicols}
 \end{frame}
 \begin{frame}{Exciton}
-\quad The Coulomb interaction in the from of Eq. $(\ref{Vr})$ can only be valid if the bohr radius of "the Hydrogen-atom" around or smaller than the unit cell.\\
-\quad In the bulk crystals with relative small dielectric constant, the exciton have the small binding energy.\\
+%\quad The Coulomb interaction in the from of Eq. $(\ref{Vr})$ can only be valid if the bohr radius of "the Hydrogen-atom" around or smaller than the unit cell.\\
+\quad In the bulk crystals with relative small dielectric constant due to the screening, the exciton have the small binding energy.\\
 Ex: GeAs\footcite{diakite2016accurateelectronictransportbulk}: $$E_b \approx 4.8 meV \ll E_g = 1.2-1.7 eV$$
 \quad In these materials, the exciton binding energy can be neglected in simulations.
 \end{frame}
@@ -209,12 +210,12 @@ Ex: GeAs\footcite{diakite2016accurateelectronictransportbulk}: $$E_b \approx 4.8
 	So, why need to calculate it in TMD?
 \end{center}
 \begin{itemize}
-\item In the 2-D materials (monolayer-TMD materials are in this), lack of system dimension causes decrease in the dielectric screening.
+\item In the 2-D materials, lack of system dimension $\Rightarrow$ decrease in the dielectric screening.
 \item Large quantum confinement in nano-material (z-axis).
 \end{itemize}
-$\Rightarrow$ Increasing of exciton binding energy. Larger magnitude about two orders in compared with bulk semiconductor.\\
+$\Rightarrow$ Increasing of exciton binding energy \(\sim 10^2\) in compared with bulk semiconductor.\\
 \begin{itemize}
-\item Previous theories predict binding energy too large ($0.5-1$ \(eV\))\footcite{ramasubramaniam_large_2012,qiu_optical_2013}, precisely experiment predicts significant smaller binding energy ($0.2-0.5$ \(eV\))\footcite{zhang_absorption_2014}.
+\item Previous theories predict binding energy too large\footcite{ramasubramaniam_large_2012,qiu_optical_2013}, precisely experiment shows significant smaller binding energy\footcite{zhang_absorption_2014}.
 \item Find a model not only simple but also precise enough for further research and application.
 \end{itemize}
 $\Rightarrow$ Look like enough for my bachelor's thesis \smiley{}.
@@ -355,12 +356,12 @@ in which
 \end{align}
 \end{frame}
 \begin{frame}
-Equation \eqref{SBE no T} can describe the transition band between valence bands and conduction bands, but lack of relaxation effect.\\\null
-\quad For a realistic picture, we took into account the correction from the scattering effect:
+Equation \eqref{SBE no T} can describe the transition between valence bands and conduction bands, but lack of relaxation effect due to scattering.\\\null
+\quad Phenomenally characterize the scattering term:
 \begin{equation}
 	\bigg(\dv{\rho(\textbf{k})}{t}\bigg|_{scat.}\bigg)_{\lambda\lambda'} \to - \frac{\rho_{\lambda\lambda'}(\textbf{k})}{T_2}(1-\delta_{\lambda\lambda'})
 \end{equation}
-\quad The parameter \(T_2\) can be chosen to fit with the experiment data or confirm the exciton's existence in the absorption spectrum.
+\quad The parameter \(T_2\) can be chosen $\to$ fit with the experiments.
 \end{frame}
 \begin{frame}
 Finally, we have the semiconductor Bloch equations\footcite{haug_quantum_2009}:
@@ -372,6 +373,8 @@ where,
 \begin{equation}
 	\Sigma_{\mu\nu} = \frac{e\textbf{A}(t)}{m}\textbf{p}_{\mu\nu}(\textbf{k}) - \sum_{\alpha\beta\textbf{q}} V^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}+\textbf{q},\textbf{q}}\rho_{\alpha \beta}(\textbf{k+q})
 \end{equation}
+At $0K$, initial conditions at \((t=-\infty)\):
+$$\rho_{\lambda\lambda'}(\textbf{k}) = \delta_{\lambda v} \delta_{\lambda' v} \quad \forall \textbf{k}$$
 \end{frame}
 %\subsection{Inter-band Polarization}
 \begin{frame}
@@ -393,7 +396,8 @@ For time-dependent interband polarization density:
 	\end{multicols}
 \end{frame}
 \begin{frame}{Three-band Tightbinding model}
-	Using basic functions of d-type orbitals: $$\ket{\phi_1} = d_{z^2}, \ket{\phi_2} = d_{xy}, \ket{\phi_3} = d_{x^2- y^2}.$$\\Three-band TB Hamiltonian with SOC has the form:
+	Using basic functions of d-type orbitals: $$\ket{\phi_1} = d_{z^2}, \ket{\phi_2} = d_{xy}, \ket{\phi_3} = d_{x^2- y^2}\Rightarrow H^{TB}_{3\times 3}(\textbf{k})$$
+	\\Three-band TB Hamiltonian with SOC has the form\footcite{liu_three-band_2013}:
 	\begin{equation*}
 		H^{TB}_{6\times 6}(\textbf{k}) = \begin{bmatrix}
 			H^{TB}_{3\times 3}(\textbf{k}) + \gamma L_z & 0\\ 0& H^{TB}_{3\times 3}(\textbf{k}) - \gamma L_z
@@ -404,6 +408,15 @@ For time-dependent interband polarization density:
 		\end{bmatrix}.
 	\end{equation*}
 	\note{The model we use in this work is called the three-band tight-binding models, It using basic function of 3 d-type orbitals as shown. The full Hamiltonian at a k-point is a 6 by 6 matrix when take spin orbit coupling into account.}
+\end{frame}
+\begin{frame}
+	\begin{figure}[hp]
+		\centering
+		\captionsetup{justification=centering}
+		\includegraphics[width=0.75\linewidth]{images/BS.pdf}
+		\caption{Band structure of $MoS_2$ monolayer}
+	\end{figure}
+	\note{The BS of this model is shown here, which huge band split (about 144 meV) at K and K' points. In this work, we will focus on the transition between the valence bands and the first pair of conduction bands.}
 \end{frame}
 \section{Numerical Results}
 \begin{frame}{Numerical Evaluation of The Sum Over k-space}
@@ -442,6 +455,8 @@ For time-dependent interband polarization density:
 			\item $\hbar \omega_0 = E_{gap.}$
 			\item small $\tau_L \to $ rounder Fourier transform's peak around $\omega_0$
 		\end{itemize}
+In numerical solving, choose time step \(\Delta t\)
+$$\Delta t \ll \tau_L$$
 		\columnbreak
 		\begin{figure}[hp]
 			\captionsetup{justification=centering}	
@@ -523,9 +538,17 @@ Choosing the $T_2$ for clearer Exciton peak:
 			\item Photovoltaic effect
 		\end{itemize}
 	\end{exampleblock}
+\begin{multicols}{2}
 	\begin{center}
+		\null\vfill
 		Thank you for your listening.
-	\end{center}
+		\null\vfill
+	\end{center}\columnbreak
+	\begin{figure}
+		For deeper calculation, source code, beamer e-pdf,... scan this.\\
+		\includegraphics[width = 2.5cm]{images/qrcode.pdf}
+	\end{figure}
+\end{multicols}
 	\note[item]{So far, we have used the three-band tight-binding model and semiconductor Bloch equations to calculate the linear absorption spectrum. We confirm that this model matches the results with the experiment data and also predicts smaller exciton peaks.}
 	\note[item]{For further results, we can include the many-body interaction in calculating other phenomena for a realistic picture of TMD's properties.}
 \end{frame}

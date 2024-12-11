@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  9 DEC 2024 13:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  11 DEC 2024 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1565,167 +1565,190 @@ Package pdftex.def Info: images/MX2.png  used on input line 60.
 (pdftex.def)             Requested size: 342.2953pt x 117.08522pt.
  [3
 
- <./images/MX2.png>] [4
-
-]
-<images/RS.pdf, id=196, 1598.97375pt x 842.39719pt>
+ <./images/MX2.png>]
+<images/RS.pdf, id=160, 1598.97375pt x 842.39719pt>
 File: images/RS.pdf Graphic file (type pdf)
 <use images/RS.pdf>
-Package pdftex.def Info: images/RS.pdf  used on input line 87.
+Package pdftex.def Info: images/RS.pdf  used on input line 88.
 (pdftex.def)             Requested size: 166.14764pt x 87.5224pt.
- [5
+ [4
 
- <./images/RS.pdf>] [6
+ <./images/RS.pdf>] [5
 
 {c:/texlive/2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{c:/texlive/
-2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}] [7
+2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}] [6
 
-{c:/texlive/2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}] [8
+{c:/texlive/2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{c:/texlive/
+2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}] [7
 
-{c:/texlive/2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}]
+] [8
+
+]
 [9
 
-] [10
+{c:/texlive/2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}] [10
 
-] [11
-
-{c:/texlive/2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}] [12
-
-] [13
+]
+[11
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-278.
+279.
  (c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
-278.
-LaTeX Font Info:    No file OMScmss.fd. on input line 278.
+279.
+LaTeX Font Info:    No file OMScmss.fd. on input line 279.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 278.
+(Font)              for symbol `textbraceleft' on input line 279.
 
-[14
+[12
 
 {c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 310.
+tance' requires LuaTeX. It will be ignored. on input line 311.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 310.
+stance' requires LuaTeX. It will be ignored. on input line 311.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 310.
+distance' requires LuaTeX. It will be ignored. on input line 311.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 310.
+tance' requires LuaTeX. It will be ignored. on input line 311.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 310.
+stance' requires LuaTeX. It will be ignored. on input line 311.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 310.
+distance' requires LuaTeX. It will be ignored. on input line 311.
 
 
 Package tikz-feynman Warning: The key you tried to use '/tikz/horizontal'' requ
-ires LuaTeX. It will be ignored. on input line 310.
+ires LuaTeX. It will be ignored. on input line 311.
 
-[15
+[13
+
+] [14
+
+] [15
 
 ] [16
 
 ] [17
 
-] [18
-
-] [19
-
 ]
-<images/cvbeamer.pdf, id=898, 1433.355pt x 974.89218pt>
+<images/cvbeamer.pdf, id=837, 1433.355pt x 974.89218pt>
 File: images/cvbeamer.pdf Graphic file (type pdf)
 <use images/cvbeamer.pdf>
-Package pdftex.def Info: images/cvbeamer.pdf  used on input line 394.
+Package pdftex.def Info: images/cvbeamer.pdf  used on input line 397.
 (pdftex.def)             Requested size: 166.14764pt x 112.99533pt.
- [20
+ [18
 
- <./images/cvbeamer.pdf>] [21
+ <./images/cvbeamer.pdf>] [19
 
 ]
-<images/Rhombus.pdf, id=962, 1243.64626pt x 782.17218pt>
+
+pdfTeX warning: pdflatex.exe (file ./images/BS.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<images/BS.pdf, id=904, 361.35pt x 216.81pt>
+File: images/BS.pdf Graphic file (type pdf)
+<use images/BS.pdf>
+Package pdftex.def Info: images/BS.pdf  used on input line 420.
+(pdftex.def)             Requested size: 256.72147pt x 154.0321pt.
+[20
+
+ <./images/BS.pdf>]
+<images/Rhombus.pdf, id=949, 1243.64626pt x 782.17218pt>
 File: images/Rhombus.pdf Graphic file (type pdf)
 <use images/Rhombus.pdf>
-Package pdftex.def Info: images/Rhombus.pdf  used on input line 421.
+Package pdftex.def Info: images/Rhombus.pdf  used on input line 434.
 (pdftex.def)             Requested size: 171.14764pt x 107.62956pt.
- [22
+ [21
 
  <./images/Rhombus.pdf>]
-<images/kcutoff.pdf, id=1013, 1162.3425pt x 681.29532pt>
+<images/kcutoff.pdf, id=1000, 1162.3425pt x 681.29532pt>
 File: images/kcutoff.pdf Graphic file (type pdf)
 <use images/kcutoff.pdf>
-Package pdftex.def Info: images/kcutoff.pdf  used on input line 433.
+Package pdftex.def Info: images/kcutoff.pdf  used on input line 446.
 (pdftex.def)             Requested size: 256.72147pt x 150.47798pt.
- [23
+ [22
 
  <./images/kcutoff.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./images/EAt.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<images/Eat.pdf, id=1064, 361.35pt x 216.81pt>
+<images/Eat.pdf, id=1050, 361.35pt x 216.81pt>
 File: images/Eat.pdf Graphic file (type pdf)
 <use images/Eat.pdf>
-Package pdftex.def Info: images/Eat.pdf  used on input line 459.
+Package pdftex.def Info: images/Eat.pdf  used on input line 474.
 (pdftex.def)             Requested size: 166.14764pt x 99.68748pt.
-[24
+
+Overfull \vbox (3.32205pt too high) detected at line 474
+ []
+
+[23
 
  <./images/EAt.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./images/Experiment.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<images/Experiment.pdf, id=1110, 361.35pt x 216.81pt>
+<images/Experiment.pdf, id=1097, 361.35pt x 216.81pt>
 File: images/Experiment.pdf Graphic file (type pdf)
 <use images/Experiment.pdf>
-Package pdftex.def Info: images/Experiment.pdf  used on input line 484.
+Package pdftex.def Info: images/Experiment.pdf  used on input line 499.
 (pdftex.def)             Requested size: 166.14764pt x 99.68748pt.
-[25
+[24
 
  <./images/Experiment.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./images/varyT2.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<images/varyT2.pdf, id=1151, 361.35pt x 216.81pt>
+<images/varyT2.pdf, id=1136, 361.35pt x 216.81pt>
 File: images/varyT2.pdf Graphic file (type pdf)
 <use images/varyT2.pdf>
-Package pdftex.def Info: images/varyT2.pdf  used on input line 496.
+Package pdftex.def Info: images/varyT2.pdf  used on input line 511.
 (pdftex.def)             Requested size: 273.83728pt x 164.30423pt.
-[26
+[25
 
  <./images/varyT2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./images/varyepsilon.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<images/varyepsilon.pdf, id=1188, 361.35pt x 216.81pt>
+<images/varyepsilon.pdf, id=1174, 361.35pt x 216.81pt>
 File: images/varyepsilon.pdf Graphic file (type pdf)
 <use images/varyepsilon.pdf>
-Package pdftex.def Info: images/varyepsilon.pdf  used on input line 507.
+Package pdftex.def Info: images/varyepsilon.pdf  used on input line 522.
 (pdftex.def)             Requested size: 273.83728pt x 164.30423pt.
-[27
+[26
 
- <./images/varyepsilon.pdf>] [28
+ <./images/varyepsilon.pdf>]
+<images/qrcode.pdf, id=1251, 30.86531pt x 30.86531pt>
+File: images/qrcode.pdf Graphic file (type pdf)
+<use images/qrcode.pdf>
+Package pdftex.def Info: images/qrcode.pdf  used on input line 554.
+(pdftex.def)             Requested size: 71.13188pt x 71.14503pt.
 
-]
-Overfull \vbox (179.24936pt too high) detected at line 534
+Overfull \vbox (3.14662pt too high) detected at line 554
  []
 
-[29
+[27
+
+ <./images/qrcode.pdf>]
+Overfull \vbox (179.24936pt too high) detected at line 557
+ []
+
+[28
 
  <c:/texlive/2023/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 \tf@nav=\write7
@@ -1749,18 +1772,22 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `beamer.out' has not changed.
 (rerunfilecheck)             Checksum: FA0F989D0BD8806932FF3187C0BB9A00;1119.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'beamer.run.xml'.
 \openout1 = `beamer.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41747 strings out of 474267
- 842757 string characters out of 5751464
- 1950558 words of memory out of 5000000
- 63100 multiletter control sequences out of 15000+600000
+ 41689 strings out of 474267
+ 841634 string characters out of 5751464
+ 1951558 words of memory out of 5000000
+ 63044 multiletter control sequences out of 15000+600000
  586838 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,18n,123p,1876b,2062s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,18n,123p,1876b,2065s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb><c:/te
 xlive/2023/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol6.pfb><c:/texlive/202
 3/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol8.pfb><c:/texlive/2023/texmf-d
@@ -1783,10 +1810,10 @@ st/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2023/texmf-dist/fonts
 blic/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-su
 per/sfss0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/wasy-type1/wasy
 10.pfb>
-Output written on beamer.pdf (29 pages, 1069765 bytes).
+Output written on beamer.pdf (28 pages, 1085801 bytes).
 PDF statistics:
- 1467 PDF objects out of 1728 (max. 8388607)
- 1170 compressed objects within 12 object streams
- 90 named destinations out of 1000 (max. 500000)
- 252 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1457 PDF objects out of 1728 (max. 8388607)
+ 1156 compressed objects within 12 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 262 words of extra memory for PDF output out of 10000 (max. 10000000)
 

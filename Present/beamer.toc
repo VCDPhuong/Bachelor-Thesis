@@ -1,6 +1,6 @@
 \beamer@sectionintoc {1}{Transition Metal Dichalcogenide Structure and Properties}{3}{0}{1}
-\beamer@sectionintoc {2}{Exciton}{7}{0}{2}
-\beamer@sectionintoc {3}{Tight-binding Model}{11}{0}{3}
-\beamer@sectionintoc {4}{Semiconductor Bloch Equations}{14}{0}{4}
-\beamer@sectionintoc {5}{Numerical Results}{22}{0}{5}
-\beamer@sectionintoc {6}{Summary and Outlook}{28}{0}{6}
+\beamer@sectionintoc {2}{Exciton}{6}{0}{2}
+\beamer@sectionintoc {3}{Tight-binding Model}{9}{0}{3}
+\beamer@sectionintoc {4}{Semiconductor Bloch Equations}{12}{0}{4}
+\beamer@sectionintoc {5}{Numerical Results}{21}{0}{5}
+\beamer@sectionintoc {6}{Summary and Outlook}{27}{0}{6}
