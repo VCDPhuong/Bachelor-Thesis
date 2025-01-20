@@ -1,0 +1,4 @@
+\usepgfplotslibrary{fillbetween}
+\pgfmathdeclarefunction{gauss}{2}{%
+	\pgfmathparse{1*exp(-((x-#1)^2)/(2*#2^2))}%
+}

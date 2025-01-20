@@ -1,0 +1,11 @@
+% ls-R -- filename database for kpathsea; do not change this line.
+
+./:
+document.aux
+document.log
+document.out
+document.pdf
+document.synctex.gz
+document.tex
+ls-R
+mam-authoring-template.cls

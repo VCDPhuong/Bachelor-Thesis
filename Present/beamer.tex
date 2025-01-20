@@ -211,11 +211,11 @@ Ex: GeAs\footcite{diakite2016accurateelectronictransportbulk}: $$E_b \approx 4.8
 \end{center}
 \begin{itemize}
 \item In the 2-D materials, lack of system dimension $\Rightarrow$ decrease in the dielectric screening.
-\item Large quantum confinement in nano-material (z-axis).
+%\item Large quantum confinement in nano-material (z-axis).
 \end{itemize}
 $\Rightarrow$ Increasing of exciton binding energy \(\sim 10^2\) in compared with bulk semiconductor.\\
 \begin{itemize}
-\item Previous theories predict binding energy too large\footcite{ramasubramaniam_large_2012,qiu_optical_2013}, precisely experiment shows significant smaller binding energy\footcite{zhang_absorption_2014}.
+\item Previous theories predict binding energy too large\footcite{ramasubramaniam_large_2012,qiu_optical_2013}, experiment shows significant smaller\footcite{zhang_absorption_2014}.
 \item Find a model not only simple but also precise enough for further research and application.
 \end{itemize}
 $\Rightarrow$ Look like enough for my bachelor's thesis \smiley{}.
@@ -227,10 +227,10 @@ $\Rightarrow$ Look like enough for my bachelor's thesis \smiley{}.
 	\label{H1e}
 	H_{1e}(\textbf{r}) = -\frac{\hbar^2 \nabla^2}{2m} + \sum_{\text{i}} V(\textbf{r} - \textbf{R}_\text{i} -\textbf{r}_c),
 \end{equation}
-\quad where $\textbf{R}_i$ is the Bravais lattice position, $\textbf{r}_c$ is the relative position of atom inside unit cell. We neglected the motion of nucleus because in this case, the nucleus (Transistion metals and Chalcogenides) are very heavy in compare with the electron (Born-Oppenheimer approximation).\\\null\quad Assuming that the electron stay close to its atom and have little overlap on the neighboring sites. Therefore the wave function of each electron can be described by the linearly combination of atomic orbitals (LCAO).
+\quad where $\textbf{R}_i$ is the Bravais lattice position, $\textbf{r}_c$ is the relative position of atom inside unit cell.\\\null\quad Assuming that the electron stay close to its atom and have little overlap on the neighboring sites. Therefore the wavefunction of each electron can be described by the linearly combination of atomic orbitals (LCAO).
 \begin{equation}
 	\label{key}
-	\psi (\textbf{r}) = \sum_{n=1}^N \sum_{c = 1}^{N_c} \sum_{\alpha = 1}^{N_{orbital}} c_{\alpha c}(\textbf{R}_n) \phi_{\alpha}(\textbf{r}-\textbf{R}_n -\textbf{r}_c)
+	\psi (\textbf{r}) = \sum_{n=1}^N \sum_{c = 1}^{N_c} \sum_{\alpha = 1}^{N_{orb.}} c_{\alpha c}(\textbf{R}_n) \phi_{\alpha}(\textbf{r}-\textbf{R}_n -\textbf{r}_c)
 \end{equation}
 $N, N_c, \text{and } N_{\alpha}$ is number of unit lattice of the system, number of atom in a basis and number of orbital of an atom, respectively.
 \end{frame}
@@ -238,7 +238,7 @@ $N, N_c, \text{and } N_{\alpha}$ is number of unit lattice of the system, number
 	From LCAO wavefunctions, Bloch wavefunction can be constructed as:
 	\begin{equation}
 \label{Bloch}
-\psi_{\textbf{k}}(\textbf{r}) = \sum_{c = 1}^{N_c} \sum_{\alpha = 1}^{N_{orb}}c_{\alpha c}(\textbf{k}) e^{i\textbf{k}(\textbf{R}_n + \textbf{r}_c)} \sum_{n = 1}^N \phi_{\alpha}(\textbf{r} - \textbf{R}_n -\textbf{r}_c).
+\psi(\textbf{r}) = \sum_{c = 1}^{N_c} \sum_{\alpha = 1}^{N_{orb}}c_{\alpha c}(\textbf{k}) e^{i\textbf{k}(\textbf{R}_n + \textbf{r}_c)} \sum_{n = 1}^N \phi_{\alpha}(\textbf{r} - \textbf{R}_n -\textbf{r}_c).
 	\end{equation}
 Substituting \eqref{Bloch} into Schrödinger equation with Hamiltomian \eqref{H1e}, multiply with $e^{-i\textbf{k}\textbf{r}_c} \phi^*_{\alpha'}(\textbf{r} - \textbf{r}_{c'})$ and taking the integral on $\textbf{r}$:
 \begin{equation}
@@ -268,11 +268,11 @@ H_{\alpha' c', \alpha c} = \sum_{n = 1}^N e^{i\textbf{k}(\textbf{r} + \textbf{r}
 \end{frame}
 \section{Semiconductor Bloch Equations}
 \begin{frame}{Second Quantization Hamiltonian}
-\quad The second quantization Hamiltonian in basis of Bloch function $\{\ket{\psi_{\lambda \textbf{k}}}\}$ for many electrons system with Coulomb interaction in the electromagnetic field in velocity gauge (\(\phi =0\))
+\quad The second quantization Hamiltonian in basis of Bloch function $\{\ket{\psi_{\lambda \textbf{k}}}\}$ for many electrons with light-matter interaction:
 \begin{align}
 	\label{2nd H}
 H =& H_{1e}^0 + H^{Coul.} + H^{e-L}\nonumber\\=& \sum_{\lambda \textbf{k}} \varepsilon_{\lambda}(\textbf{k}) c^\dagger_{\textbf{k}} c_{\textbf{k}} +\frac{1}{2} \sum_{\textbf{k}\textbf{k}'\textbf{q}}\sum_{\alpha \beta \gamma \delta} V^{\alpha\beta\gamma\delta}_{\textbf{k},\textbf{k}',\textbf{q}}c^\dagger_{\alpha\textbf{k}+\textbf{q}} c^\dagger_{\beta\textbf{k}'-\textbf{q}} c_{\gamma\textbf{k}} c_{\delta \textbf{k}'}\\
-&+ \sum_{\lambda \lambda' \textbf{k}\textbf{k}'} \bra{\psi_{\lambda \textbf{k}}}\frac{e}{m}\textbf{A}(\textbf{r},t).\textbf{p}\ket{\psi_{\lambda' \textbf{k}'}}c^{\dagger}_{\lambda \textbf{k}} c_{\lambda' \textbf{k}'}\nonumber + \mathrm{O}(\textbf{A}^2)
+&+ \sum_{\lambda \lambda' \textbf{k}\textbf{k}'} \bra{\psi_{\lambda \textbf{k}}}\frac{e}{m}\textbf{A}(\textbf{r},t).\textbf{p}\ket{\psi_{\lambda' \textbf{k}'}}c^{\dagger}_{\lambda \textbf{k}} c_{\lambda' \textbf{k}'}\nonumber + \mathrm{O}(\textbf{A}^2),
 \end{align}
 \quad in which the creation \(c^\dagger_{\lambda\textbf{k}}\) and annihilation \(c_{\lambda\textbf{k}}\) operator satisfied the anti-commutator relation\footnote{\{A,B\} = AB + BA}:
 $$\{c^\dagger_{\lambda \textbf{k}},c^\dagger_{\lambda'\textbf{k}'}\} = \{c_{\lambda \textbf{k}},c_{\lambda'\textbf{k}'}\} = 0;\quad \{c_{\lambda \textbf{k}},c^\dagger_{\lambda'\textbf{k}'}\} = \delta_{\lambda\lambda'} \delta_{\textbf{k}\textbf{k}'}$$
@@ -356,7 +356,7 @@ in which
 \end{align}
 \end{frame}
 \begin{frame}
-Equation \eqref{SBE no T} can describe the transition between valence bands and conduction bands, but lack of relaxation effect due to scattering.\\\null
+\quad Equation \eqref{SBE no T} can describe the transition between valence bands and conduction bands, but lack of relaxation effect due to scattering.\\\null
 \quad Phenomenally characterize the scattering term:
 \begin{equation}
 	\bigg(\dv{\rho(\textbf{k})}{t}\bigg|_{scat.}\bigg)_{\lambda\lambda'} \to - \frac{\rho_{\lambda\lambda'}(\textbf{k})}{T_2}(1-\delta_{\lambda\lambda'})
@@ -515,7 +515,7 @@ Choosing the $T_2$ for clearer Exciton peak:
 	\end{center}
 	\begin{itemize}
 		\item Choosing the $\varepsilon$ for fitting with the experiment.
-		\item For 3-band TB model: $\varepsilon \in (1.5,2.5)$ is in good agreement with measurement binding energy of $E_{bind.}= 0.2-0.5 eV$ \footcite{zhang_absorption_2014}
+		\item For the relative permittivity $\varepsilon \in (1.5,2.5)$, binding energy is in good agreement with measurement $E_{bind.}= 0.2-0.5 eV$ \footcite{zhang_absorption_2014}
 	\end{itemize}
 	\note[item]{The binding energy is affected through the relative permittivity, as we increase the epsilon, two peaks move to the right of the spectrum.}
 	\note[item]{With the same epsilon equal to 2.5, we obtain the same results as the experiment, approximately 0.24 eV for the exciton binding energy.}

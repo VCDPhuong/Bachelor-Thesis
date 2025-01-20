@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  11 DEC 2024 22:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  12 DEC 2024 19:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1772,19 +1772,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `beamer.out' has not changed.
 (rerunfilecheck)             Checksum: FA0F989D0BD8806932FF3187C0BB9A00;1119.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'beamer.run.xml'.
 \openout1 = `beamer.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41689 strings out of 474267
- 841634 string characters out of 5751464
+ 41688 strings out of 474267
+ 841621 string characters out of 5751464
  1951558 words of memory out of 5000000
- 63044 multiletter control sequences out of 15000+600000
+ 63043 multiletter control sequences out of 15000+600000
  586838 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,18n,123p,1876b,2065s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1810,7 +1806,7 @@ st/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2023/texmf-dist/fonts
 blic/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-su
 per/sfss0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/wasy-type1/wasy
 10.pfb>
-Output written on beamer.pdf (28 pages, 1085801 bytes).
+Output written on beamer.pdf (28 pages, 1084868 bytes).
 PDF statistics:
  1457 PDF objects out of 1728 (max. 8388607)
  1156 compressed objects within 12 object streams

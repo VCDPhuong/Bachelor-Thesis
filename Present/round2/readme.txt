@@ -1,0 +1,2 @@
+If you want to change the publisher images. Go to the .cls file and change the {qrcode.pdf}, the parent folder for the images can be change in tex file
+!remember to change for the medium and small section in .cls too if want to use it
