@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  23 FEB 2025 20:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  26 FEB 2025 00:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**beamer.tex
-(./beamer.tex
+**present.tex
+(./present.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
 (c:/texlive/2023/texmf-dist/tex/latex/beamer/beamer.cls
@@ -684,11 +684,11 @@ Package: amsthm 2020/05/29 v2.20.6
 \beamer@dimb=\dimen293
 )
 (c:/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(c:/texlive/2023/texmf-dist/tex/latex/beamer/beamerthemeBoadilla.sty
-(c:/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemerose.sty)
-(c:/texlive/2023/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
-(c:/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemedolphin.sty)
-(c:/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
+(c:/texlive/2023/texmf-dist/tex/latex/beamer/beamerthemeBerlin.sty
+(c:/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthememiniframes.sty)
+(c:/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
+(c:/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty)
+(c:/texlive/2023/texmf-dist/tex/latex/beamer/beamerinnerthemerectangles.sty))
 (c:/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (c:/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
@@ -1013,74 +1013,211 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 )
+(c:/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen339
+\WF@size=\dimen340
+\c@WF@wrappedlines=\count379
+\WF@box=\box131
+\WF@everypar=\toks50
+Package: wrapfig 2003/01/31  v 3.6
+)
+(c:/texlive/2023/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks51
+\t@pgfplots@tokb=\toks52
+\t@pgfplots@tokc=\toks53
+\pgfplots@tmpa=\dimen341
+\c@pgfplots@coordindex=\count380
+\c@pgfplots@scanlineindex=\count381
+
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.te
+x))
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
+
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
+upp_loader.code.tex
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks54
+\t@pgf@tokb=\toks55
+\t@pgf@tokc=\toks56
+
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
+upp_pgfutil-common-lists.tex))
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
+cture.code.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
+ctureext.code.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.co
+de.tex
+\c@pgfplotsarray@tmp=\count382
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.c
+ode.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.c
+ode.tex
+\c@pgfplotstable@counta=\count383
+\t@pgfplotstable@a=\toks57
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.co
+de.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.
+tex))
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.te
+x)
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfsh
+ading.code.tex
+\c@pgfplotslibrarysurf@no=\count384
+
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
+ding.pgfsys-pdftex.def)))
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.t
+ex
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex
+))) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.t
+ex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.conto
+urlua.code.tex)
+\pgfplots@numplots=\count385
+\pgfplots@xmin@reg=\dimen342
+\pgfplots@xmax@reg=\dimen343
+\pgfplots@ymin@reg=\dimen344
+\pgfplots@ymax@reg=\dimen345
+\pgfplots@zmin@reg=\dimen346
+\pgfplots@zmax@reg=\dimen347
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.
+tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2023/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip70
+\subfigcapskip=\skip71
+\subfigcaptopadj=\dimen348
+\subfigbottomskip=\skip72
+\subfigcapmargin=\dimen349
+\subfiglabelskip=\skip73
+\c@subfigure=\count386
+\c@lofdepth=\count387
+\c@subtable=\count388
+\c@lotdepth=\count389
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2023/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip74
+\subfig@bottom=\skip75
+)
 (c:/texlive/2023/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty)
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 24.
+
+(./pgf/pgf.tex
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fillb
+etween.code.tex
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillbetw
+een.code.tex
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryintersections.code.tex
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.c
+ode.tex
+\pgf@intersect@solutions=\count390
+))
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorati
+ons.softclip.code.tex
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbetwe
+en.code.tex)))
+(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decor
+ations.softclip.code.tex)))
 (c:/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
 (c:/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count379
+\lrq@indent=\count391
 
 (c:/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count380
-\c@listtotal=\count381
-\c@listcount=\count382
-\c@liststart=\count383
-\c@liststop=\count384
-\c@citecount=\count385
-\c@citetotal=\count386
-\c@multicitecount=\count387
-\c@multicitetotal=\count388
-\c@instcount=\count389
-\c@maxnames=\count390
-\c@minnames=\count391
-\c@maxitems=\count392
-\c@minitems=\count393
-\c@citecounter=\count394
-\c@maxcitecounter=\count395
-\c@savedcitecounter=\count396
-\c@uniquelist=\count397
-\c@uniquename=\count398
-\c@refsection=\count399
-\c@refsegment=\count400
-\c@maxextratitle=\count401
-\c@maxextratitleyear=\count402
-\c@maxextraname=\count403
-\c@maxextradate=\count404
-\c@maxextraalpha=\count405
-\c@abbrvpenalty=\count406
-\c@highnamepenalty=\count407
-\c@lownamepenalty=\count408
-\c@maxparens=\count409
-\c@parenlevel=\count410
-\blx@tempcnta=\count411
-\blx@tempcntb=\count412
-\blx@tempcntc=\count413
-\c@blx@maxsection=\count414
-\blx@maxsegment@0=\count415
-\blx@notetype=\count416
-\blx@parenlevel@text=\count417
-\blx@parenlevel@foot=\count418
-\blx@sectionciteorder@0=\count419
-\blx@sectionciteorderinternal@0=\count420
-\blx@entrysetcounter=\count421
-\blx@biblioinstance=\count422
-\labelnumberwidth=\skip70
-\labelalphawidth=\skip71
-\biblabelsep=\skip72
-\bibitemsep=\skip73
-\bibnamesep=\skip74
-\bibinitsep=\skip75
-\bibparsep=\skip76
-\bibhang=\skip77
+\c@tabx@nest=\count392
+\c@listtotal=\count393
+\c@listcount=\count394
+\c@liststart=\count395
+\c@liststop=\count396
+\c@citecount=\count397
+\c@citetotal=\count398
+\c@multicitecount=\count399
+\c@multicitetotal=\count400
+\c@instcount=\count401
+\c@maxnames=\count402
+\c@minnames=\count403
+\c@maxitems=\count404
+\c@minitems=\count405
+\c@citecounter=\count406
+\c@maxcitecounter=\count407
+\c@savedcitecounter=\count408
+\c@uniquelist=\count409
+\c@uniquename=\count410
+\c@refsection=\count411
+\c@refsegment=\count412
+\c@maxextratitle=\count413
+\c@maxextratitleyear=\count414
+\c@maxextraname=\count415
+\c@maxextradate=\count416
+\c@maxextraalpha=\count417
+\c@abbrvpenalty=\count418
+\c@highnamepenalty=\count419
+\c@lownamepenalty=\count420
+\c@maxparens=\count421
+\c@parenlevel=\count422
+\blx@tempcnta=\count423
+\blx@tempcntb=\count424
+\blx@tempcntc=\count425
+\c@blx@maxsection=\count426
+\blx@maxsegment@0=\count427
+\blx@notetype=\count428
+\blx@parenlevel@text=\count429
+\blx@parenlevel@foot=\count430
+\blx@sectionciteorder@0=\count431
+\blx@sectionciteorderinternal@0=\count432
+\blx@entrysetcounter=\count433
+\blx@biblioinstance=\count434
+\labelnumberwidth=\skip76
+\labelalphawidth=\skip77
+\biblabelsep=\skip78
+\bibitemsep=\skip79
+\bibnamesep=\skip80
+\bibinitsep=\skip81
+\bibparsep=\skip82
+\bibhang=\skip83
 \blx@bcfin=\read4
 \blx@bcfout=\write5
 \blx@langwohyphens=\language89
-\c@mincomprange=\count423
-\c@maxcomprange=\count424
-\c@mincompwidth=\count425
+\c@mincomprange=\count435
+\c@maxcomprange=\count436
+\c@mincompwidth=\count437
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1088,91 +1225,91 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'authortitle.dbx' not found.
+Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count426
-\c@savedafterword=\count427
-\c@annotator=\count428
-\c@savedannotator=\count429
-\c@author=\count430
-\c@savedauthor=\count431
-\c@bookauthor=\count432
-\c@savedbookauthor=\count433
-\c@commentator=\count434
-\c@savedcommentator=\count435
-\c@editor=\count436
-\c@savededitor=\count437
-\c@editora=\count438
-\c@savededitora=\count439
-\c@editorb=\count440
-\c@savededitorb=\count441
-\c@editorc=\count442
-\c@savededitorc=\count443
-\c@foreword=\count444
-\c@savedforeword=\count445
-\c@holder=\count446
-\c@savedholder=\count447
-\c@introduction=\count448
-\c@savedintroduction=\count449
-\c@namea=\count450
-\c@savednamea=\count451
-\c@nameb=\count452
-\c@savednameb=\count453
-\c@namec=\count454
-\c@savednamec=\count455
-\c@translator=\count456
-\c@savedtranslator=\count457
-\c@shortauthor=\count458
-\c@savedshortauthor=\count459
-\c@shorteditor=\count460
-\c@savedshorteditor=\count461
-\c@labelname=\count462
-\c@savedlabelname=\count463
-\c@institution=\count464
-\c@savedinstitution=\count465
-\c@lista=\count466
-\c@savedlista=\count467
-\c@listb=\count468
-\c@savedlistb=\count469
-\c@listc=\count470
-\c@savedlistc=\count471
-\c@listd=\count472
-\c@savedlistd=\count473
-\c@liste=\count474
-\c@savedliste=\count475
-\c@listf=\count476
-\c@savedlistf=\count477
-\c@location=\count478
-\c@savedlocation=\count479
-\c@organization=\count480
-\c@savedorganization=\count481
-\c@origlocation=\count482
-\c@savedoriglocation=\count483
-\c@origpublisher=\count484
-\c@savedorigpublisher=\count485
-\c@publisher=\count486
-\c@savedpublisher=\count487
-\c@language=\count488
-\c@savedlanguage=\count489
-\c@origlanguage=\count490
-\c@savedoriglanguage=\count491
-\c@pageref=\count492
-\c@savedpageref=\count493
-\shorthandwidth=\skip78
-\shortjournalwidth=\skip79
-\shortserieswidth=\skip80
-\shorttitlewidth=\skip81
-\shortauthorwidth=\skip82
-\shorteditorwidth=\skip83
-\locallabelnumberwidth=\skip84
-\locallabelalphawidth=\skip85
-\localshorthandwidth=\skip86
-\localshortjournalwidth=\skip87
-\localshortserieswidth=\skip88
-\localshorttitlewidth=\skip89
-\localshortauthorwidth=\skip90
-\localshorteditorwidth=\skip91
+\c@afterword=\count438
+\c@savedafterword=\count439
+\c@annotator=\count440
+\c@savedannotator=\count441
+\c@author=\count442
+\c@savedauthor=\count443
+\c@bookauthor=\count444
+\c@savedbookauthor=\count445
+\c@commentator=\count446
+\c@savedcommentator=\count447
+\c@editor=\count448
+\c@savededitor=\count449
+\c@editora=\count450
+\c@savededitora=\count451
+\c@editorb=\count452
+\c@savededitorb=\count453
+\c@editorc=\count454
+\c@savededitorc=\count455
+\c@foreword=\count456
+\c@savedforeword=\count457
+\c@holder=\count458
+\c@savedholder=\count459
+\c@introduction=\count460
+\c@savedintroduction=\count461
+\c@namea=\count462
+\c@savednamea=\count463
+\c@nameb=\count464
+\c@savednameb=\count465
+\c@namec=\count466
+\c@savednamec=\count467
+\c@translator=\count468
+\c@savedtranslator=\count469
+\c@shortauthor=\count470
+\c@savedshortauthor=\count471
+\c@shorteditor=\count472
+\c@savedshorteditor=\count473
+\c@labelname=\count474
+\c@savedlabelname=\count475
+\c@institution=\count476
+\c@savedinstitution=\count477
+\c@lista=\count478
+\c@savedlista=\count479
+\c@listb=\count480
+\c@savedlistb=\count481
+\c@listc=\count482
+\c@savedlistc=\count483
+\c@listd=\count484
+\c@savedlistd=\count485
+\c@liste=\count486
+\c@savedliste=\count487
+\c@listf=\count488
+\c@savedlistf=\count489
+\c@location=\count490
+\c@savedlocation=\count491
+\c@organization=\count492
+\c@savedorganization=\count493
+\c@origlocation=\count494
+\c@savedoriglocation=\count495
+\c@origpublisher=\count496
+\c@savedorigpublisher=\count497
+\c@publisher=\count498
+\c@savedpublisher=\count499
+\c@language=\count500
+\c@savedlanguage=\count501
+\c@origlanguage=\count502
+\c@savedoriglanguage=\count503
+\c@pageref=\count504
+\c@savedpageref=\count505
+\shorthandwidth=\skip84
+\shortjournalwidth=\skip85
+\shortserieswidth=\skip86
+\shorttitlewidth=\skip87
+\shortauthorwidth=\skip88
+\shorteditorwidth=\skip89
+\locallabelnumberwidth=\skip90
+\locallabelalphawidth=\skip91
+\localshorthandwidth=\skip92
+\localshortjournalwidth=\skip93
+\localshortserieswidth=\skip94
+\localshorttitlewidth=\skip95
+\localshortauthorwidth=\skip96
+\localshorteditorwidth=\skip97
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1194,38 +1331,38 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (c:/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count494
-\c@textcitetotal=\count495
-\c@textcitemaxnames=\count496
-\c@biburlbigbreakpenalty=\count497
-\c@biburlbreakpenalty=\count498
-\c@biburlnumpenalty=\count499
-\c@biburlucpenalty=\count500
-\c@biburllcpenalty=\count501
+\c@textcitecount=\count506
+\c@textcitetotal=\count507
+\c@textcitemaxnames=\count508
+\c@biburlbigbreakpenalty=\count509
+\c@biburlbreakpenalty=\count510
+\c@biburlnumpenalty=\count511
+\c@biburlucpenalty=\count512
+\c@biburllcpenalty=\count513
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count502
+\c@smartand=\count514
 )
-Package biblatex Info: Trying to load bibliography style 'authortitle'...
-Package biblatex Info: ... file 'authortitle.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
 
-(c:/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/authortitle.bbx
-File: authortitle.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+(c:/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (c:/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count503
-\c@bbx:relatedtotal=\count504
+\c@bbx:relatedcount=\count515
+\c@bbx:relatedtotal=\count516
 ))
-Package biblatex Info: Trying to load citation style 'authortitle'...
-Package biblatex Info: ... file 'authortitle.cbx' found.
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
 
-(c:/texlive/2023/texmf-dist/tex/latex/biblatex/cbx/authortitle.cbx
-File: authortitle.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+(c:/texlive/2023/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1340,9 +1477,9 @@ LaTeX Font Info:    Redeclaring math symbol \invneg on input line 242.
 )
 (c:/texlive/2023/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count505
-\c@@ppsavesec=\count506
-\c@@ppsaveapp=\count507
+\c@@pps=\count517
+\c@@ppsavesec=\count518
+\c@@ppsaveapp=\count519
 )
 (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarysnakes.code.tex
@@ -1357,57 +1494,29 @@ Package pgf Warning: Snakes have been superseded by decorations. Please use the
 brarydecorations.shapes.code.tex
 (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
 orations.shapes.code.tex)))
+\@quotelevel=\count520
+\@quotereset=\count521
+ (./present.aux)
+\openout1 = `present.aux'.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 37.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 37.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 37.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 37.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 42.
-
-\@quotelevel=\count508
-\@quotereset=\count509
-(./beamer.aux)
-\openout1 = `beamer.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1417,14 +1526,14 @@ LaTeX Font Info:    ... okay on input line 42.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=342.2953pt
+* \textwidth=307.28987pt
 * \textheight=244.6939pt
-* \oddsidemargin=-61.31996pt
-* \evensidemargin=-61.31996pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1445,17 +1554,17 @@ LaTeX Font Info:    ... okay on input line 42.
 
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count510
-\scratchdimen=\dimen339
-\scratchbox=\box131
-\nofMPsegments=\count511
-\nofMParguments=\count512
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count513
-\MPscratchDim=\dimen340
-\MPnumerator=\count514
-\makeMPintoPDFobject=\count515
-\everyMPtoPDFconversion=\toks51
+\scratchcounter=\count522
+\scratchdimen=\dimen350
+\scratchbox=\box132
+\nofMPsegments=\count523
+\nofMParguments=\count524
+\everyMPshowfont=\toks58
+\MPscratchCnt=\count525
+\MPscratchDim=\dimen351
+\MPnumerator=\count526
+\makeMPintoPDFobject=\count527
+\everyMPtoPDFconversion=\toks59
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -1473,11 +1582,11 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 42.
+Package hyperref Info: Link coloring OFF on input line 43.
 
-(./beamer.out) (./beamer.out)
+(./present.out) (./present.out)
 \@outlinefile=\write6
-\openout6 = `beamer.out'.
+\openout6 = `present.out'.
 
 
 (c:/texlive/2023/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
@@ -1507,15 +1616,20 @@ Dictionary: translator-theorem-dictionary, Language: English
 
 Package tikz-feynman Warning: LuaTeX is required if you wish to have vertices a
 utomatically placed. You can disable this warning by setting /tikzfeynman/warn 
-luatex=false on input line 42.
+luatex=false on input line 43.
 
 
 Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[co
 mpat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on
- input line 42.
+ input line 43.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfigure package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
+
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (c:/texlive/2023/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1527,271 +1641,164 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
-\openout5 = `beamer-blx.bib'.
+\openout5 = `present-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'beamer.bbl' found.
- (./beamer.bbl)
-Package biblatex Info: Reference section=0 on input line 42.
-Package biblatex Info: Reference segment=0 on input line 42.
+Package biblatex Info: ... file 'present.bbl' found.
+ (./present.bbl
 
-(./beamer.nav)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Kitzling_1980':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
+ (./present.nav) [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.ma
+p}
+
+] (./present.toc) [2
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
 
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
 
-
-(c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 42
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 85
 .
 
 (c:/texlive/2023/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-) [1
-
-{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./beamer.toc) 
-[2
-
-]
-<images/MX2.png, id=117, 644.079pt x 220.314pt>
-File: images/MX2.png Graphic file (type png)
-<use images/MX2.png>
-Package pdftex.def Info: images/MX2.png  used on input line 60.
-(pdftex.def)             Requested size: 342.2953pt x 117.08522pt.
+)
+<Images/Hall effect.png, id=189, 214.55156pt x 138.5175pt>
+File: Images/Hall effect.png Graphic file (type png)
+<use Images/Hall effect.png>
+Package pdftex.def Info: Images/Hall effect.png  used on input line 85.
+(pdftex.def)             Requested size: 107.55098pt x 69.43611pt.
  [3
 
- <./images/MX2.png>]
-<images/RS.pdf, id=154, 1598.97375pt x 842.39719pt>
-File: images/RS.pdf Graphic file (type pdf)
-<use images/RS.pdf>
-Package pdftex.def Info: images/RS.pdf  used on input line 88.
-(pdftex.def)             Requested size: 166.14764pt x 87.5224pt.
- [4
+{c:/texlive/2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{c:/texlive/
+2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{c:/texlive/2023/texmf-d
+ist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc} <./Images/Hall effect.png>]
+<Images/Rhoxy.jpg, id=257, 709.65125pt x 493.845pt>
+File: Images/Rhoxy.jpg Graphic file (type jpg)
+<use Images/Rhoxy.jpg>
+Package pdftex.def Info: Images/Rhoxy.jpg  used on input line 112.
+(pdftex.def)             Requested size: 122.9164pt x 85.53497pt.
 
- <./images/RS.pdf>] [5
+Overfull \vbox (0.777pt too high) detected at line 112
+ []
 
-{c:/texlive/2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{c:/texlive/
-2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}] [6
+[4
 
-{c:/texlive/2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{c:/texlive/
-2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}] [7
+ <./Images/Rhoxy.jpg>] [5
 
-] [8
+{c:/texlive/2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}]
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 161.
+
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 161.
+
+[6
+
+] [7
+
+{c:/texlive/2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}]
+[8
+
+] [9
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-279.
+<images/decreseB.png, id=611, 462.528pt x 346.896pt>
+File: images/decreseB.png Graphic file (type png)
+<use images/decreseB.png>
+Package pdftex.def Info: images/decreseB.png  used on input line 293.
+(pdftex.def)             Requested size: 153.64493pt x 115.23296pt.
+ [10
 
-(c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
-279.
-LaTeX Font Info:    No file OMScmss.fd. on input line 279.
+ <./Images/decreseB.png>]
+<images/Ne.png, id=656, 462.528pt x 346.896pt>
+File: images/Ne.png Graphic file (type png)
+<use images/Ne.png>
+Package pdftex.def Info: images/Ne.png  used on input line 293.
+(pdftex.def)             Requested size: 153.64493pt x 115.23296pt.
+ [11
 
+ <./Images/Ne.png>]
+<images/Disorder.pdf, id=713, 372.9132pt x 281.56392pt>
+File: images/Disorder.pdf Graphic file (type pdf)
+<use images/Disorder.pdf>
+Package pdftex.def Info: images/Disorder.pdf  used on input line 320.
+(pdftex.def)             Requested size: 122.91406pt x 92.80467pt.
+ [12
 
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 279.
+ <./Images/Disorder.pdf>]
+File: Images/Rhoxy.jpg Graphic file (type jpg)
+<use Images/Rhoxy.jpg>
+Package pdftex.def Info: Images/Rhoxy.jpg  used on input line 343.
+(pdftex.def)             Requested size: 122.9164pt x 85.53497pt.
+ [13
 
-[9
-
-{c:/texlive/2023/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}{c:/texlive/
-2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 311.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 311.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 311.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 311.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 311.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 311.
-
-
-Package tikz-feynman Warning: The key you tried to use '/tikz/horizontal'' requ
-ires LuaTeX. It will be ignored. on input line 311.
-
-[10
-
-] [11
-
-] [12
-
-] [13
-
-]
-
-pdfTeX warning: pdflatex.exe (file ./images/BS.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-<images/BS.pdf, id=704, 361.35pt x 216.81pt>
-File: images/BS.pdf Graphic file (type pdf)
-<use images/BS.pdf>
-Package pdftex.def Info: images/BS.pdf  used on input line 420.
-(pdftex.def)             Requested size: 256.72147pt x 154.0321pt.
-[14
-
- <./images/BS.pdf>]
-<images/Rhombus.pdf, id=749, 1243.64626pt x 782.17218pt>
-File: images/Rhombus.pdf Graphic file (type pdf)
-<use images/Rhombus.pdf>
-Package pdftex.def Info: images/Rhombus.pdf  used on input line 434.
-(pdftex.def)             Requested size: 171.14764pt x 107.62956pt.
- [15
-
- <./images/Rhombus.pdf>]
-<images/kcutoff.pdf, id=800, 1162.3425pt x 681.29532pt>
-File: images/kcutoff.pdf Graphic file (type pdf)
-<use images/kcutoff.pdf>
-Package pdftex.def Info: images/kcutoff.pdf  used on input line 446.
-(pdftex.def)             Requested size: 256.72147pt x 150.47798pt.
- [16
-
- <./images/kcutoff.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./images/EAt.pdf): PDF inclusion: found PDF 
-version <1.7>, but at most version <1.5> allowed
-<images/Eat.pdf, id=851, 361.35pt x 216.81pt>
-File: images/Eat.pdf Graphic file (type pdf)
-<use images/Eat.pdf>
-Package pdftex.def Info: images/Eat.pdf  used on input line 474.
-(pdftex.def)             Requested size: 166.14764pt x 99.68748pt.
-
-Overfull \vbox (3.32205pt too high) detected at line 474
- []
-
-[17
-
- <./images/EAt.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./images/Experiment.pdf): PDF inclusion: fou
-nd PDF version <1.7>, but at most version <1.5> allowed
-<images/Experiment.pdf, id=897, 361.35pt x 216.81pt>
-File: images/Experiment.pdf Graphic file (type pdf)
-<use images/Experiment.pdf>
-Package pdftex.def Info: images/Experiment.pdf  used on input line 499.
-(pdftex.def)             Requested size: 166.14764pt x 99.68748pt.
-[18
-
- <./images/Experiment.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./images/varyT2.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<images/varyT2.pdf, id=936, 361.35pt x 216.81pt>
-File: images/varyT2.pdf Graphic file (type pdf)
-<use images/varyT2.pdf>
-Package pdftex.def Info: images/varyT2.pdf  used on input line 511.
-(pdftex.def)             Requested size: 273.83728pt x 164.30423pt.
-[19
-
- <./images/varyT2.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./images/varyepsilon.pdf): PDF inclusion: fo
-und PDF version <1.7>, but at most version <1.5> allowed
-<images/varyepsilon.pdf, id=974, 361.35pt x 216.81pt>
-File: images/varyepsilon.pdf Graphic file (type pdf)
-<use images/varyepsilon.pdf>
-Package pdftex.def Info: images/varyepsilon.pdf  used on input line 522.
-(pdftex.def)             Requested size: 273.83728pt x 164.30423pt.
-[20
-
- <./images/varyepsilon.pdf>]
-<images/qrcode.pdf, id=1051, 30.86531pt x 30.86531pt>
-File: images/qrcode.pdf Graphic file (type pdf)
-<use images/qrcode.pdf>
-Package pdftex.def Info: images/qrcode.pdf  used on input line 554.
-(pdftex.def)             Requested size: 71.13188pt x 71.14503pt.
-
-Overfull \vbox (3.14662pt too high) detected at line 554
- []
-
-[21
-
- <./images/qrcode.pdf>]
-Overfull \vbox (179.24936pt too high) detected at line 557
- []
-
-[22
+] [14
 
  <c:/texlive/2023/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 \tf@nav=\write7
-\openout7 = `beamer.nav'.
+\openout7 = `present.nav'.
 
 \tf@toc=\write8
-\openout8 = `beamer.toc'.
+\openout8 = `present.toc'.
 
 \tf@snm=\write9
-\openout9 = `beamer.snm'.
+\openout9 = `present.snm'.
 
-
-(./beamer.aux)
+ (./present.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-Package rerunfilecheck Info: File `beamer.out' has not changed.
-(rerunfilecheck)             Checksum: 783FCF32272BD2283659D06C7EA96DEE;978.
-Package logreq Info: Writing requests to 'beamer.run.xml'.
-\openout1 = `beamer.run.xml'.
+Package rerunfilecheck Info: File `present.out' has not changed.
+(rerunfilecheck)             Checksum: 38FDCE33F2F63DBA84B21913EFE111F5;713.
+Package logreq Info: Writing requests to 'present.run.xml'.
+\openout1 = `present.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41635 strings out of 474267
- 841008 string characters out of 5751464
- 1951558 words of memory out of 5000000
- 63011 multiletter control sequences out of 15000+600000
- 586838 words of font info for 136 fonts, out of 8000000 for 9000
+ 51864 strings out of 474267
+ 1182736 string characters out of 5751464
+ 1958558 words of memory out of 5000000
+ 73105 multiletter control sequences out of 15000+600000
+ 589403 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,18n,123p,1876b,2065s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb><c:/te
-xlive/2023/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol6.pfb><c:/texlive/202
-3/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol8.pfb><c:/texlive/2023/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/
-texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/202
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmss10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pf
-b><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texl
-ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2023/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2023/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmssi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-su
-per/sfss0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/wasy-type1/wasy
-10.pfb>
-Output written on beamer.pdf (22 pages, 1040373 bytes).
+ 128i,23n,123p,1877b,2496s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol-Bold10.pfb><
+c:/texlive/2023/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb><c:/texli
+ve/2023/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol8.pfb><c:/texlive/2023/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pf
+b><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/tex
+live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2023/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2023/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsf
+onts/latxfont/line10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msbm10.pfb>
+Output written on present.pdf (14 pages, 372493 bytes).
 PDF statistics:
- 1251 PDF objects out of 1440 (max. 8388607)
- 968 compressed objects within 10 object streams
- 67 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 983 PDF objects out of 1000 (max. 8388607)
+ 693 compressed objects within 7 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 100 words of extra memory for PDF output out of 10000 (max. 10000000)
 

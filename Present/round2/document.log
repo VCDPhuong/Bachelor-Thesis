@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  19 JAN 2025 05:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  24 FEB 2025 20:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -998,6 +998,11 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen322
 ))
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 54.
+
+(./pgf/pgf.tex
 (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fillb
 etween.code.tex
 (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillbetw
@@ -1013,12 +1018,7 @@ ons.softclip.code.tex
 (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbetwe
 en.code.tex)))
 (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decor
-ations.softclip.code.tex))
-
-LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 55.
-
-(./pgf/pgf.tex)
+ations.softclip.code.tex)))
 
 LaTeX Warning: Unused global option(s):
     [unnumsec,webpdf,modern].
@@ -1027,24 +1027,24 @@ LaTeX Warning: Unused global option(s):
 (./Images/tikz/diraccomb.aux))
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1068,9 +1068,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package crop Info: requested driver: `' on input line 56.
-Package crop Info: detected driver: `pdftex' on input line 56.
-Package crop Info: using `pdftex' graphics driver on input line 56.
+Package crop Info: requested driver: `' on input line 55.
+Package crop Info: detected driver: `pdftex' on input line 55.
+Package crop Info: using `pdftex' graphics driver on input line 55.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1079,13 +1079,13 @@ Package caption Info: rotating package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 56.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 55.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
-(Font)                  U/msa/m/n --> U/msa/m/n on input line 56.
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/msa/m/n --> U/msa/m/n on input line 56.
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 55.
 \c@lstlisting=\count373
-Package hyperref Info: Link coloring OFF on input line 56.
+Package hyperref Info: Link coloring OFF on input line 55.
 
 (./document.out) (./document.out)
 \@outlinefile=\write4
@@ -1097,42 +1097,42 @@ enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8.03> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 93.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 92.
 
 <Images/qrcode.pdf, id=127, 30.86531pt x 30.86531pt>
 File: Images/qrcode.pdf Graphic file (type pdf)
 <use Images/qrcode.pdf>
-Package pdftex.def Info: Images/qrcode.pdf  used on input line 93.
+Package pdftex.def Info: Images/qrcode.pdf  used on input line 92.
 (pdftex.def)             Requested size: 55.0pt x 55.00316pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 92.
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 92.
 
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 93
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 92
 .
 
 (c:/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 93.
-LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 93.
-LaTeX Font Info:    Calculating math sizes for size <5.94997> on input line 93.
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 92.
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 92.
+LaTeX Font Info:    Calculating math sizes for size <5.94997> on input line 92.
 
 
-Underfull \hbox (badness 10000) detected at line 93
+Underfull \hbox (badness 10000) detected at line 92
 []
  []
 
 
 LaTeX Warning: Reference `Fractional QHE theory' on page 1 undefined on input l
-ine 153.
+ine 152.
 
 
 Overfull \hbox (1.896pt too wide) has occurred while \output is active
@@ -1148,22 +1148,22 @@ Non-PDF special ignored!
 
 {c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Image
 s/qrcode.pdf>]
-Underfull \hbox (badness 2717) in paragraph at lines 160--162
+Underfull \hbox (badness 2717) in paragraph at lines 159--161
  \OT1/cmr/m/n/8.03 This properties shows that through measuring the Hall
  []
 
 
-Underfull \hbox (badness 3884) in paragraph at lines 163--165
+Underfull \hbox (badness 3884) in paragraph at lines 162--164
  \OT1/cmr/m/n/8.03 Recently, we just discussed the results on the nearly
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 169--176
+Underfull \hbox (badness 1502) in paragraph at lines 168--175
  \OT1/cmr/m/n/8.03 It is worth to have some lines about the materials, in
  []
 
 
-Underfull \hbox (badness 3049) in paragraph at lines 190--194
+Underfull \hbox (badness 3049) in paragraph at lines 189--193
 [] \OT1/cmr/m/n/8.03 A particle inside the electromagnetic field according to
  []
 
@@ -1179,7 +1179,7 @@ Non-PDF special ignored!
 <images/Disorder.pdf, id=205, 372.9132pt x 281.56392pt>
 File: images/Disorder.pdf Graphic file (type pdf)
 <use images/Disorder.pdf>
-Package pdftex.def Info: images/Disorder.pdf  used on input line 314.
+Package pdftex.def Info: images/Disorder.pdf  used on input line 313.
 (pdftex.def)             Requested size: 219.80507pt x 165.9623pt.
 \openout2 = `Images/tikz/disorderandorder.aux'.
 
@@ -1196,12 +1196,12 @@ Overfull \hbox (262.22952pt too wide) has occurred while \output is active
 Non-PDF special ignored!
 <special> ps: [{ThisPage} << /CropBox [0 0 595.2032 790.84435] >> /PUT pdfm...
  <./Images/Disorder.pdf>]
-Underfull \hbox (badness 1527) in paragraph at lines 673--674
+Underfull \hbox (badness 1527) in paragraph at lines 672--673
  \OT1/cmr/m/n/8.03 Fixing the gauge by choosing the Landau gauge ($[] =
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 678--680
+Underfull \hbox (badness 1147) in paragraph at lines 677--679
  \OT1/cmr/m/n/8.03 In this convention, there is no $\OML/cmm/m/it/8.03 y; z$ \O
 T1/cmr/m/n/8.03 in this Hamiltonian.
  []
@@ -1232,12 +1232,12 @@ Non-PDF special ignored!
 
 
 ]
-Underfull \hbox (badness 1742) in paragraph at lines 795--797
+Underfull \hbox (badness 1742) in paragraph at lines 794--796
  \OT1/cmr/m/n/8.03 The commutator this new operators and the mechanical
  []
 
 
-Overfull \hbox (15.62895pt too wide) detected at line 834
+Overfull \hbox (15.62895pt too wide) detected at line 833
 []
  []
 
@@ -1250,7 +1250,7 @@ Overfull \hbox (262.22952pt too wide) has occurred while \output is active
 Non-PDF special ignored!
 <special> ps: [{ThisPage} << /CropBox [0 0 595.2032 790.84435] >> /PUT pdfm...
 ]
-Underfull \hbox (badness 5431) in paragraph at lines 852--855
+Underfull \hbox (badness 5431) in paragraph at lines 851--854
 [] \OT1/cmr/m/n/8.03 In the same spirit with the gauge transformation in
  []
 
@@ -1361,7 +1361,7 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 Here is how much of TeX's memory you used:
  38499 strings out of 474267
  871980 string characters out of 5751464
- 1970558 words of memory out of 5000000
+ 1969558 words of memory out of 5000000
  59916 multiletter control sequences out of 15000+600000
  599320 words of font info for 191 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191

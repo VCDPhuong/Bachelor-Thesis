@@ -220,52 +220,52 @@ $\Rightarrow$ Increasing of exciton binding energy \(\sim 10^2\) in compared wit
 \end{itemize}
 $\Rightarrow$ Look like enough for my bachelor's thesis \smiley{}.
 \end{frame}
-\section{Tight-binding Model}
-\begin{frame}{Tight-binding Model}
-\quad Start from the Hamiltonian for an independence electron:
-\begin{equation}
-	\label{H1e}
-	H_{1e}(\textbf{r}) = -\frac{\hbar^2 \nabla^2}{2m} + \sum_{\text{i}} V(\textbf{r} - \textbf{R}_\text{i} -\textbf{r}_c),
-\end{equation}
-\quad where $\textbf{R}_i$ is the Bravais lattice position, $\textbf{r}_c$ is the relative position of atom inside unit cell.\\\null\quad Assuming that the electron stay close to its atom and have little overlap on the neighboring sites. Therefore the wavefunction of each electron can be described by the linearly combination of atomic orbitals (LCAO).
-\begin{equation}
-	\label{key}
-	\psi (\textbf{r}) = \sum_{n=1}^N \sum_{c = 1}^{N_c} \sum_{\alpha = 1}^{N_{orb.}} c_{\alpha c}(\textbf{R}_n) \phi_{\alpha}(\textbf{r}-\textbf{R}_n -\textbf{r}_c)
-\end{equation}
-$N, N_c, \text{and } N_{\alpha}$ is number of unit lattice of the system, number of atom in a basis and number of orbital of an atom, respectively.
-\end{frame}
-\begin{frame}
-	From LCAO wavefunctions, Bloch wavefunction can be constructed as:
-	\begin{equation}
-\label{Bloch}
-\psi(\textbf{r}) = \sum_{c = 1}^{N_c} \sum_{\alpha = 1}^{N_{orb}}c_{\alpha c}(\textbf{k}) e^{i\textbf{k}(\textbf{R}_n + \textbf{r}_c)} \sum_{n = 1}^N \phi_{\alpha}(\textbf{r} - \textbf{R}_n -\textbf{r}_c).
-	\end{equation}
-Substituting \eqref{Bloch} into Schrödinger equation with Hamiltomian \eqref{H1e}, multiply with $e^{-i\textbf{k}\textbf{r}_c} \phi^*_{\alpha'}(\textbf{r} - \textbf{r}_{c'})$ and taking the integral on $\textbf{r}$:
-\begin{equation}
-\label{TB full}
-\sum_{c = 1}^{N_c} \sum_{\alpha = 1}^{N_{orb}}
-(H_{\alpha'c',\alpha c}(\textbf{k}) -\varepsilon(\textbf{k})S_{\alpha c,\alpha'c'}(\textbf{k}))C_{\alpha c}(\textbf{k}) =0,
-\end{equation}
-In which
-\begin{equation}
-\label{H element def}
-H_{\alpha' c', \alpha c} = \sum_{n = 1}^N e^{i\textbf{k}(\textbf{r} + \textbf{r}_c -\textbf{r}_{c'})} \bra{\phi_{\alpha}(\textbf{r} - \textbf{r}_{c'})}H_{1e} \ket{\phi_{\alpha'}(\textbf{r} -\textbf{R}_n -\textbf{r}_c)}
-\end{equation}
-\begin{equation}
-	S_{\alpha' c', \alpha c} = \sum_{n = 1}^N e^{i\textbf{k}(\textbf{r} + \textbf{r}_c -\textbf{r}_{c'})} \bra{\phi_{\alpha}(\textbf{r} - \textbf{r}_{c'})} \ket{\phi_{\alpha'}(\textbf{r} -\textbf{R}_n -\textbf{r}_c)}
-\end{equation}
-\end{frame}
-\begin{frame}
-\quad If we approximate the overlapping matrix elements $S_{\alpha c,\alpha' c'}(\textbf{k}) \approx \delta_{\alpha\alpha'} \delta_{c c'}$ (no overlapping between two difference atoms), we have \eqref{TB full} in the form of:
-	\begin{equation}
-		\sum_{c = 1}^{N_c} \sum_{\alpha = 1}^{N_{orb}} H_{\alpha' c',\alpha c}(\textbf{k}) C_{\alpha c}(\textbf{k}) = \varepsilon(\textbf{k}) C_{\alpha c}(\textbf{k})
-	\end{equation}
-\quad In semi-empirical formalism, Hamiltonian matrix elements are defined by the phenomenological "On-site energy" and "Hopping energy" parameters.\\
-\quad So, if we have the Hamiltonian matrix, we can solve it for eigenvalues and corresponding eigenvectors.
-\begin{center}
-	But, how to use it? 
-\end{center}
-\end{frame}
+%\section{Tight-binding Model}
+%\begin{frame}{Tight-binding Model}
+%\quad Start from the Hamiltonian for an independence electron:
+%\begin{equation}
+%	\label{H1e}
+%	H_{1e}(\textbf{r}) = -\frac{\hbar^2 \nabla^2}{2m} + \sum_{\text{i}} V(\textbf{r} - \textbf{R}_\text{i} -\textbf{r}_c),
+%\end{equation}
+%\quad where $\textbf{R}_i$ is the Bravais lattice position, $\textbf{r}_c$ is the relative position of atom inside unit cell.\\\null\quad Assuming that the electron stay close to its atom and have little overlap on the neighboring sites. Therefore the wavefunction of each electron can be described by the linearly combination of atomic orbitals (LCAO).
+%\begin{equation}
+%	\label{key}
+%	\psi (\textbf{r}) = \sum_{n=1}^N \sum_{c = 1}^{N_c} \sum_{\alpha = 1}^{N_{orb.}} c_{\alpha c}(\textbf{R}_n) \phi_{\alpha}(\textbf{r}-\textbf{R}_n -\textbf{r}_c)
+%\end{equation}
+%$N, N_c, \text{and } N_{\alpha}$ is number of unit lattice of the system, number of atom in a basis and number of orbital of an atom, respectively.
+%\end{frame}
+%\begin{frame}
+%	From LCAO wavefunctions, Bloch wavefunction can be constructed as:
+%	\begin{equation}
+%\label{Bloch}
+%\psi(\textbf{r}) = \sum_{c = 1}^{N_c} \sum_{\alpha = 1}^{N_{orb}}c_{\alpha c}(\textbf{k}) e^{i\textbf{k}(\textbf{R}_n + \textbf{r}_c)} \sum_{n = 1}^N \phi_{\alpha}(\textbf{r} - \textbf{R}_n -\textbf{r}_c).
+%	\end{equation}
+%Substituting \eqref{Bloch} into Schrödinger equation with Hamiltomian \eqref{H1e}, multiply with $e^{-i\textbf{k}\textbf{r}_c} \phi^*_{\alpha'}(\textbf{r} - \textbf{r}_{c'})$ and taking the integral on $\textbf{r}$:
+%\begin{equation}
+%\label{TB full}
+%\sum_{c = 1}^{N_c} \sum_{\alpha = 1}^{N_{orb}}
+%(H_{\alpha'c',\alpha c}(\textbf{k}) -\varepsilon(\textbf{k})S_{\alpha c,\alpha'c'}(\textbf{k}))C_{\alpha c}(\textbf{k}) =0,
+%\end{equation}
+%In which
+%\begin{equation}
+%\label{H element def}
+%H_{\alpha' c', \alpha c} = \sum_{n = 1}^N e^{i\textbf{k}(\textbf{r} + \textbf{r}_c -\textbf{r}_{c'})} \bra{\phi_{\alpha}(\textbf{r} - \textbf{r}_{c'})}H_{1e} \ket{\phi_{\alpha'}(\textbf{r} -\textbf{R}_n -\textbf{r}_c)}
+%\end{equation}
+%\begin{equation}
+%	S_{\alpha' c', \alpha c} = \sum_{n = 1}^N e^{i\textbf{k}(\textbf{r} + \textbf{r}_c -\textbf{r}_{c'})} \bra{\phi_{\alpha}(\textbf{r} - \textbf{r}_{c'})} \ket{\phi_{\alpha'}(\textbf{r} -\textbf{R}_n -\textbf{r}_c)}
+%\end{equation}
+%\end{frame}
+%\begin{frame}
+%\quad If we approximate the overlapping matrix elements $S_{\alpha c,\alpha' c'}(\textbf{k}) \approx \delta_{\alpha\alpha'} \delta_{c c'}$ (no overlapping between two difference atoms), we have \eqref{TB full} in the form of:
+%	\begin{equation}
+%		\sum_{c = 1}^{N_c} \sum_{\alpha = 1}^{N_{orb}} H_{\alpha' c',\alpha c}(\textbf{k}) C_{\alpha c}(\textbf{k}) = \varepsilon(\textbf{k}) C_{\alpha c}(\textbf{k})
+%	\end{equation}
+%\quad In semi-empirical formalism, Hamiltonian matrix elements are defined by the phenomenological "On-site energy" and "Hopping energy" parameters.\\
+%\quad So, if we have the Hamiltonian matrix, we can solve it for eigenvalues and corresponding eigenvectors.
+%\begin{center}
+%	But, how to use it? 
+%\end{center}
+%\end{frame}
 \section{Semiconductor Bloch Equations}
 \begin{frame}{Second Quantization Hamiltonian}
 \quad The second quantization Hamiltonian in basis of Bloch function $\{\ket{\psi_{\lambda \textbf{k}}}\}$ for many electrons with light-matter interaction:
@@ -325,38 +325,38 @@ $$= \int \frac{d^3 r}{V} \int \frac{d^3 r'}{V} e^{-i \textbf{q}(\textbf{r}-\text
 %	\textbf{p}_{\lambda\lambda'}(\textbf{k}) = \frac{m}{\hbar} \bra{u_{\lambda}} \nabla_{\textbf{k}} H^0_{1e}(\textbf{k})\ket{u_{\lambda'\textbf{k}}}
 %\end{equation}
 %\end{frame}
+%\begin{frame}
+%	From the equations of motion (in Heisenberg's picture) for \(c^{\dagger}_{\textbf{k}} c_{\textbf{k}}\), we have the equations of motion for the expected value \(\ev{c^{\dagger}_{\textbf{k}} c_{\textbf{k}}}\):
+%		\begin{align}
+%\dv{\ev{c^{\dagger}_{\textbf{k}} c_{\textbf{k}}}}{t} =& -\frac{i}{\hbar}\ev{\bigg[H^0 + H^{Coul.} + H_{e-L},c^{\dagger}_{\textbf{k}} c_{\textbf{k}}\bigg]}\nonumber\\
+%=& \frac{i}{\hbar}(\varepsilon_{\lambda}(\textbf{k}) - \varepsilon_{\lambda'}(\textbf{k})) \ev{c^{\dagger}_{\textbf{k}} c_{\textbf{k}}} + \ev{\bigg[H_{e-L},c^{\dagger}_{\textbf{k}} c_{\textbf{k}}\bigg]}\nonumber\\
+%\label{Motions}
+%&+ \frac{i}{\hbar} \sum_{\textbf{k}'\textbf{q}} \sum_{\alpha\beta\gamma} V^{\alpha\beta\gamma\lambda}_{\textbf{k},\textbf{k}',\textbf{q}} \ev{c^{\dagger}_{\alpha \textbf{k}+\textbf{q}} c^{\dagger}_{\beta\textbf{k}' - \textbf{q}} c_{\gamma \textbf{k}'}c_{\lambda' \textbf{k}}}\\
+%&+\frac{i}{\hbar} \sum_{\textbf{k}'\textbf{q}} \sum_{\alpha\gamma\delta} V^{\alpha\lambda'\gamma\delta}_{\textbf{k}',\textbf{k} +\textbf{q},\textbf{q}} \ev{c^{\dagger}_{\lambda \textbf{k}} c^{\dagger}_{\alpha\textbf{k}' + \textbf{q}} c_{\gamma \textbf{k}+\textbf{q}}c_{\delta\textbf{k}'}}\nonumber
+%\end{align}
+%Approximation the expected value of four-operator by multiplication of two expected value (Hatree-Fock Approximation):
+%	\begin{align}
+%		\ev{c^{\dagger}_{\alpha \textbf{k}+\textbf{q}} c^{\dagger}_{\beta\textbf{k}' - \textbf{q}} c_{\gamma \textbf{k}'}c_{\lambda' \textbf{k}}} &\approx-
+%		\ev{c^{\dagger}_{\alpha \textbf{k} +\textbf{q}}c_{\gamma \textbf{k}'}}\ev{c^{\dagger}_{\beta\textbf{k}'-\textbf{q}}c_{\lambda' \textbf{k}}}\delta_{\textbf{k}+\textbf{q} \textbf{k}'}\nonumber\\\label{HF Approx}
+%		 \ev{c^{\dagger}_{\lambda \textbf{k}} c^{\dagger}_{\alpha\textbf{k}' + \textbf{q}} c_{\gamma \textbf{k}+\textbf{q}}c_{\delta\textbf{k}'}}&\approx \ev{c^{\dagger}_{\lambda\textbf{k}+\textbf{q}}c_{\delta \textbf{k}'}} \ev{c^{\dagger}_{\alpha \textbf{k}'+\textbf{q}}c_{\gamma \textbf{k}+\textbf{q}}}\delta_{\textbf{k}' \textbf{k}}
+%	\end{align}
+%\end{frame}
+%\begin{frame}
+%	Substituting \eqref{HF Approx} into \eqref{Motions} and doing some transformations on the light-matter interaction part to have
+%\begin{align}
+%\label{SBE no T}
+%\dv{\ev{c^{\dagger}_{\lambda\textbf{k}} c_{\lambda'\textbf{k}}}}{t} = &\frac{i}{\hbar} (\varepsilon_{\lambda}(\textbf{k}) - \varepsilon_{\lambda'}(\textbf{k}))\ev{c^{\dagger}_{\lambda\textbf{k}} c_{\lambda'\textbf{k}}}\nonumber\\
+%&-\frac{i}{\hbar} \sum_{\mu}\bigg(\Sigma_{\mu \lambda}(\textbf{k}) \ev{c^{\dagger}_{\mu\textbf{k}} c_{\lambda'\textbf{k}}} - \ev{c^{\dagger}_{\lambda\textbf{k}} c_{\mu\textbf{k}}} \Sigma_{\mu \lambda'}(\textbf{k})\bigg)
+%\end{align}
+%in which
+%\begin{align}
+%	\Sigma_{\mu\nu} &= \frac{e\textbf{A}(t)}{m}\textbf{p}_{\mu\nu}(\textbf{k}) - \sum_{\alpha\beta\textbf{q}} V^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}+\textbf{q},\textbf{q}}\rho_{\alpha \beta}(\textbf{k+q})\\
+%	\textbf{p}_{\mu \nu} &= \frac{m}{\hbar}\bra{u_{\lambda \textbf{k}}}\nabla_{\textbf{k}}H^0_{1e}(\textbf{k})\ket{u_{\lambda'}\textbf{k}}\\
+%	H^0_{1e}(\textbf{k}) &= e^{-i\textbf{k}\textbf{r}} H^0_{1e}(\textbf{r})e^{i\textbf{k}\textbf{r}} = e^{-i\textbf{k}\textbf{r}} \bigg(\frac{\textbf{p}^2}{2m} +V_0(\textbf{r})\bigg)e^{i\textbf{k}\textbf{r}}
+%\end{align}
+%\end{frame}
 \begin{frame}
-	From the equations of motion (in Heisenberg's picture) for \(c^{\dagger}_{\textbf{k}} c_{\textbf{k}}\), we have the equations of motion for the expected value \(\ev{c^{\dagger}_{\textbf{k}} c_{\textbf{k}}}\):
-		\begin{align}
-\dv{\ev{c^{\dagger}_{\textbf{k}} c_{\textbf{k}}}}{t} =& -\frac{i}{\hbar}\ev{\bigg[H^0 + H^{Coul.} + H_{e-L},c^{\dagger}_{\textbf{k}} c_{\textbf{k}}\bigg]}\nonumber\\
-=& \frac{i}{\hbar}(\varepsilon_{\lambda}(\textbf{k}) - \varepsilon_{\lambda'}(\textbf{k})) \ev{c^{\dagger}_{\textbf{k}} c_{\textbf{k}}} + \ev{\bigg[H_{e-L},c^{\dagger}_{\textbf{k}} c_{\textbf{k}}\bigg]}\nonumber\\
-\label{Motions}
-&+ \frac{i}{\hbar} \sum_{\textbf{k}'\textbf{q}} \sum_{\alpha\beta\gamma} V^{\alpha\beta\gamma\lambda}_{\textbf{k},\textbf{k}',\textbf{q}} \ev{c^{\dagger}_{\alpha \textbf{k}+\textbf{q}} c^{\dagger}_{\beta\textbf{k}' - \textbf{q}} c_{\gamma \textbf{k}'}c_{\lambda' \textbf{k}}}\\
-&+\frac{i}{\hbar} \sum_{\textbf{k}'\textbf{q}} \sum_{\alpha\gamma\delta} V^{\alpha\lambda'\gamma\delta}_{\textbf{k}',\textbf{k} +\textbf{q},\textbf{q}} \ev{c^{\dagger}_{\lambda \textbf{k}} c^{\dagger}_{\alpha\textbf{k}' + \textbf{q}} c_{\gamma \textbf{k}+\textbf{q}}c_{\delta\textbf{k}'}}\nonumber
-\end{align}
-Approximation the expected value of four-operator by multiplication of two expected value (Hatree-Fock Approximation):
-	\begin{align}
-		\ev{c^{\dagger}_{\alpha \textbf{k}+\textbf{q}} c^{\dagger}_{\beta\textbf{k}' - \textbf{q}} c_{\gamma \textbf{k}'}c_{\lambda' \textbf{k}}} &\approx-
-		\ev{c^{\dagger}_{\alpha \textbf{k} +\textbf{q}}c_{\gamma \textbf{k}'}}\ev{c^{\dagger}_{\beta\textbf{k}'-\textbf{q}}c_{\lambda' \textbf{k}}}\delta_{\textbf{k}+\textbf{q} \textbf{k}'}\nonumber\\\label{HF Approx}
-		 \ev{c^{\dagger}_{\lambda \textbf{k}} c^{\dagger}_{\alpha\textbf{k}' + \textbf{q}} c_{\gamma \textbf{k}+\textbf{q}}c_{\delta\textbf{k}'}}&\approx \ev{c^{\dagger}_{\lambda\textbf{k}+\textbf{q}}c_{\delta \textbf{k}'}} \ev{c^{\dagger}_{\alpha \textbf{k}'+\textbf{q}}c_{\gamma \textbf{k}+\textbf{q}}}\delta_{\textbf{k}' \textbf{k}}
-	\end{align}
-\end{frame}
-\begin{frame}
-	Substituting \eqref{HF Approx} into \eqref{Motions} and doing some transformations on the light-matter interaction part to have
-\begin{align}
-\label{SBE no T}
-\dv{\ev{c^{\dagger}_{\lambda\textbf{k}} c_{\lambda'\textbf{k}}}}{t} = &\frac{i}{\hbar} (\varepsilon_{\lambda}(\textbf{k}) - \varepsilon_{\lambda'}(\textbf{k}))\ev{c^{\dagger}_{\lambda\textbf{k}} c_{\lambda'\textbf{k}}}\nonumber\\
-&-\frac{i}{\hbar} \sum_{\mu}\bigg(\Sigma_{\mu \lambda}(\textbf{k}) \ev{c^{\dagger}_{\mu\textbf{k}} c_{\lambda'\textbf{k}}} - \ev{c^{\dagger}_{\lambda\textbf{k}} c_{\mu\textbf{k}}} \Sigma_{\mu \lambda'}(\textbf{k})\bigg)
-\end{align}
-in which
-\begin{align}
-	\Sigma_{\mu\nu} &= \frac{e\textbf{A}(t)}{m}\textbf{p}_{\mu\nu}(\textbf{k}) - \sum_{\alpha\beta\textbf{q}} V^{\alpha \mu \beta \nu}_{\textbf{k},\textbf{k}+\textbf{q},\textbf{q}}\rho_{\alpha \beta}(\textbf{k+q})\\
-	\textbf{p}_{\mu \nu} &= \frac{m}{\hbar}\bra{u_{\lambda \textbf{k}}}\nabla_{\textbf{k}}H^0_{1e}(\textbf{k})\ket{u_{\lambda'}\textbf{k}}\\
-	H^0_{1e}(\textbf{k}) &= e^{-i\textbf{k}\textbf{r}} H^0_{1e}(\textbf{r})e^{i\textbf{k}\textbf{r}} = e^{-i\textbf{k}\textbf{r}} \bigg(\frac{\textbf{p}^2}{2m} +V_0(\textbf{r})\bigg)e^{i\textbf{k}\textbf{r}}
-\end{align}
-\end{frame}
-\begin{frame}
-\quad Equation \eqref{SBE no T} can describe the transition between valence bands and conduction bands, but lack of relaxation effect due to scattering.\\\null
+%\quad Equation \eqref{SBE no T} can describe the transition between valence bands and conduction bands, but lack of relaxation effect due to scattering.\\\null
 \quad Phenomenally characterize the scattering term:
 \begin{equation}
 	\bigg(\dv{\rho(\textbf{k})}{t}\bigg|_{scat.}\bigg)_{\lambda\lambda'} \to - \frac{\rho_{\lambda\lambda'}(\textbf{k})}{T_2}(1-\delta_{\lambda\lambda'})
@@ -377,24 +377,24 @@ At $0K$, initial conditions at \((t=-\infty)\):
 $$\rho_{\lambda\lambda'}(\textbf{k}) = \delta_{\lambda v} \delta_{\lambda' v} \quad \forall \textbf{k}$$
 \end{frame}
 %\subsection{Inter-band Polarization}
-\begin{frame}
-	\begin{multicols}{2}
-The dipole matrix elements can be obtained through:
-		\begin{align}
-			&\vec{\xi}_{\mu\nu}(\textbf{k}) = \frac{-i\hbar}{m}\frac{\textbf{p}_{\mu\nu}(\textbf{k})}{\varepsilon_{\mu}(\textbf{k}) - \varepsilon_{\nu}(\textbf{k})}.\\
-			&\text{for } \mu \neq \nu \nonumber
-		\end{align}
-For time-dependent interband polarization density:
-		\begin{align}
-			\textbf{P}(t) = &\frac{e}{L^2} \sum_{\textbf{k}} \Tr\bigg[\vec{\xi}(\textbf{k})\rho(\textbf{k},t)\bigg]
-		\end{align}
-		\columnbreak
-		\begin{figure}
-			\includegraphics[width=1\linewidth]{images/cvbeamer.pdf}
-			\caption{Density matrix element illustration}
-		\end{figure}
-	\end{multicols}
-\end{frame}
+%\begin{frame}
+%	\begin{multicols}{2}
+%The dipole matrix elements can be obtained through:
+%		\begin{align}
+%			&\vec{\xi}_{\mu\nu}(\textbf{k}) = \frac{-i\hbar}{m}\frac{\textbf{p}_{\mu\nu}(\textbf{k})}{\varepsilon_{\mu}(\textbf{k}) - \varepsilon_{\nu}(\textbf{k})}.\\
+%			&\text{for } \mu \neq \nu \nonumber
+%		\end{align}
+%For time-dependent interband polarization density:
+%		\begin{align}
+%			\textbf{P}(t) = &\frac{e}{L^2} \sum_{\textbf{k}} \Tr\bigg[\vec{\xi}(\textbf{k})\rho(\textbf{k},t)\bigg]
+%		\end{align}
+%		\columnbreak
+%		\begin{figure}
+%			\includegraphics[width=1\linewidth]{images/cvbeamer.pdf}
+%			\caption{Density matrix element illustration}
+%		\end{figure}
+%	\end{multicols}
+%\end{frame}
 \begin{frame}{Three-band Tightbinding model}
 	Using basic functions of d-type orbitals: $$\ket{\phi_1} = d_{z^2}, \ket{\phi_2} = d_{xy}, \ket{\phi_3} = d_{x^2- y^2}\Rightarrow H^{TB}_{3\times 3}(\textbf{k})$$
 	\\Three-band TB Hamiltonian with SOC has the form\footcite{liu_three-band_2013}:

@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: present.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: present-blx.bib
+Database file #2: library.bib
+I was expecting a `,' or a `}'---line 753 of file library.bib
+ :  
+ :  file = {Submitted Version:C\:\\Users\\ASUS\\Zotero\\storage\\T6PGW5NK\\Liu et al. - 2015 - Electronic structures and theoretical modelling of.pdf:application/pdf},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Biblatex version: 3.19
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 3 entries,
+            6399 wiz_defined-function locations,
+            1220 strings with 9513 characters,
+and the built_in function-call counts, 13208 in all, are:
+= -- 927
+> -- 239
+< -- 75
++ -- 348
+- -- 94
+* -- 866
+:= -- 1487
+add.period$ -- 0
+call.type$ -- 3
+change.case$ -- 42
+chr.to.int$ -- 43
+cite$ -- 4
+duplicate$ -- 1279
+empty$ -- 1211
+format.name$ -- 88
+if$ -- 2771
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 0
+newline$ -- 77
+num.names$ -- 69
+pop$ -- 741
+preamble$ -- 1
+purify$ -- 49
+quote$ -- 0
+skip$ -- 413
+stack$ -- 0
+substring$ -- 1635
+swap$ -- 309
+text.length$ -- 69
+text.prefix$ -- 2
+top$ -- 1
+type$ -- 90
+warning$ -- 0
+while$ -- 196
+width$ -- 0
+write$ -- 75
+(There was 1 error message)
