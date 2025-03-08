@@ -37,7 +37,7 @@
 \usetikzlibrary{snakes}
 \usetikzlibrary{shapes.geometric, calc}
 \author{Vo Chau Duc Phuong}
-\institute[ICTP]{The Abdus Salam International Center for Theretical Physics}
+\institute[ICTP]{The Abdus Salam International Center for Theo retical Physics}
 % Title page details: 
 \title[Introduction To Quantum Hall Effect]{Introduction To Quantum Hall Effect}
 \begin{document}
@@ -84,7 +84,7 @@ Classically:
 \end{center}
 \end{frame}
 \begin{frame}{The Quantum Hall Effect}
-\quad First introduced in 1980 \footcite{Kitzling_1980} and later on being investigated, the resistance in MOSFET under a strong magnetic field have showing interesting properties:\null\\
+\quad First introduced in 1980 \footcite{Kitzling_1980} and later on being investigated, The resistance in a MOSFET under a strong magnetic field shows interesting properties:\null\\
 \begin{columns}
 	%col1
 \begin{column}{0.5\textwidth}
@@ -113,13 +113,13 @@ $$\rho_{xy} = const.$$
 \begin{frame}
 \quad Therefore, we will explain this effect as:
 \begin{itemize}
-	\item Why \(\rho_{xx} \to 0\) is a peaks at some certain points and \(0\) otherwise?
+	\item Why does \(\rho_{xx} \to 0\) is a peaks at some certain points and \(0\) otherwise?
 	\item Why these plateux exist?
 \end{itemize}
 \end{frame}
 	\section{Landau Levels}
 \begin{frame}
-\quad With a 2D electron gas in an external field field \(\textbf{B} = (0,0,B)\) \& \(\textbf{E} = (E,0,0)\), their energy will be collapsed to the Landau levels:
+\quad For a 2D electron gas in an external field field \(\textbf{B} = (0,0,B)\) \& \(\textbf{E} = (E,0,0)\). If we choose Landau gauge \(\textbf{A} = (0,Bx,0)\), the eigenstates will be the Landau levels with the energy:
 \begin{equation}\label{Eq: Landau or}
 	E_{{\color{blue} \nu},{\color{red}k_y}} = \hbar \omega_B\bigg({\color{blue} \nu} + \frac{1}{2}\bigg) - eE\bigg({\color{red}k_y}l_B^2 + \frac{eE}{m\omega_B^2}\bigg) + \frac{m}{2}\frac{E}{B},
 \end{equation}
@@ -130,12 +130,10 @@ in which
 \begin{equation*}
 	\omega_B = \frac{eB}{m},\quad l_B = \frac{\hbar}{eB}
 \end{equation*}
-\quad The electron will drift in the \(O_y\) direction by:
+\quad Recover the classical drift along \(\textbf{E} \cross \textbf{B}\) direction:
 \begin{equation}\label{eq: vy}
 v_y = \frac{1}{\hbar} \pdv{E_{\nu,k_y}}{k_y} = -\frac{E}{B}
 \end{equation}
-
-Classical drift along: \(\textbf{E} \cross \textbf{B}\)
 \end{column}
 \begin{column}{0.6\textwidth}
 \begin{figure}
@@ -164,53 +162,54 @@ Classical drift along: \(\textbf{E} \cross \textbf{B}\)
 $$\textbf{I} = -e \ev{\dot{\textbf{x}}} = - e \sum_{n = 1}^\nu \sum_{k_y} \ev{\frac{\hbar}{i}\nabla - \textbf{A}}{\psi_{n k_y}}$$
 \begin{equation}\label{eq: Ixy}
 	\Rightarrow \qquad I_x = 0,\qquad I_y = -\sum_{k_y}e\nu\frac{E}{B} = \frac{e^2 \nu E}{2\pi \hbar}$$
-	Result in:
+	This result in:
 	$$\rho_{xx} = 0, \qquad\rho_{xy} = \frac{2\pi \hbar}{e^2 \nu},
 \end{equation}
 in which \(\nu\) is the total filled number of Landau levels.
 \end{frame}
-	\section{The Important of Impurity and Edge states}
+	\section{The Importance of Impurity and Edge states}
 \begin{frame}
 \begin{center}
 	But these conduction above not explained everything!
 \end{center}
-Revisit the calculation of \eqref{eq: Ixy} from \eqref{eq: vy} with a more generalize approach give:
-\begin{columns}
-	\begin{column}{0.5\linewidth}
+Revisit the calculation of \eqref{eq: Ixy} from \eqref{eq: vy} with a more generalize approach (Taylor expand \(V(x)\) up to first order) give:
+%\begin{columns}
+%	\begin{column}{0.5\linewidth}
 		\begin{align}
 			v_y &= - \frac{1}{eB} \pdv{V(x)}{x}\\
-			\sigma_{xy} &= \frac{e}{E L_x}\int\frac{dk}{2\pi} v_y (x) \nonumber\\&=\frac{e}{\cancel{E L_x}}\frac{\cancel{V\big|_{x = x_{min}}^{x = x_{max}}}}{2\pi \hbar} = \frac{e^2}{2\pi\hbar}
+			\sigma_{xy} = \frac{E_y}{I_x} &=\sum_\nu \frac{e}{E L_x}\int\frac{dk}{2\pi} v_y (x) \nonumber\\&=\sum_\nu \frac{e}{\cancel{E L_x}}\frac{\cancel{V(x_{max}) - V(x_{min})}}{2\pi \hbar} = \frac{\nu e^2}{2\pi\hbar}
 		\end{align}
-	\end{column}
-\begin{column}{0.5\linewidth}
-	\begin{figure}[!ht]\centering
-		\begin{tikzpicture}
-			\coordinate (a) at (-1,0.5);
-			\coordinate (b) at (1,0.5);
-			\coordinate (a1) at (-1.5,1.5);
-			\coordinate (b1) at (1.5,1.5);
-			\draw[thick,->] (-2,0) -- (2,0)node[anchor= north west] {\(x\)} ;
-			\draw[thick,->] (0,-0.4) -- (0,2)node[anchor= north east]{\(V(x)\)};
-			\draw [thick, red,rounded corners=0.6mm] (-1.54,1.6) -- (a1) --(-1.1,0.52)-- (a)  --  (b) -- (1.1,0.5) --(b1);
-			\draw[dashed] (-1.45,1.4)node[anchor= south east] {} -- (0,1.4);
-			\draw[dashed] (1.35,1.08)node[anchor= south west] {} -- (0,1.08) node[anchor= south west]  {\(\Delta V\)};
-		\end{tikzpicture}
-		\caption{\centering Difference in Fermi energy at both sides Edge's potential \(V(x)\)}
-	\end{figure}
-\end{column}
-\end{columns}
+Invert: $$\rho_{xy}\propto 1/\nu$$
+%	\end{column}
+%\begin{column}{0.5\linewidth}
+%	\begin{figure}[!ht]\centering
+%		\begin{tikzpicture}
+%			\coordinate (a) at (-1,0.5);
+%			\coordinate (b) at (1,0.5);
+%			\coordinate (a1) at (-1.5,1.5);
+%			\coordinate (b1) at (1.5,1.5);
+%			\draw[thick,->] (-2,0) -- (2,0)node[anchor= north west] {\(x\)} ;
+%			\draw[thick,->] (0,-0.4) -- (0,2)node[anchor= north east]{\(V(x)\)};
+%			\draw [thick, red,rounded corners=0.6mm] (-1.54,1.6) -- (a1) --(-1.1,0.52)-- (a)  --  (b) -- (1.1,0.5) --(b1);
+%			\draw[dashed] (-1.45,1.4)node[anchor= south east] {} -- (0,1.4);
+%			\draw[dashed] (1.35,1.08)node[anchor= south west] {} -- (0,1.08) node[anchor= south west]  {\(\Delta V\)};
+%		\end{tikzpicture}
+%		\caption{\centering Difference in Fermi energy at both sides Edge's potential \(V(x)\)}
+%	\end{figure}
+%\end{column}
+%\end{columns}
 \vspace{0.3cm}
 $\Rightarrow$ As long as the \(\partial_x V(x)\) smooth enough, only the difference of the edges create the quantize value!
 \end{frame}
 \begin{frame}
-\quad But, how we can got the round (not sharps) as in fig. \ref{Fig: QHE}?\\\vspace{0.05cm}
-{\centering $\Rightarrow$ Turn out the disorder (impurity) play as another key role!}\\\vspace{0.05cm}
+\small{But, why are the plateaus rounded rather than sharp, as seen in Fig. \ref{Fig: QHE}?}\\\vspace{0.05cm}
+{\centering $\Rightarrow$ It turns out that disorder (impurities) play a crucial role!}\\\vspace{0.05cm}
 \begin{columns}
 \begin{column}{0.6\linewidth}
 Disorder causes:\null
 \begin{itemize}
 \item Perturbation \(\to\) Broader side (peaks!).\\
-\item \semitransp{Catch the localized state \(\to\) Plateux!}
+\item \semitransp{Catch the localized state \(\to\) Plateaus!}
 \end{itemize}
 \vspace{0.2cm}
 The Impurity act as a perturbation, causing the broad edge of the energy.\vspace{0.2cm}
@@ -286,7 +285,7 @@ They're still there!\\(just not in the bands!)
 \end{figure}}
 \only<2>{\begin{figure}
 \includegraphics[width = \linewidth]{images/Ne.png}
-\caption{Illustrated Number of electrons when decrease \(B\)}
+\caption{Illustrating number of electrons accommodated in Landau level when decreasing \(B\)}
 \end{figure}}
 \end{column}
 \end{columns}
@@ -300,7 +299,7 @@ They're still there!\\(just not in the bands!)
 				\item Catch the localized state \(\to\) Plateux!
 			\end{itemize}
 			\vspace{0.2cm}
-The impurity \(\to\) broad peaks \(\to\) higher or lower energy than the center\(\to\) localized by the impurity\vspace{0.1cm}
+The impurity \(\to\) broad peaks (higher or lower energy than the center)\(\to\) localized by the impurity\vspace{0.1cm}
 			\begin{center}
 Localized state don't contribute in conduction \(\to\) plateux
 			\end{center}
@@ -338,12 +337,33 @@ $\rightarrow$ Impurity create scattering inside level $\to$ longitude peaks.
 			\end{figure}
 		\end{column}
 	\end{columns}
-	\begin{center}
-Everything have been explained! Or not?
-	\end{center}
 \end{frame}
 \begin{frame}
-	content...
+So, what do the edge states have to do with the topology?\\\vspace{0.2cm}
+These states enable a "highway current" that flows along the boundaries of the sample without backscattering, even in the presence of impurities.\\\vspace{0.2cm}
+Therefore, as long as the currents:
+\begin{itemize}
+\item  not cut on the other (change the topology).
+\item stay non-localized, no back scattering.
+\item remain well-separated to prevent tunneling.
+\end{itemize}
+The system will exhibit quantized conductance and dissipationless transport.
+\begin{center}
+	Everything have been explained! Or not?
+\end{center}
+\end{frame}
+\begin{frame}{Beyond The Integer}
+	\begin{figure}
+\includegraphics[width =0.7\linewidth]{images/FQH.png}
+\begin{center}
+	\caption{Fraction Hall Effect, from David Tong's lecture notes}
+\end{center}
+	\end{figure}
+\end{frame}
+\begin{frame}[c]
+	\begin{center}
+Thank you for your listening.
+	\end{center}
 \end{frame}
 \begin{frame}
 Reference:
